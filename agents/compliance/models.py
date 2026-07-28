@@ -5,28 +5,25 @@ from typing import Optional
 
 
 class ComplianceCheckRequest(BaseModel):
-    """Request to check compliance for a waste handling plan."""
+    """
+    Sent by the Waste Intelligence Agent (or any upstream agent).
+    All fields map directly to what the compliance rules need.
+    """
     waste_profile_id: str
-    category: str
-    hazard_level: str
-    destination: str
-    transport_mode: Optional[str] = None
+    category: str           # e.g. "hazardous", "electronic", "organic"
+    hazard_level: str       # "low" | "medium" | "high"
+    destination: str        # e.g. "certified_facility", "landfill", "recycling_center"
+    transport_mode: Optional[str] = None  # "road" | "rail" | "sea" | None
 
 
 class ComplianceCheckResponse(BaseModel):
-    """Response with compliance status and details."""
-    is_compliant: bool
-    regulations_applied: list[str]
-    warnings: list[str]
-    violations: list[str]
-    required_permits: list[str]
-
-
-class Regulation(BaseModel):
-    """A single regulation rule."""
-    id: str
-    jurisdiction: str
-            description: str
-    applies_to: list[str]
-    requirements: list[str]
-
+    """
+    Returned to the orchestrator / requesting agent after compliance check.
+    Covers every output field required by the Compliance Agent spec.
+    """
+    status: str                     # "PASS" | "FAIL"
+    compliance_score: float         # 0.0 – 100.0
+    permit_required: list[str]      # permits that must be obtained
+    required_documents: list[str]   # documents that must accompany the waste
+    violations: list[str]           # rules that were broken
+    recommendations: list[str]      # actionable advice for the sender

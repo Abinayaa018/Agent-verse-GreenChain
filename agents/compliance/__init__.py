@@ -1,4 +1,3 @@
-from .agent import ComplianceAgent
+from .models import ComplianceCheckRequest, ComplianceCheckResponse
 
-__all__ = ["ComplianceAgent"]
-
+__all__ = ["ComplianceCheckRequest", "ComplianceCheckResponse"]
