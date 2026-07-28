@@ -114,7 +114,7 @@ def format_list(items: list[str], indent: int = 4) -> str:
     return ("\n" + pad).join(items)
 
 
-def print_result(row: dict, predicted_status: str, score: float,
+def print_result(row: dict, predicted_status: str, score: float, confidence: float,
                  violations: list[str], recommendations: list[str]) -> None:
     expected = row["verdict"].strip()
     match_marker = "✓" if expected.lower() == predicted_status.lower() else "✗"
@@ -125,6 +125,7 @@ def print_result(row: dict, predicted_status: str, score: float,
     print(f"  Destination      : {row['destination_industry']}")
     print(f"  Expected Verdict : {expected}")
     print(f"  Predicted Verdict: {predicted_status}  {match_marker}")
+    print(f"  Confidence       : {confidence:.2%}")
     print(f"  Compliance Score : {score}")
     print(f"  Violations       : {format_list(violations)}")
     print(f"  Recommendations  : {format_list(recommendations)}")
@@ -177,6 +178,7 @@ def run(seed: int | None = None) -> None:
             row=row,
             predicted_status=predicted,
             score=response.compliance_score,
+            confidence=response.confidence,
             violations=response.violations,
             recommendations=response.recommendations,
         )

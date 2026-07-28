@@ -219,6 +219,7 @@ def check_compliance(request: ComplianceCheckRequest) -> ComplianceCheckResponse
 
     return ComplianceCheckResponse(
         status="PASS" if not violations else "FAIL",
+        confidence=0.0,          # filled in by agent.py after ML prediction
         compliance_score=score,
         permit_required=permits,
         required_documents=required_documents,

@@ -22,7 +22,8 @@ class ComplianceCheckResponse(BaseModel):
     Covers every output field required by the Compliance Agent spec.
     """
     status: str                     # "PASS" | "FAIL"
-    compliance_score: float         # 0.0 – 100.0
+    confidence: float               # ML model probability 0.0 – 1.0 (1.0 = fully compliant)
+    compliance_score: float         # 0.0 – 100.0  (rule-engine score)
     permit_required: list[str]      # permits that must be obtained
     required_documents: list[str]   # documents that must accompany the waste
     violations: list[str]           # rules that were broken
