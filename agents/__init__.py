@@ -1,0 +1,2 @@
+# GreenChain AI — Agent Registry
+
