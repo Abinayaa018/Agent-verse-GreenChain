@@ -1,32 +1,28 @@
 """Message schemas for the Economic Value agent."""
 
 from pydantic import BaseModel
-from typing import Optional
 
 
-class ValuationRequest(BaseModel):
-    """Request to value a waste material."""
-    material_type: str
-    quantity_kg: float
-    quality_grade: Optional[str] = "standard"
-    location: Optional[str] = None
-    market_conditions: Optional[dict] = None
-
-
-class ValuationResponse(BaseModel):
-    """Response with pricing information."""
-    material_value_usd: float
-    logistics_cost_estimate: float
-    net_value_usd: float
-    price_per_kg_usd: float
-    currency: str = "USD"
-    market_trend: str = "stable"
-
-
-class PriceEstimate(BaseModel):
-    """A single price estimate for a material."""
+class EconomicValueRequest(BaseModel):
+    """Received from the Compliance Agent after a transaction is approved."""
+    waste_profile_id: str
     material: str
-    min_price_per_kg: float
-    max_price_per_kg: float
-    typical_price_per_kg: float
+    source_industry: str
+    destination_industry: str
+    quantity_tons: float
+    purity: float           # 0.0 – 100.0
+    transport_distance_km: float
 
+
+class EconomicValueResponse(BaseModel):
+    """Full economic evaluation returned to the orchestrator."""
+    waste_profile_id: str
+    market_price_per_ton: float
+    processing_cost: float
+    transport_cost: float
+    revenue: float
+    total_cost: float
+    net_profit: float
+    roi_percent: float
+    profitability: str      # Loss | Low Profit | Moderate Profit | High Profit | Excellent
+    recommendation: str
