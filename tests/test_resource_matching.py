@@ -1,8 +1,8 @@
 """Pipeline tests for the resource matching agent rules."""
 
 import pytest
-from .models import WasteProfile, IndustryMatch, SourceLocation
-from .rules import (
+from agents.resource_matching.models import WasteProfile, IndustryMatch, SourceLocation, MatchResult, ScoreBreakdown
+from agents.resource_matching.rules import (
     KnowledgeBase,
     find_similar_materials,
     identify_compatible_industries,
@@ -141,7 +141,6 @@ def test_exclusions_filtered(food_waste_profile):
 # ── Validation ────────────────────────────────────────────────────────────────
 
 def test_rule_validator_grounded_no_sources():
-    from .models import MatchResult, ScoreBreakdown
     match = IndustryMatch(
         material_keyword="test",
         industry_name="Test Industry",

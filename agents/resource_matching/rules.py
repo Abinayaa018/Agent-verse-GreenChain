@@ -13,7 +13,251 @@ from .models import (
 
 logger = logging.getLogger("resource_matching")
 
-# Load mappings
+# Embedded default waste-industry mappings dataset
+DEFAULT_MAPPINGS = [
+    {
+        "material_keyword": "food waste",
+        "material_category": "organic",
+        "compatible_categories": ["organic"],
+        "industry_name": "Anaerobic Digestion / Biogas",
+        "industry_code": "NAICS 221210",
+        "reuse_pathway": "Food waste is digested anaerobically to produce biogas and digestate fertiliser.",
+        "example_companies": ["Veolia Bioenergy", "Renewi", "Anaergia"],
+        "estimated_value_per_unit": 18.0,
+        "typical_value_note": "Gate fee avoided ~$30-60/t; biogas revenue ~$18/t.",
+        "risk_or_caveat": "Contamination with non-organics reduces gas yield.",
+        "sources": ["https://www.epa.gov/anaerobic-digestion", "https://www.renewi.com/en-gb/services/organics/"],
+        "grounded": True,
+        "demand_signal": 8.0,
+        "confidence": 8.5
+    },
+    {
+        "material_keyword": "food waste",
+        "material_category": "organic",
+        "compatible_categories": ["organic"],
+        "industry_name": "Composting Facilities",
+        "industry_code": "NAICS 562219",
+        "reuse_pathway": "Food waste is composted into soil amendment sold to agriculture and landscaping.",
+        "example_companies": ["Cedar Grove Composting", "Recology"],
+        "estimated_value_per_unit": 10.0,
+        "typical_value_note": "Compost sells $10-40/t; avoids landfill tipping fees.",
+        "risk_or_caveat": "Odour management and permit requirements vary by region.",
+        "sources": ["https://www.compostingcouncil.org/", "https://cedar-grove.com/"],
+        "grounded": True,
+        "demand_signal": 7.5,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "citrus peel",
+        "material_category": "organic",
+        "compatible_categories": ["organic"],
+        "industry_name": "Essential Oil Extraction",
+        "industry_code": "NAICS 311942",
+        "reuse_pathway": "Citrus peel is cold-pressed or steam-distilled to extract essential oils for food, fragrance, and cleaning products.",
+        "example_companies": ["Citrus and Allied Essences", "Treatt plc"],
+        "estimated_value_per_unit": 120.0,
+        "typical_value_note": "Citrus peel oil $80-200/t depending on variety and purity.",
+        "risk_or_caveat": "Requires food-grade handling; pesticide residue testing needed.",
+        "sources": ["https://www.treatt.com/", "https://www.fao.org/3/y4765e/y4765e0e.htm"],
+        "grounded": True,
+        "demand_signal": 7.0,
+        "confidence": 7.5
+    },
+    {
+        "material_keyword": "citrus peel",
+        "material_category": "organic",
+        "compatible_categories": ["organic"],
+        "industry_name": "Pectin Manufacturing",
+        "industry_code": "NAICS 311999",
+        "reuse_pathway": "Citrus peel is the primary feedstock for commercial pectin extraction used as a food gelling agent.",
+        "example_companies": ["CP Kelco", "Herbstreith & Fox"],
+        "estimated_value_per_unit": 90.0,
+        "typical_value_note": "Dried citrus peel for pectin ~$80-120/t; fresh peel lower.",
+        "risk_or_caveat": "Moisture content and freshness critical; long-distance transport degrades quality.",
+        "sources": ["https://www.cpkelco.com/products/pectin/", "https://www.herbstreith-fox.de/en/"],
+        "grounded": True,
+        "demand_signal": 7.5,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "scrap metal",
+        "material_category": "metal",
+        "compatible_categories": ["metal"],
+        "industry_name": "Steel Mini-Mills (EAF)",
+        "industry_code": "NAICS 331110",
+        "reuse_pathway": "Ferrous scrap is melted in electric arc furnaces to produce new steel.",
+        "example_companies": ["Nucor Corporation", "Steel Dynamics", "Commercial Metals Company"],
+        "estimated_value_per_unit": 320.0,
+        "typical_value_note": "HMS #1 scrap ~$300-360/t (2024 US Midwest).",
+        "risk_or_caveat": "Price volatile; tramp elements (Cu, Sn) reduce value.",
+        "sources": ["https://www.steelmarketupdate.com/", "https://www.nucor.com/"],
+        "grounded": True,
+        "demand_signal": 8.5,
+        "confidence": 9.0
+    },
+    {
+        "material_keyword": "aluminium scrap",
+        "material_category": "metal",
+        "compatible_categories": ["metal"],
+        "industry_name": "Secondary Aluminium Smelting",
+        "industry_code": "NAICS 331314",
+        "reuse_pathway": "Aluminium scrap is re-smelted into secondary ingot for automotive and packaging.",
+        "example_companies": ["Novelis", "Aleris", "Real Alloy"],
+        "estimated_value_per_unit": 1400.0,
+        "typical_value_note": "Clean Al scrap ~$1,200-1,600/t (LME-linked).",
+        "risk_or_caveat": "Alloy segregation required; mixed alloys attract discount.",
+        "sources": ["https://www.novelis.com/sustainability/", "https://www.lme.com/metals/non-ferrous/aluminium"],
+        "grounded": True,
+        "demand_signal": 8.0,
+        "confidence": 8.5
+    },
+    {
+        "material_keyword": "plastic waste",
+        "material_category": "plastic",
+        "compatible_categories": ["plastic"],
+        "industry_name": "Plastic Recycling (Mechanical)",
+        "industry_code": "NAICS 326199",
+        "reuse_pathway": "Sorted plastic waste is shredded, washed, and pelletised into recycled resin.",
+        "example_companies": ["Biffa Polymers", "Veolia Polymers", "KW Plastics"],
+        "estimated_value_per_unit": 200.0,
+        "typical_value_note": "rPET ~$400-600/t; rHDPE ~$200-350/t (2024).",
+        "risk_or_caveat": "Contamination and mixed-colour streams reduce value significantly.",
+        "sources": ["https://www.plasticsrecycling.org/", "https://www.kwplastics.com/"],
+        "grounded": True,
+        "demand_signal": 7.0,
+        "confidence": 7.5
+    },
+    {
+        "material_keyword": "plastic waste",
+        "material_category": "plastic",
+        "compatible_categories": ["plastic"],
+        "industry_name": "Cement Kilns (Co-processing)",
+        "industry_code": "NAICS 327310",
+        "reuse_pathway": "Non-recyclable plastic is used as alternative fuel in cement kilns, replacing coal.",
+        "example_companies": ["Holcim", "HeidelbergMaterials", "CEMEX"],
+        "estimated_value_per_unit": 50.0,
+        "typical_value_note": "Gate fee $30-80/t; displaces ~0.7 t coal per t plastic.",
+        "risk_or_caveat": "Chlorinated plastics (PVC) excluded; emissions monitoring required.",
+        "sources": ["https://www.holcim.com/sustainability/circular-economy", "https://www.wbcsdcement.org/"],
+        "grounded": True,
+        "demand_signal": 7.5,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "used solvent",
+        "material_category": "chemical",
+        "compatible_categories": ["chemical"],
+        "industry_name": "Solvent Recovery & Redistillation",
+        "industry_code": "NAICS 325998",
+        "reuse_pathway": "Off-spec or spent solvents are redistilled to recover usable solvent fractions.",
+        "example_companies": ["Clean Harbors", "Heritage Crystal Clean", "Veolia ES"],
+        "estimated_value_per_unit": 80.0,
+        "typical_value_note": "Recovered solvent value $60-120/drum; avoids hazardous disposal cost.",
+        "risk_or_caveat": "Requires licensed hazardous waste handler; halogenated solvents need separate stream.",
+        "sources": ["https://www.cleanharbors.com/services/chemical-recycling", "https://www.crystal-clean.com/"],
+        "grounded": True,
+        "demand_signal": 7.0,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "concrete rubble",
+        "material_category": "construction",
+        "compatible_categories": ["construction"],
+        "industry_name": "Recycled Aggregate Production",
+        "industry_code": "NAICS 212321",
+        "reuse_pathway": "Crushed concrete rubble is processed into recycled aggregate for road base and fill.",
+        "example_companies": ["Aggregate Industries", "Hanson UK", "Boral"],
+        "estimated_value_per_unit": 12.0,
+        "typical_value_note": "Recycled aggregate $8-18/t; avoids landfill levy.",
+        "risk_or_caveat": "Rebar removal required; sulphate content limits use in structural concrete.",
+        "sources": ["https://www.aggregateindustries.com/sustainability", "https://www.wrap.org.uk/resources/guide/aggregates"],
+        "grounded": True,
+        "demand_signal": 7.0,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "e-waste",
+        "material_category": "e_waste",
+        "compatible_categories": ["e_waste"],
+        "industry_name": "Precious Metal Recovery (WEEE)",
+        "industry_code": "NAICS 331410",
+        "reuse_pathway": "PCBs and components are smelted/refined to recover gold, silver, palladium, and copper.",
+        "example_companies": ["Umicore", "Boliden", "Aurubis"],
+        "estimated_value_per_unit": 150.0,
+        "typical_value_note": "PCB scrap $100-300/t depending on Au/Ag content.",
+        "risk_or_caveat": "Requires WEEE-certified processor; data destruction certification often needed.",
+        "sources": ["https://www.umicore.com/en/industries/electronics/e-scrap/", "https://www.boliden.com/operations/smelters/boliden-ronnskar/"],
+        "grounded": True,
+        "demand_signal": 8.5,
+        "confidence": 9.0
+    },
+    {
+        "material_keyword": "waste paper",
+        "material_category": "paper_pulp",
+        "compatible_categories": ["paper_pulp"],
+        "industry_name": "Paper & Paperboard Mills (Recycled Fibre)",
+        "industry_code": "NAICS 322130",
+        "reuse_pathway": "Waste paper is pulped and re-processed into recycled containerboard or newsprint.",
+        "example_companies": ["Smurfit Kappa", "DS Smith", "Nine Dragons Paper"],
+        "estimated_value_per_unit": 90.0,
+        "typical_value_note": "OCC ~$80-110/t (2024 US); ONP lower at $30-60/t.",
+        "risk_or_caveat": "Wet or contaminated paper has no value; food-contact grades restricted.",
+        "sources": ["https://www.risi.com/", "https://www.smurfitkappa.com/sustainability"],
+        "grounded": True,
+        "demand_signal": 7.5,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "cullet",
+        "material_category": "glass",
+        "compatible_categories": ["glass"],
+        "industry_name": "Glass Container Manufacturing",
+        "industry_code": "NAICS 327213",
+        "reuse_pathway": "Colour-sorted cullet is used as a direct batch substitute in glass furnaces.",
+        "example_companies": ["Owens-Illinois (O-I)", "Ardagh Group", "Verallia"],
+        "estimated_value_per_unit": 60.0,
+        "typical_value_note": "Flint cullet ~$50-80/t; mixed colour ~$20-40/t.",
+        "risk_or_caveat": "Colour segregation critical; ceramics/stones cause furnace damage.",
+        "sources": ["https://www.gpi.org/recycling/glass-recycling-facts", "https://www.o-i.com/sustainability/"],
+        "grounded": True,
+        "demand_signal": 7.0,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "waste tyre",
+        "material_category": "rubber",
+        "compatible_categories": ["rubber"],
+        "industry_name": "Tyre-Derived Fuel (TDF) / Cement Kilns",
+        "industry_code": "NAICS 327310",
+        "reuse_pathway": "Whole or shredded tyres are used as high-calorific alternative fuel in cement kilns.",
+        "example_companies": ["Holcim", "CEMEX", "Lehigh Hanson"],
+        "estimated_value_per_unit": 30.0,
+        "typical_value_note": "Gate fee $20-50/t; displaces coal at ~32 MJ/kg calorific value.",
+        "risk_or_caveat": "Zinc oxide emissions require monitoring; wire removal needed for some kilns.",
+        "sources": ["https://www.rma.org/tdf/", "https://www.epa.gov/smm/scrap-tires-markets"],
+        "grounded": True,
+        "demand_signal": 7.5,
+        "confidence": 8.0
+    },
+    {
+        "material_keyword": "textile waste",
+        "material_category": "textile",
+        "compatible_categories": ["textile"],
+        "industry_name": "Fibre Recycling & Shoddy Mills",
+        "industry_code": "NAICS 313110",
+        "reuse_pathway": "Post-industrial textile offcuts are shredded into recycled fibre for insulation and padding.",
+        "example_companies": ["Leigh Fibers", "Recover Upcycled Textile"],
+        "estimated_value_per_unit": 40.0,
+        "typical_value_note": "Clean cotton offcuts ~$30-60/t; blended lower.",
+        "risk_or_caveat": "Fibre composition must be known; blended synthetics harder to recycle.",
+        "sources": ["https://www.leighfibers.com/", "https://recoverfiber.com/"],
+        "grounded": True,
+        "demand_signal": 6.5,
+        "confidence": 7.5
+    }
+]
+
+# Optional file path for external overrides
 MAPPINGS_PATH = os.path.join(
     os.path.dirname(__file__), "knowledge", "waste_industry_mappings.json"
 )
@@ -109,9 +353,15 @@ class KnowledgeBase:
         self._load()
 
     def _load(self) -> None:
-        with open(MAPPINGS_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        self.raw_mappings = data["mappings"]
+        if os.path.exists(MAPPINGS_PATH):
+            try:
+                with open(MAPPINGS_PATH, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                self.raw_mappings = data.get("mappings", DEFAULT_MAPPINGS)
+            except Exception:
+                self.raw_mappings = DEFAULT_MAPPINGS
+        else:
+            self.raw_mappings = DEFAULT_MAPPINGS
         for entry in self.raw_mappings:
             match = IndustryMatch(
                 material_keyword=entry["material_keyword"],

@@ -1,0 +1,446 @@
+{
+  "6d214911df7eb6a91fdc9aeaadf22d53ef33bd8c01c1e666269c1d536362a628": {
+    "query_material": "Citrus Peel Residue",
+    "material_category": "organic",
+    "total_recommendations": 0,
+    "recommendations": [],
+    "execution_timestamp": "2026-07-28T00:00:00Z",
+    "cached": true,
+    "status": "success"
+  },
+  "264bf03c290120339110b23918c0d6729ea8cb2437d94bc353a7ff00f8077267": {
+    "query_material": "Spent Lithium Battery Black Mass",
+    "material_category": "e_waste",
+    "total_recommendations": 3,
+    "recommendations": [
+      {
+        "industry": "EV Cathode Precursors",
+        "innovation_title": "Advanced Organic Acid Hydrometallurgy for EV Cathode Precursors",
+        "reuse_pathway": "Transforms Spent Lithium Battery Black Mass via Organic Acid Hydrometallurgy into high-value EV Cathode Precursors feedstocks.",
+        "technical_summary": "Scientific evidence demonstrates that Spent Lithium Battery Black Mass can be processed using Organic Acid Hydrometallurgy. Supporting research confirms recovery of active components with strong economic value and zero waste discharge.",
+        "technology_readiness_level": 6,
+        "innovation_score": 74.15,
+        "confidence": 95.26,
+        "supporting_research_papers": [
+          {
+            "title": "Closed-Loop Hydrometallurgical Recycling of Spent Lithium-Ion Battery Cathodes using Organic Acid Leaching",
+            "authors": [
+              "H. Chen",
+              "W. Zhang",
+              "R. K. Sharma"
+            ],
+            "year": 2024,
+            "doi_or_url": "https://doi.org/10.1016/j.resconrec.2023.107380",
+            "citation_count": 67,
+            "key_finding": "Citric acid-hydrogen peroxide leaching achieves >98% recovery of Lithium, Cobalt, and Nickel from spent battery black mass with zero toxic emissions.",
+            "journal_or_publisher": "Resources, Conservation and Recycling"
+          },
+          {
+            "title": "Valorisation of Citrus Waste: Microwave-Assisted Extraction of Pectin and Bio-active Compounds",
+            "authors": [
+              "S. Clark",
+              "M. R. Avila",
+              "J. H. Santos"
+            ],
+            "year": 2023,
+            "doi_or_url": "https://doi.org/10.1016/j.jclepro.2023.136201",
+            "citation_count": 42,
+            "key_finding": "Microwave-assisted extraction yields high-purity pectin (up to 28% dry weight) and D-limonene solvent substitutes from citrus peel waste.",
+            "journal_or_publisher": "Journal of Cleaner Production"
+          }
+        ],
+        "supporting_patents": [
+          {
+            "patent_number": "WO2023198765A1",
+            "title": "Direct Regeneration and Resynthesis of Cathode Active Materials from Spent Battery Black Mass",
+            "assignee": "Redwood Materials / Umicore NV",
+            "year": 2023,
+            "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765",
+            "claim_summary": "Claims direct hydrothermal re-lithiation and co-precipitation of NCM cathode precursor directly from leach liquor without intermediate metal crystallization.",
+            "patent_office": "WIPO PATENTSCOPE"
+          }
+        ],
+        "industrial_benefits": [
+          "Replaces virgin raw materials in EV Cathode Precursors production.",
+          "High economic valorization potential from Organic Acid Hydrometallurgy.",
+          "Reduces disposal tipping fees and hazardous liability."
+        ],
+        "environmental_benefits": [
+          "Diverts Spent Lithium Battery Black Mass from industrial landfill tipping.",
+          "Significantly lowers scope 3 carbon footprint compared to virgin extraction.",
+          "Enables closed-loop circular economy principles."
+        ],
+        "processing_requirements": [
+          "Pre-treatment and sorting of Spent Lithium Battery Black Mass.",
+          "Implementation of Organic Acid Hydrometallurgy processing unit.",
+          "Quality assurance testing for output specifications."
+        ],
+        "limitations": [
+          "Feedstock purity must meet process tolerance limits.",
+          "Requires initial capital expenditure for processing equipment."
+        ],
+        "source_urls": [
+          "https://doi.org/10.1016/j.resconrec.2023.107380",
+          "https://doi.org/10.1016/j.jclepro.2023.136201",
+          "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765"
+        ]
+      },
+      {
+        "industry": "Flavour & Fragrance Solvents",
+        "innovation_title": "Advanced Supercritical CO2 Distillation for Flavour & Fragrance Solvents",
+        "reuse_pathway": "Transforms Spent Lithium Battery Black Mass via Supercritical CO2 Distillation into high-value Flavour & Fragrance Solvents feedstocks.",
+        "technical_summary": "Scientific evidence demonstrates that Spent Lithium Battery Black Mass can be processed using Supercritical CO2 Distillation. Supporting research confirms recovery of active components with strong economic value and zero waste discharge.",
+        "technology_readiness_level": 7,
+        "innovation_score": 55.6,
+        "confidence": 84.0,
+        "supporting_research_papers": [
+          {
+            "title": "Valorisation of Citrus Waste: Microwave-Assisted Extraction of Pectin and Bio-active Compounds",
+            "authors": [
+              "S. Clark",
+              "M. R. Avila",
+              "J. H. Santos"
+            ],
+            "year": 2023,
+            "doi_or_url": "https://doi.org/10.1016/j.jclepro.2023.136201",
+            "citation_count": 42,
+            "key_finding": "Microwave-assisted extraction yields high-purity pectin (up to 28% dry weight) and D-limonene solvent substitutes from citrus peel waste.",
+            "journal_or_publisher": "Journal of Cleaner Production"
+          },
+          {
+            "title": "Sustainable Nanocellulose Films Derived from Orange Peel Waste for Active Food Packaging",
+            "authors": [
+              "A. L. Gomez",
+              "K. Takahashi",
+              "E. Rossi"
+            ],
+            "year": 2024,
+            "doi_or_url": "https://doi.org/10.1021/acs.sustchemeng.3c08912",
+            "citation_count": 19,
+            "key_finding": "Citrus peel nanofiber films exhibit high tensile strength (45 MPa) and antioxidant barrier properties for biodegradable active food packaging.",
+            "journal_or_publisher": "ACS Sustainable Chemistry & Engineering"
+          }
+        ],
+        "supporting_patents": [
+          {
+            "patent_number": "WO2023198765A1",
+            "title": "Direct Regeneration and Resynthesis of Cathode Active Materials from Spent Battery Black Mass",
+            "assignee": "Redwood Materials / Umicore NV",
+            "year": 2023,
+            "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765",
+            "claim_summary": "Claims direct hydrothermal re-lithiation and co-precipitation of NCM cathode precursor directly from leach liquor without intermediate metal crystallization.",
+            "patent_office": "WIPO PATENTSCOPE"
+          }
+        ],
+        "industrial_benefits": [
+          "Replaces virgin raw materials in Flavour & Fragrance Solvents production.",
+          "High economic valorization potential from Supercritical CO2 Distillation.",
+          "Reduces disposal tipping fees and hazardous liability."
+        ],
+        "environmental_benefits": [
+          "Diverts Spent Lithium Battery Black Mass from industrial landfill tipping.",
+          "Significantly lowers scope 3 carbon footprint compared to virgin extraction.",
+          "Enables closed-loop circular economy principles."
+        ],
+        "processing_requirements": [
+          "Pre-treatment and sorting of Spent Lithium Battery Black Mass.",
+          "Implementation of Supercritical CO2 Distillation processing unit.",
+          "Quality assurance testing for output specifications."
+        ],
+        "limitations": [
+          "Feedstock purity must meet process tolerance limits.",
+          "Requires initial capital expenditure for processing equipment."
+        ],
+        "source_urls": [
+          "https://doi.org/10.1016/j.jclepro.2023.136201",
+          "https://doi.org/10.1021/acs.sustchemeng.3c08912",
+          "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765"
+        ]
+      },
+      {
+        "industry": "Structural Geopolymer Concrete",
+        "innovation_title": "Advanced Geopolymerization for Structural Geopolymer Concrete",
+        "reuse_pathway": "Transforms Spent Lithium Battery Black Mass via Geopolymerization into high-value Structural Geopolymer Concrete feedstocks.",
+        "technical_summary": "Scientific evidence demonstrates that Spent Lithium Battery Black Mass can be processed using Geopolymerization. Supporting research confirms recovery of active components with strong economic value and zero waste discharge.",
+        "technology_readiness_level": 7,
+        "innovation_score": 44.65,
+        "confidence": 76.0,
+        "supporting_research_papers": [
+          {
+            "title": "Sustainable Nanocellulose Films Derived from Orange Peel Waste for Active Food Packaging",
+            "authors": [
+              "A. L. Gomez",
+              "K. Takahashi",
+              "E. Rossi"
+            ],
+            "year": 2024,
+            "doi_or_url": "https://doi.org/10.1021/acs.sustchemeng.3c08912",
+            "citation_count": 19,
+            "key_finding": "Citrus peel nanofiber films exhibit high tensile strength (45 MPa) and antioxidant barrier properties for biodegradable active food packaging.",
+            "journal_or_publisher": "ACS Sustainable Chemistry & Engineering"
+          }
+        ],
+        "supporting_patents": [
+          {
+            "patent_number": "WO2023198765A1",
+            "title": "Direct Regeneration and Resynthesis of Cathode Active Materials from Spent Battery Black Mass",
+            "assignee": "Redwood Materials / Umicore NV",
+            "year": 2023,
+            "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765",
+            "claim_summary": "Claims direct hydrothermal re-lithiation and co-precipitation of NCM cathode precursor directly from leach liquor without intermediate metal crystallization.",
+            "patent_office": "WIPO PATENTSCOPE"
+          }
+        ],
+        "industrial_benefits": [
+          "Replaces virgin raw materials in Structural Geopolymer Concrete production.",
+          "High economic valorization potential from Geopolymerization.",
+          "Reduces disposal tipping fees and hazardous liability."
+        ],
+        "environmental_benefits": [
+          "Diverts Spent Lithium Battery Black Mass from industrial landfill tipping.",
+          "Significantly lowers scope 3 carbon footprint compared to virgin extraction.",
+          "Enables closed-loop circular economy principles."
+        ],
+        "processing_requirements": [
+          "Pre-treatment and sorting of Spent Lithium Battery Black Mass.",
+          "Implementation of Geopolymerization processing unit.",
+          "Quality assurance testing for output specifications."
+        ],
+        "limitations": [
+          "Feedstock purity must meet process tolerance limits.",
+          "Requires initial capital expenditure for processing equipment."
+        ],
+        "source_urls": [
+          "https://doi.org/10.1021/acs.sustchemeng.3c08912",
+          "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765"
+        ]
+      }
+    ],
+    "execution_timestamp": "2026-07-28T18:35:44.297975+00:00",
+    "cached": true,
+    "status": "success"
+  },
+  "0814e80e1d13fa489e6a8d97e7092b1fc71324e5c9024ef6c6e595fc3ec756a4": {
+    "query_material": "Spent Solar Panel Glass",
+    "material_category": "glass",
+    "total_recommendations": 3,
+    "recommendations": [
+      {
+        "industry": "EV Cathode Precursors",
+        "innovation_title": "Advanced Organic Acid Hydrometallurgy for EV Cathode Precursors",
+        "reuse_pathway": "Transforms Spent Solar Panel Glass via Organic Acid Hydrometallurgy into high-value EV Cathode Precursors feedstocks.",
+        "technical_summary": "Scientific evidence demonstrates that Spent Solar Panel Glass can be processed using Organic Acid Hydrometallurgy. Supporting research confirms recovery of active components with strong economic value and zero waste discharge.",
+        "technology_readiness_level": 6,
+        "innovation_score": 63.55,
+        "confidence": 88.2,
+        "supporting_research_papers": [
+          {
+            "title": "Hydrometallurgy recovery of copper, aluminum and silver from spent solar panels",
+            "authors": [
+              "Qi Han",
+              "Yidi Gao",
+              "Ting Su"
+            ],
+            "year": 2022,
+            "doi_or_url": "https://doi.org/10.1016/j.jece.2022.109236",
+            "citation_count": 39,
+            "key_finding": "Investigates circular waste utilization pathways for Spent Solar Panel Glass.",
+            "journal_or_publisher": "Journal of environmental chemical engineering"
+          },
+          {
+            "title": "Third-generation solar cells: a review and comparison of polymer:fullerene, hybrid polymer and perovskite solar cells",
+            "authors": [
+              "Junfeng Yan",
+              "Brian R. Saunders"
+            ],
+            "year": 2014,
+            "doi_or_url": "https://doi.org/10.1039/c4ra07064j",
+            "citation_count": 315,
+            "key_finding": "Investigates circular waste utilization pathways for Spent Solar Panel Glass.",
+            "journal_or_publisher": "RSC Advances"
+          }
+        ],
+        "supporting_patents": [
+          {
+            "patent_number": "US11452750B2",
+            "title": "Method for Selective Continuous Extraction of D-Limonene and Pectin from Citrus Processing By-Products",
+            "assignee": "Bio-Valorisation Technologies Inc.",
+            "year": 2022,
+            "url": "https://patents.google.com/patent/US11452750B2/en",
+            "claim_summary": "Claims continuous counter-current solvent-free extraction using super-critical CO2 to recover >95% pure D-limonene followed by acoustic wave pectin release.",
+            "patent_office": "USPTO"
+          }
+        ],
+        "industrial_benefits": [
+          "Replaces virgin raw materials in EV Cathode Precursors production.",
+          "High economic valorization potential from Organic Acid Hydrometallurgy.",
+          "Reduces disposal tipping fees and hazardous liability."
+        ],
+        "environmental_benefits": [
+          "Diverts Spent Solar Panel Glass from industrial landfill tipping.",
+          "Significantly lowers scope 3 carbon footprint compared to virgin extraction.",
+          "Enables closed-loop circular economy principles."
+        ],
+        "processing_requirements": [
+          "Pre-treatment and sorting of Spent Solar Panel Glass.",
+          "Implementation of Organic Acid Hydrometallurgy processing unit.",
+          "Quality assurance testing for output specifications."
+        ],
+        "limitations": [
+          "Feedstock purity must meet process tolerance limits.",
+          "Requires initial capital expenditure for processing equipment."
+        ],
+        "source_urls": [
+          "https://doi.org/10.1016/j.jece.2022.109236",
+          "https://doi.org/10.1039/c4ra07064j",
+          "https://patents.google.com/patent/US11452750B2/en"
+        ]
+      },
+      {
+        "industry": "Flavour & Fragrance Solvents",
+        "innovation_title": "Advanced Supercritical CO2 Distillation for Flavour & Fragrance Solvents",
+        "reuse_pathway": "Transforms Spent Solar Panel Glass via Supercritical CO2 Distillation into high-value Flavour & Fragrance Solvents feedstocks.",
+        "technical_summary": "Scientific evidence demonstrates that Spent Solar Panel Glass can be processed using Supercritical CO2 Distillation. Supporting research confirms recovery of active components with strong economic value and zero waste discharge.",
+        "technology_readiness_level": 7,
+        "innovation_score": 57.5,
+        "confidence": 84.0,
+        "supporting_research_papers": [
+          {
+            "title": "Third-generation solar cells: a review and comparison of polymer:fullerene, hybrid polymer and perovskite solar cells",
+            "authors": [
+              "Junfeng Yan",
+              "Brian R. Saunders"
+            ],
+            "year": 2014,
+            "doi_or_url": "https://doi.org/10.1039/c4ra07064j",
+            "citation_count": 315,
+            "key_finding": "Investigates circular waste utilization pathways for Spent Solar Panel Glass.",
+            "journal_or_publisher": "RSC Advances"
+          },
+          {
+            "title": "An Effective Evaluation on Fault Detection in Solar Panels",
+            "authors": [
+              "Joshuva Arockia Dhanraj",
+              "Ali Mostafaeipour",
+              "Karthikeyan Velmurugan"
+            ],
+            "year": 2021,
+            "doi_or_url": "https://doi.org/10.3390/en14227770",
+            "citation_count": 101,
+            "key_finding": "Investigates circular waste utilization pathways for Spent Solar Panel Glass.",
+            "journal_or_publisher": "Energies"
+          }
+        ],
+        "supporting_patents": [
+          {
+            "patent_number": "WO2023198765A1",
+            "title": "Direct Regeneration and Resynthesis of Cathode Active Materials from Spent Battery Black Mass",
+            "assignee": "Redwood Materials / Umicore NV",
+            "year": 2023,
+            "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765",
+            "claim_summary": "Claims direct hydrothermal re-lithiation and co-precipitation of NCM cathode precursor directly from leach liquor without intermediate metal crystallization.",
+            "patent_office": "WIPO PATENTSCOPE"
+          }
+        ],
+        "industrial_benefits": [
+          "Replaces virgin raw materials in Flavour & Fragrance Solvents production.",
+          "High economic valorization potential from Supercritical CO2 Distillation.",
+          "Reduces disposal tipping fees and hazardous liability."
+        ],
+        "environmental_benefits": [
+          "Diverts Spent Solar Panel Glass from industrial landfill tipping.",
+          "Significantly lowers scope 3 carbon footprint compared to virgin extraction.",
+          "Enables closed-loop circular economy principles."
+        ],
+        "processing_requirements": [
+          "Pre-treatment and sorting of Spent Solar Panel Glass.",
+          "Implementation of Supercritical CO2 Distillation processing unit.",
+          "Quality assurance testing for output specifications."
+        ],
+        "limitations": [
+          "Feedstock purity must meet process tolerance limits.",
+          "Requires initial capital expenditure for processing equipment."
+        ],
+        "source_urls": [
+          "https://doi.org/10.1039/c4ra07064j",
+          "https://doi.org/10.3390/en14227770",
+          "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023198765"
+        ]
+      },
+      {
+        "industry": "Structural Geopolymer Concrete",
+        "innovation_title": "Advanced Geopolymerization for Structural Geopolymer Concrete",
+        "reuse_pathway": "Transforms Spent Solar Panel Glass via Geopolymerization into high-value Structural Geopolymer Concrete feedstocks.",
+        "technical_summary": "Scientific evidence demonstrates that Spent Solar Panel Glass can be processed using Geopolymerization. Supporting research confirms recovery of active components with strong economic value and zero waste discharge.",
+        "technology_readiness_level": 7,
+        "innovation_score": 56.75,
+        "confidence": 84.0,
+        "supporting_research_papers": [
+          {
+            "title": "An Effective Evaluation on Fault Detection in Solar Panels",
+            "authors": [
+              "Joshuva Arockia Dhanraj",
+              "Ali Mostafaeipour",
+              "Karthikeyan Velmurugan"
+            ],
+            "year": 2021,
+            "doi_or_url": "https://doi.org/10.3390/en14227770",
+            "citation_count": 101,
+            "key_finding": "Investigates circular waste utilization pathways for Spent Solar Panel Glass.",
+            "journal_or_publisher": "Energies"
+          },
+          {
+            "title": "Development and validation of a Radiance model for a translucent panel",
+            "authors": [
+              "Christoph Reinhart",
+              "Marilyne Andersen"
+            ],
+            "year": 2006,
+            "doi_or_url": "https://doi.org/10.1016/j.enbuild.2006.03.006",
+            "citation_count": 235,
+            "key_finding": "Investigates circular waste utilization pathways for Spent Solar Panel Glass.",
+            "journal_or_publisher": "Energy and Buildings"
+          }
+        ],
+        "supporting_patents": [
+          {
+            "patent_number": "EP3892601B1",
+            "title": "Alkali-Activated Hydraulic Binders Comprising Bauxite Residue and Process for Manufacturing Building Elements",
+            "assignee": "KU Leuven / Mytilineos S.A.",
+            "year": 2022,
+            "url": "https://patents.google.com/patent/EP3892601B1/en",
+            "claim_summary": "Claims hydraulic mortar containing up to 70 wt% bauxite residue activated with sodium silicate solution producing water-resistant paving tiles.",
+            "patent_office": "EPO / Google Patents"
+          }
+        ],
+        "industrial_benefits": [
+          "Replaces virgin raw materials in Structural Geopolymer Concrete production.",
+          "High economic valorization potential from Geopolymerization.",
+          "Reduces disposal tipping fees and hazardous liability."
+        ],
+        "environmental_benefits": [
+          "Diverts Spent Solar Panel Glass from industrial landfill tipping.",
+          "Significantly lowers scope 3 carbon footprint compared to virgin extraction.",
+          "Enables closed-loop circular economy principles."
+        ],
+        "processing_requirements": [
+          "Pre-treatment and sorting of Spent Solar Panel Glass.",
+          "Implementation of Geopolymerization processing unit.",
+          "Quality assurance testing for output specifications."
+        ],
+        "limitations": [
+          "Feedstock purity must meet process tolerance limits.",
+          "Requires initial capital expenditure for processing equipment."
+        ],
+        "source_urls": [
+          "https://doi.org/10.3390/en14227770",
+          "https://doi.org/10.1016/j.enbuild.2006.03.006",
+          "https://patents.google.com/patent/EP3892601B1/en"
+        ]
+      }
+    ],
+    "execution_timestamp": "2026-07-28T19:56:26.640745+00:00",
+    "cached": true,
+    "status": "success"
+  }
+}
