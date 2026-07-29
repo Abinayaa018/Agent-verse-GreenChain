@@ -26,7 +26,7 @@ class Regulation(BaseModel):
     """A single regulation rule."""
     id: str
     jurisdiction: str
-            description: str
+    description: str
     applies_to: list[str]
     requirements: list[str]
 
