@@ -1,0 +1,56 @@
+# ── Datasets (large, don't commit) ──────────────
+data/raw/
+data/garbage_dataset/
+
+# Keep sample_waste_inputs if it's small (a few demo photos) —
+# comment the line below OUT if you want those tracked in git.
+# If it grows large, uncomment it:
+# data/sample_waste_inputs/
+
+# ── Trained models (large binary files) ─────────
+models/*.h5
+models/*.pt
+models/*.pkl
+models/*.keras
+
+# ── Python ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ── Virtual environment ─────────────────────────
+venv/
+env/
+.venv/
+
+# ── Environment variables / secrets ─────────────
+.env
+*.pem
+*.key
+
+# ── uAgents runtime files ───────────────────────
+agents/**/agent_storage/
+*.uagents
+
+# ── IDE / editor ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ── Jupyter (if you use notebooks to explore data) ──
+.ipynb_checkpoints/
+
+# ── Logs ─────────────────────────────────────────
+*.log
+logs/
+
+# ── Test / cache ─────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
