@@ -1,0 +1,1001 @@
+material,source_industry,destination_industry,quantity_tons,purity,transport_distance_km,market_price_per_ton,processing_cost_per_ton,transport_cost_per_km,revenue,processing_cost,transport_cost,total_cost,net_profit,roi_percent,profitability
+Plastic Scrap,Packaging,Plastic Recycling,94.99,70,115,275.0,44.0,1.49,26122.25,4179.56,171.35,4350.91,21771.34,500.39,Excellent
+Fly Ash,Thermal Power,Cement,12.0,78,316,90.3,12.56,0.97,1083.6,150.72,306.52,457.24,626.36,136.99,Excellent
+Fly Ash,Thermal Power,Cement,5.89,80,61,91.0,12.4,2.41,535.99,73.04,147.01,220.05,315.94,143.58,Excellent
+Steel Slag,Steel,Construction,84.5,87,222,113.47,14.8,1.27,9588.22,1250.6,281.94,1532.54,8055.68,525.64,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,82.05,87,421,694.2,177.6,1.4,56959.11,14572.08,589.4,15161.48,41797.63,275.68,Excellent
+Glass Waste,Glass,Glass Recycling,93.49,77,216,128.5,23.17,1.85,12013.47,2166.16,399.6,2565.76,9447.71,368.22,Excellent
+Rice Husk,Agriculture,Biofuel,35.5,80,140,123.5,20.67,2.19,4384.25,733.79,306.6,1040.39,3343.86,321.4,Excellent
+Bagasse,Sugar,Paper,7.56,85,56,145.75,18.0,1.45,1101.87,136.08,81.2,217.28,884.59,407.12,Excellent
+Glass Waste,Glass,Glass Recycling,33.99,78,182,129.0,23.03,1.79,4384.71,782.79,325.78,1108.57,3276.14,295.53,Excellent
+Fly Ash,Thermal Power,Cement,21.74,73,104,88.55,12.96,1.66,1925.08,281.75,172.64,454.39,1470.69,323.66,Excellent
+Fly Ash,Thermal Power,Cement,43.75,79,114,90.65,12.48,1.22,3965.94,546.0,139.08,685.08,3280.86,478.9,Excellent
+Steel Slag,Steel,Construction,46.81,92,71,115.6,14.3,2.07,5411.24,669.38,146.97,816.35,4594.89,562.86,Excellent
+Food Waste,Food,Biogas,43.65,83,63,78.9,10.13,1.73,3443.99,442.17,108.99,551.16,2892.83,524.86,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,72.21,78,198,1161.0,314.0,1.52,83835.81,22673.94,300.96,22974.9,60860.91,264.9,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,100.0,75,372,1147.5,320.0,1.93,114750.0,32000.0,717.96,32717.96,82032.04,250.72,Excellent
+Fly Ash,Thermal Power,Cement,29.49,87,125,93.45,11.84,2.14,2755.84,349.16,267.5,616.66,2139.18,346.9,Excellent
+Rice Husk,Agriculture,Biofuel,51.68,71,35,119.22,21.87,2.41,6161.29,1130.24,84.35,1214.59,4946.7,407.27,Excellent
+Paper Sludge,Paper,Brick Manufacturing,94.28,79,183,97.12,14.56,1.25,9156.47,1372.72,228.75,1601.47,7555.0,471.75,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,18.53,73,14,657.8,194.4,1.28,12189.03,3602.23,17.92,3620.15,8568.88,236.7,Excellent
+Bagasse,Sugar,Paper,37.36,92,168,149.6,17.16,2.46,5589.06,641.1,413.28,1054.38,4534.68,430.08,Excellent
+Fly Ash,Thermal Power,Cement,3.38,96,87,96.6,11.12,1.75,326.51,37.59,152.25,189.84,136.67,71.99,High Profit
+Bagasse,Sugar,Paper,40.56,71,60,138.05,19.68,1.4,5599.31,798.22,84.0,882.22,4717.09,534.68,Excellent
+Bagasse,Sugar,Paper,63.31,97,159,152.35,16.56,1.56,9645.28,1048.41,248.04,1296.45,8348.83,643.98,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,35.88,99,284,725.4,163.2,1.32,26027.35,5855.62,374.88,6230.5,19796.85,317.74,Excellent
+Bagasse,Sugar,Paper,11.17,80,492,143.0,18.6,2.49,1597.31,207.76,1225.08,1432.84,164.47,11.48,Low Profit
+Fly Ash,Thermal Power,Cement,1.68,92,476,95.2,11.44,1.54,159.94,19.22,733.04,752.26,-592.32,-78.74,Loss
+Food Waste,Food,Biogas,6.58,92,465,81.6,9.53,2.3,536.93,62.71,1069.5,1132.21,-595.28,-52.58,Loss
+Plastic Scrap,Packaging,Plastic Recycling,77.49,73,491,278.3,43.2,1.06,21565.47,3347.57,520.46,3868.03,17697.44,457.53,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,81.85,94,419,616.5,112.8,2.4,50460.52,9232.68,1005.6,10238.28,40222.24,392.86,Excellent
+Bagasse,Sugar,Paper,8.18,90,156,148.5,17.4,2.05,1214.73,142.33,319.8,462.13,752.6,162.85,Excellent
+Cotton Scrap,Textile,Paper,66.99,98,157,250.2,31.97,1.31,16760.9,2141.67,205.67,2347.34,14413.56,614.04,Excellent
+Steel Slag,Steel,Construction,52.39,90,147,114.75,14.5,1.3,6011.75,759.65,191.1,950.75,5061.0,532.32,Excellent
+Rice Husk,Agriculture,Biofuel,29.11,78,118,122.55,20.93,1.77,3567.43,609.27,208.86,818.13,2749.3,336.05,Excellent
+Glass Waste,Glass,Glass Recycling,30.64,87,179,133.5,21.71,1.12,4090.44,665.19,200.48,865.67,3224.77,372.52,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,29.08,70,59,562.5,132.0,1.99,16357.5,3838.56,117.41,3955.97,12401.53,313.49,Excellent
+Fly Ash,Thermal Power,Cement,70.06,90,443,94.5,11.6,1.17,6620.67,812.7,518.31,1331.01,5289.66,397.42,Excellent
+Food Waste,Food,Biogas,92.12,91,334,81.3,9.6,1.07,7489.36,884.35,357.38,1241.73,6247.63,503.14,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,15.63,93,148,709.8,170.4,2.36,11094.17,2663.35,349.28,3012.63,8081.54,268.26,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,60.19,81,12,287.1,41.07,1.1,17280.55,2472.0,13.2,2485.2,14795.35,595.34,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,3.82,72,44,1134.0,326.0,1.36,4331.88,1245.32,59.84,1305.16,3026.72,231.9,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,18.31,83,288,591.75,121.6,2.11,10834.94,2226.5,607.68,2834.18,8000.76,282.3,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,8.06,85,30,689.0,180.0,2.12,5553.34,1450.8,63.6,1514.4,4038.94,266.7,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,47.81,82,368,589.5,122.4,2.2,28184.0,5851.94,809.6,6661.54,21522.46,323.09,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,9.56,70,279,1125.0,330.0,2.42,10755.0,3154.8,675.18,3829.98,6925.02,180.81,Excellent
+Steel Slag,Steel,Construction,49.61,83,500,111.77,15.2,0.96,5544.91,754.07,480.0,1234.07,4310.84,349.32,Excellent
+Glass Waste,Glass,Glass Recycling,88.59,88,393,134.0,21.56,1.97,11871.06,1910.0,774.21,2684.21,9186.85,342.26,Excellent
+Glass Waste,Glass,Glass Recycling,23.28,73,166,126.5,23.76,2.11,2944.92,553.13,350.26,903.39,2041.53,225.99,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,77.99,79,177,284.9,41.6,1.96,22219.35,3244.38,346.92,3591.3,18628.05,518.7,Excellent
+Rice Husk,Agriculture,Biofuel,58.08,98,167,132.05,18.27,1.8,7669.46,1061.12,300.6,1361.72,6307.74,463.22,Excellent
+Bagasse,Sugar,Paper,43.41,71,135,138.05,19.68,1.28,5992.75,854.31,172.8,1027.11,4965.64,483.46,Excellent
+Cotton Scrap,Textile,Paper,51.99,88,379,241.2,34.3,1.31,12539.99,1783.26,496.49,2279.75,10260.24,450.06,Excellent
+Food Waste,Food,Biogas,66.77,86,402,79.8,9.93,2.31,5328.25,663.03,928.62,1591.65,3736.6,234.76,Excellent
+Food Waste,Food,Biogas,41.92,98,91,83.4,9.13,1.78,3496.13,382.73,161.98,544.71,2951.42,541.83,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,32.03,79,296,582.75,124.8,1.34,18665.48,3997.34,396.64,4393.98,14271.5,324.8,Excellent
+Rice Husk,Agriculture,Biofuel,92.96,82,419,124.45,20.4,2.43,11568.87,1896.38,1018.17,2914.55,8654.32,296.94,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,62.33,76,151,281.6,42.4,1.36,17552.13,2642.79,205.36,2848.15,14703.98,516.26,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,41.54,72,436,655.2,195.6,0.81,27217.01,8125.22,353.16,8478.38,18738.63,221.02,Excellent
+Fly Ash,Thermal Power,Cement,62.19,75,60,89.25,12.8,2.17,5550.46,796.03,130.2,926.23,4624.23,499.25,Excellent
+Cotton Scrap,Textile,Paper,49.27,73,270,227.7,37.8,1.56,11218.78,1862.41,421.2,2283.61,8935.17,391.27,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,79.93,75,193,1147.5,320.0,2.4,91719.68,25577.6,463.2,26040.8,65678.88,252.22,Excellent
+Cotton Scrap,Textile,Paper,75.83,94,326,246.6,32.9,1.61,18699.68,2494.81,524.86,3019.67,15680.01,519.26,Excellent
+Cotton Scrap,Textile,Paper,71.35,86,456,239.4,34.77,2.13,17081.19,2480.84,971.28,3452.12,13629.07,394.8,Excellent
+Food Waste,Food,Biogas,6.74,83,150,78.9,10.13,1.15,531.79,68.28,172.5,240.78,291.01,120.86,Excellent
+Rice Husk,Agriculture,Biofuel,42.97,76,294,121.6,21.2,1.6,5225.15,910.96,470.4,1381.36,3843.79,278.26,Excellent
+Food Waste,Food,Biogas,31.19,89,137,80.7,9.73,2.44,2517.03,303.48,334.28,637.76,1879.27,294.67,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,41.45,96,323,621.0,111.2,2.27,25740.45,4609.24,733.21,5342.45,20398.0,381.81,Excellent
+Cotton Scrap,Textile,Paper,91.0,71,381,225.9,38.27,1.08,20556.9,3482.57,411.48,3894.05,16662.85,427.91,Excellent
+Food Waste,Food,Biogas,93.43,80,394,78.0,10.33,2.05,7287.54,965.13,807.7,1772.83,5514.71,311.07,Excellent
+Food Waste,Food,Biogas,92.35,94,203,82.2,9.4,1.32,7591.17,868.09,267.96,1136.05,6455.12,568.21,Excellent
+Steel Slag,Steel,Construction,50.04,77,358,109.23,15.8,0.87,5465.87,790.63,311.46,1102.09,4363.78,395.95,Excellent
+Cotton Scrap,Textile,Paper,28.86,91,83,243.9,33.6,2.09,7038.95,969.7,173.47,1143.17,5895.78,515.74,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,48.23,83,221,683.8,182.4,1.1,32979.67,8797.15,243.1,9040.25,23939.42,264.81,Excellent
+Bagasse,Sugar,Paper,9.65,92,287,149.6,17.16,1.92,1443.64,165.59,551.04,716.63,727.01,101.45,Excellent
+Cotton Scrap,Textile,Paper,45.98,72,235,226.8,38.03,2.49,10428.26,1748.62,585.15,2333.77,8094.49,346.84,Excellent
+Cotton Scrap,Textile,Paper,16.86,87,159,240.3,34.53,0.82,4051.46,582.18,130.38,712.56,3338.9,468.58,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,83.53,88,347,603.0,117.6,2.14,50368.59,9823.13,742.58,10565.71,39802.88,376.72,Excellent
+Bagasse,Sugar,Paper,94.88,90,410,148.5,17.4,1.54,14089.68,1650.91,631.4,2282.31,11807.37,517.34,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,20.39,92,351,612.0,114.4,1.75,12478.68,2332.62,614.25,2946.87,9531.81,323.46,Excellent
+Food Waste,Food,Biogas,67.16,91,456,81.3,9.6,2.45,5460.11,644.74,1117.2,1761.94,3698.17,209.89,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,86.82,95,193,715.0,168.0,1.34,62076.3,14585.76,258.62,14844.38,47231.92,318.18,Excellent
+Rice Husk,Agriculture,Biofuel,36.59,86,248,126.35,19.87,2.16,4623.15,727.04,535.68,1262.72,3360.43,266.13,Excellent
+Fly Ash,Thermal Power,Cement,5.29,80,335,91.0,12.4,2.07,481.39,65.6,693.45,759.05,-277.66,-36.58,Loss
+Plastic Scrap,Packaging,Plastic Recycling,71.94,85,177,291.5,40.0,2.26,20970.51,2877.6,400.02,3277.62,17692.89,539.81,Excellent
+Bagasse,Sugar,Paper,34.85,99,10,153.45,16.32,1.27,5347.73,568.75,12.7,581.45,4766.28,819.72,Excellent
+Bagasse,Sugar,Paper,11.5,82,291,144.1,18.36,1.81,1657.15,211.14,526.71,737.85,919.3,124.59,Excellent
+Food Waste,Food,Biogas,7.74,96,499,82.8,9.27,2.08,640.87,71.75,1037.92,1109.67,-468.8,-42.25,Loss
+Glass Waste,Glass,Glass Recycling,16.15,85,441,132.5,22.0,0.81,2139.88,355.3,357.21,712.51,1427.37,200.33,Excellent
+Paper Sludge,Paper,Brick Manufacturing,20.05,75,24,95.62,14.93,1.73,1917.18,299.35,41.52,340.87,1576.31,462.44,Excellent
+Glass Waste,Glass,Glass Recycling,18.29,97,100,138.5,20.24,2.04,2533.16,370.19,204.0,574.19,1958.97,341.17,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,85.71,76,405,281.6,42.4,0.97,24135.94,3634.1,392.85,4026.95,20108.99,499.36,Excellent
+Steel Slag,Steel,Construction,30.87,72,62,107.1,16.3,2.16,3306.18,503.18,133.92,637.1,2669.08,418.94,Excellent
+Food Waste,Food,Biogas,29.92,94,139,82.2,9.4,2.22,2459.42,281.25,308.58,589.83,1869.59,316.97,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,42.17,75,108,573.75,128.0,2.47,24195.04,5397.76,266.76,5664.52,18530.52,327.13,Excellent
+Bagasse,Sugar,Paper,68.38,88,253,147.4,17.64,1.26,10079.21,1206.22,318.78,1525.0,8554.21,560.93,Excellent
+Paper Sludge,Paper,Brick Manufacturing,22.15,90,193,101.25,13.53,1.36,2242.69,299.69,262.48,562.17,1680.52,298.93,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,66.45,75,68,663.0,192.0,1.7,44056.35,12758.4,115.6,12874.0,31182.35,242.21,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,77.3,74,330,279.4,42.93,0.87,21597.62,3318.49,287.1,3605.59,17992.03,499.0,Excellent
+Steel Slag,Steel,Construction,54.15,92,469,115.6,14.3,2.18,6259.74,774.35,1022.42,1796.77,4462.97,248.39,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,90.42,95,331,1237.5,280.0,1.71,111894.75,25317.6,566.01,25883.61,86011.14,332.3,Excellent
+Bagasse,Sugar,Paper,43.81,73,36,139.15,19.44,2.0,6096.16,851.67,72.0,923.67,5172.49,559.99,Excellent
+Paper Sludge,Paper,Brick Manufacturing,10.07,87,107,100.12,13.81,1.21,1008.21,139.07,129.47,268.54,739.67,275.44,Excellent
+Fly Ash,Thermal Power,Cement,5.07,85,464,92.75,12.0,1.09,470.24,60.84,505.76,566.6,-96.36,-17.01,Loss
+Chemical Sludge,Chemical,Hazardous Treatment Facility,53.82,79,388,673.4,187.2,2.14,36242.39,10075.1,830.32,10905.42,25336.97,232.33,Excellent
+Rice Husk,Agriculture,Biofuel,34.74,76,286,121.6,21.2,0.85,4224.38,736.49,243.1,979.59,3244.79,331.24,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,60.5,96,202,1242.0,278.0,2.32,75141.0,16819.0,468.64,17287.64,57853.36,334.65,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,17.53,93,225,1228.5,284.0,2.01,21535.61,4978.52,452.25,5430.77,16104.84,296.55,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,77.94,84,318,1188.0,302.0,2.48,92592.72,23537.88,788.64,24326.52,68266.2,280.62,Excellent
+Steel Slag,Steel,Construction,94.02,70,261,106.25,16.5,1.33,9989.62,1551.33,347.13,1898.46,8091.16,426.2,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,95.82,81,132,587.25,123.2,1.08,56270.29,11805.02,142.56,11947.58,44322.71,370.98,Excellent
+Steel Slag,Steel,Construction,18.54,71,105,106.67,16.4,2.12,1977.66,304.06,222.6,526.66,1451.0,275.51,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,8.62,84,315,1188.0,302.0,1.41,10240.56,2603.24,444.15,3047.39,7193.17,236.04,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,10.76,91,30,609.75,115.2,1.92,6560.91,1239.55,57.6,1297.15,5263.76,405.79,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,26.81,80,46,1170.0,310.0,1.35,31367.7,8311.1,62.1,8373.2,22994.5,274.62,Excellent
+Paper Sludge,Paper,Brick Manufacturing,8.51,79,391,97.12,14.56,1.3,826.49,123.91,508.3,632.21,194.28,30.73,Moderate Profit
+Food Waste,Food,Biogas,51.56,78,367,77.4,10.47,0.96,3990.74,539.83,352.32,892.15,3098.59,347.32,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,42.11,80,251,286.0,41.33,1.9,12043.46,1740.41,476.9,2217.31,9826.15,443.16,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,33.23,76,134,576.0,127.2,1.88,19140.48,4226.86,251.92,4478.78,14661.7,327.36,Excellent
+Paper Sludge,Paper,Brick Manufacturing,94.18,72,208,94.5,15.21,1.98,8900.01,1432.48,411.84,1844.32,7055.69,382.56,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,57.31,75,75,663.0,192.0,2.02,37996.53,11003.52,151.5,11155.02,26841.51,240.62,Excellent
+Fly Ash,Thermal Power,Cement,7.56,80,252,91.0,12.4,1.43,687.96,93.74,360.36,454.1,233.86,51.5,High Profit
+Fly Ash,Thermal Power,Cement,68.33,95,272,96.25,11.2,1.12,6576.76,765.3,304.64,1069.94,5506.82,514.68,Excellent
+Fly Ash,Thermal Power,Cement,26.13,96,469,96.6,11.12,1.59,2524.16,290.57,745.71,1036.28,1487.88,143.58,Excellent
+Steel Slag,Steel,Construction,20.28,80,377,110.5,15.5,1.23,2240.94,314.34,463.71,778.05,1462.89,188.02,Excellent
+Cotton Scrap,Textile,Paper,60.03,70,210,225.0,38.5,0.83,13506.75,2311.16,174.3,2485.46,11021.29,443.43,Excellent
+Food Waste,Food,Biogas,20.81,70,439,75.0,11.0,2.22,1560.75,228.91,974.58,1203.49,357.26,29.69,Moderate Profit
+Cotton Scrap,Textile,Paper,56.31,76,235,230.4,37.1,0.82,12973.82,2089.1,192.7,2281.8,10692.02,468.58,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,12.53,99,399,725.4,163.2,1.4,9089.26,2044.9,558.6,2603.5,6485.76,249.12,Excellent
+Steel Slag,Steel,Construction,87.55,73,13,107.53,16.2,1.69,9414.25,1418.31,21.97,1440.28,7973.97,553.64,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,84.74,75,294,1147.5,320.0,1.97,97239.15,27116.8,579.18,27695.98,69543.17,251.09,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,5.96,96,107,717.6,166.8,2.42,4276.9,994.13,258.94,1253.07,3023.83,241.31,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,44.13,91,188,704.6,172.8,2.02,31094.0,7625.66,379.76,8005.42,23088.58,288.41,Excellent
+Cotton Scrap,Textile,Paper,75.56,85,28,238.5,35.0,1.94,18021.06,2644.6,54.32,2698.92,15322.14,567.71,Excellent
+Rice Husk,Agriculture,Biofuel,13.04,87,398,126.83,19.73,1.49,1653.86,257.28,593.02,850.3,803.56,94.5,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,7.36,71,190,276.1,43.73,2.44,2032.1,321.85,463.6,785.45,1246.65,158.72,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,24.26,96,293,1242.0,278.0,1.43,30130.92,6744.28,418.99,7163.27,22967.65,320.63,Excellent
+Fly Ash,Thermal Power,Cement,10.23,73,485,88.55,12.96,1.77,905.87,132.58,858.45,991.03,-85.16,-8.59,Loss
+Fly Ash,Thermal Power,Cement,31.62,70,298,87.5,13.2,1.4,2766.75,417.38,417.2,834.58,1932.17,231.51,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,50.36,73,252,278.3,43.2,2.28,14015.19,2175.55,574.56,2750.11,11265.08,409.62,Excellent
+Bagasse,Sugar,Paper,16.54,76,109,140.8,19.08,1.7,2328.83,315.58,185.3,500.88,1827.95,364.95,Excellent
+Fly Ash,Thermal Power,Cement,31.93,77,173,89.95,12.64,2.4,2872.1,403.6,415.2,818.8,2053.3,250.77,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,95.39,87,361,600.75,118.4,1.17,57305.54,11294.18,422.37,11716.55,45588.99,389.1,Excellent
+Fly Ash,Thermal Power,Cement,23.1,98,403,97.3,10.96,1.76,2247.63,253.18,709.28,962.46,1285.17,133.53,Excellent
+Cotton Scrap,Textile,Paper,23.87,77,105,231.3,36.87,1.04,5521.13,880.09,109.2,989.29,4531.84,458.09,Excellent
+Fly Ash,Thermal Power,Cement,91.65,84,101,92.4,12.08,2.33,8468.46,1107.13,235.33,1342.46,7126.0,530.82,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,46.41,83,486,683.8,182.4,1.61,31735.16,8465.18,782.46,9247.64,22487.52,243.17,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,91.13,91,173,1219.5,288.0,2.18,111133.03,26245.44,377.14,26622.58,84510.45,317.44,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,25.91,70,365,1125.0,330.0,1.71,29148.75,8550.3,624.15,9174.45,19974.3,217.72,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,69.0,98,108,1251.0,274.0,0.86,86319.0,18906.0,92.88,18998.88,67320.12,354.34,Excellent
+Paper Sludge,Paper,Brick Manufacturing,21.58,87,461,100.12,13.81,1.89,2160.59,298.02,871.29,1169.31,991.28,84.77,Excellent
+Paper Sludge,Paper,Brick Manufacturing,78.97,78,274,96.75,14.65,1.78,7640.35,1156.91,487.72,1644.63,5995.72,364.56,Excellent
+Cotton Scrap,Textile,Paper,18.25,73,420,227.7,37.8,1.43,4155.52,689.85,600.6,1290.45,2865.07,222.02,Excellent
+Steel Slag,Steel,Construction,20.34,88,465,113.9,14.7,1.77,2316.73,299.0,823.05,1122.05,1194.68,106.47,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,30.14,86,457,691.6,178.8,1.62,20844.82,5389.03,740.34,6129.37,14715.45,240.08,Excellent
+Glass Waste,Glass,Glass Recycling,1.67,71,133,125.5,24.05,1.36,209.58,40.16,180.88,221.04,-11.46,-5.18,Loss
+Plastic Scrap,Packaging,Plastic Recycling,1.63,74,451,279.4,42.93,2.22,455.42,69.98,1001.22,1071.2,-615.78,-57.49,Loss
+Chemical Sludge,Chemical,Hazardous Treatment Facility,73.51,71,477,652.6,196.8,2.25,47972.63,14466.77,1073.25,15540.02,32432.61,208.7,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,75.53,73,322,569.25,129.6,1.91,42995.45,9788.69,615.02,10403.71,32591.74,313.27,Excellent
+Food Waste,Food,Biogas,46.83,97,380,83.1,9.2,1.61,3891.57,430.84,611.8,1042.64,2848.93,273.24,Excellent
+Rice Husk,Agriculture,Biofuel,71.86,84,192,125.4,20.13,1.36,9011.24,1446.54,261.12,1707.66,7303.58,427.7,Excellent
+Bagasse,Sugar,Paper,40.16,92,462,149.6,17.16,2.14,6007.94,689.15,988.68,1677.83,4330.11,258.08,Excellent
+Fly Ash,Thermal Power,Cement,38.44,97,117,96.95,11.04,0.96,3726.76,424.38,112.32,536.7,3190.06,594.38,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,69.3,86,70,691.6,178.8,1.86,47927.88,12390.84,130.2,12521.04,35406.84,282.78,Excellent
+Paper Sludge,Paper,Brick Manufacturing,74.79,72,366,94.5,15.21,1.53,7067.66,1137.56,559.98,1697.54,5370.12,316.35,Excellent
+Fly Ash,Thermal Power,Cement,87.84,80,206,91.0,12.4,0.87,7993.44,1089.22,179.22,1268.44,6725.0,530.18,Excellent
+Fly Ash,Thermal Power,Cement,27.54,75,458,89.25,12.8,1.34,2457.94,352.51,613.72,966.23,1491.71,154.38,Excellent
+Paper Sludge,Paper,Brick Manufacturing,97.36,79,132,97.12,14.56,0.84,9455.6,1417.56,110.88,1528.44,7927.16,518.64,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,50.47,96,130,621.0,111.2,1.64,31341.87,5612.26,213.2,5825.46,25516.41,438.02,Excellent
+Paper Sludge,Paper,Brick Manufacturing,31.27,82,214,98.25,14.28,1.52,3072.28,446.54,325.28,771.82,2300.46,298.06,Excellent
+Rice Husk,Agriculture,Biofuel,78.31,85,401,125.88,20.0,2.12,9857.66,1566.2,850.12,2416.32,7441.34,307.96,Excellent
+Glass Waste,Glass,Glass Recycling,39.88,71,287,125.5,24.05,2.24,5004.94,959.11,642.88,1601.99,3402.95,212.42,Excellent
+Steel Slag,Steel,Construction,21.77,88,15,113.9,14.7,2.48,2479.6,320.02,37.2,357.22,2122.38,594.14,Excellent
+Food Waste,Food,Biogas,77.72,94,187,82.2,9.4,2.31,6388.58,730.57,431.97,1162.54,5226.04,449.54,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,75.82,77,294,578.25,126.4,2.02,43842.91,9583.65,593.88,10177.53,33665.38,330.78,Excellent
+Glass Waste,Glass,Glass Recycling,81.55,87,259,133.5,21.71,0.82,10886.92,1770.45,212.38,1982.83,8904.09,449.06,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,17.93,86,48,598.5,119.2,1.66,10731.1,2137.26,79.68,2216.94,8514.16,384.05,Excellent
+Bagasse,Sugar,Paper,27.25,90,153,148.5,17.4,1.31,4046.62,474.15,200.43,674.58,3372.04,499.87,Excellent
+Food Waste,Food,Biogas,40.84,77,140,77.1,10.53,2.31,3148.76,430.05,323.4,753.45,2395.31,317.91,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,41.05,71,424,652.6,196.8,2.27,26789.23,8078.64,962.48,9041.12,17748.11,196.3,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,15.18,92,106,707.2,171.6,1.23,10735.3,2604.89,130.38,2735.27,8000.03,292.48,Excellent
+Paper Sludge,Paper,Brick Manufacturing,90.15,87,150,100.12,13.81,1.96,9025.82,1244.97,294.0,1538.97,7486.85,486.48,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,12.54,85,142,689.0,180.0,1.22,8640.06,2257.2,173.24,2430.44,6209.62,255.49,Excellent
+Glass Waste,Glass,Glass Recycling,40.54,72,65,126.0,23.91,2.27,5108.04,969.31,147.55,1116.86,3991.18,357.36,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,93.82,82,173,589.5,122.4,1.78,55306.89,11483.57,307.94,11791.51,43515.38,369.04,Excellent
+Glass Waste,Glass,Glass Recycling,62.82,77,418,128.5,23.17,2.21,8072.37,1455.54,923.78,2379.32,5693.05,239.27,Excellent
+Cotton Scrap,Textile,Paper,58.55,82,84,235.8,35.7,1.32,13806.09,2090.24,110.88,2201.12,11604.97,527.23,Excellent
+Glass Waste,Glass,Glass Recycling,66.32,77,473,128.5,23.17,2.02,8522.12,1536.63,955.46,2492.09,6030.03,241.97,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,62.77,85,449,596.25,120.0,2.03,37426.61,7532.4,911.47,8443.87,28982.74,343.24,Excellent
+Cotton Scrap,Textile,Paper,23.29,81,475,234.9,35.93,2.13,5470.82,836.81,1011.75,1848.56,3622.26,195.95,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,12.41,76,105,1152.0,318.0,2.07,14296.32,3946.38,217.35,4163.73,10132.59,243.35,Excellent
+Steel Slag,Steel,Construction,34.36,94,137,116.45,14.1,1.6,4001.22,484.48,219.2,703.68,3297.54,468.61,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,59.31,97,190,304.7,36.8,2.36,18071.76,2182.61,448.4,2631.01,15440.75,586.88,Excellent
+Rice Husk,Agriculture,Biofuel,76.63,90,329,128.25,19.33,1.04,9827.8,1481.26,342.16,1823.42,8004.38,438.98,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,5.29,88,40,603.0,117.6,1.65,3189.87,622.1,66.0,688.1,2501.77,363.58,Excellent
+Bagasse,Sugar,Paper,98.27,93,278,150.15,17.04,0.97,14755.24,1674.52,269.66,1944.18,12811.06,658.94,Excellent
+Rice Husk,Agriculture,Biofuel,17.99,85,164,125.88,20.0,1.24,2264.58,359.8,203.36,563.16,1701.42,302.12,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,28.36,85,23,1192.5,300.0,1.74,33819.3,8508.0,40.02,8548.02,25271.28,295.64,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,33.58,77,63,282.7,42.13,1.44,9493.07,1414.73,90.72,1505.45,7987.62,530.58,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,10.22,87,177,600.75,118.4,1.6,6139.66,1210.05,283.2,1493.25,4646.41,311.16,Excellent
+Rice Husk,Agriculture,Biofuel,56.68,80,70,123.5,20.67,1.55,6999.98,1171.58,108.5,1280.08,5719.9,446.84,Excellent
+Rice Husk,Agriculture,Biofuel,92.03,73,275,120.18,21.6,1.14,11060.17,1987.85,313.5,2301.35,8758.82,380.59,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,80.36,92,389,299.2,38.13,1.28,24043.71,3064.13,497.92,3562.05,20481.66,575.0,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,40.5,82,333,288.2,40.8,2.13,11672.1,1652.4,709.29,2361.69,9310.41,394.23,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,32.66,82,320,589.5,122.4,2.04,19253.07,3997.58,652.8,4650.38,14602.69,314.01,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,41.85,99,105,725.4,163.2,1.46,30357.99,6829.92,153.3,6983.22,23374.77,334.73,Excellent
+Food Waste,Food,Biogas,33.3,76,241,76.8,10.6,0.88,2557.44,352.98,212.08,565.06,1992.38,352.6,Excellent
+Fly Ash,Thermal Power,Cement,36.14,76,24,89.6,12.72,1.58,3238.14,459.7,37.92,497.62,2740.52,550.73,Excellent
+Paper Sludge,Paper,Brick Manufacturing,46.33,85,81,99.38,14.0,1.62,4604.28,648.62,131.22,779.84,3824.44,490.41,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,81.11,94,280,301.4,37.6,1.1,24446.55,3049.74,308.0,3357.74,21088.81,628.07,Excellent
+Food Waste,Food,Biogas,55.84,94,308,82.2,9.4,2.15,4590.05,524.9,662.2,1187.1,3402.95,286.66,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,85.48,86,264,292.6,39.73,2.41,25011.45,3396.12,636.24,4032.36,20979.09,520.27,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,31.24,94,288,616.5,112.8,2.01,19259.46,3523.87,578.88,4102.75,15156.71,369.43,Excellent
+Bagasse,Sugar,Paper,38.64,95,66,151.25,16.8,2.49,5844.3,649.15,164.34,813.49,5030.81,618.42,Excellent
+Steel Slag,Steel,Construction,93.35,90,19,114.75,14.5,1.16,10711.91,1353.57,22.04,1375.61,9336.3,678.7,Excellent
+Rice Husk,Agriculture,Biofuel,61.84,91,348,128.72,19.2,1.54,7960.04,1187.33,535.92,1723.25,6236.79,361.92,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,63.14,70,251,562.5,132.0,2.33,35516.25,8334.48,584.83,8919.31,26596.94,298.2,Excellent
+Rice Husk,Agriculture,Biofuel,13.3,77,149,122.08,21.07,2.23,1623.66,280.23,332.27,612.5,1011.16,165.09,Excellent
+Steel Slag,Steel,Construction,29.02,84,445,112.2,15.1,0.89,3256.04,438.2,396.05,834.25,2421.79,290.3,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,48.89,97,256,304.7,36.8,1.95,14896.78,1799.15,499.2,2298.35,12598.43,548.15,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,95.09,92,60,1224.0,286.0,0.96,116390.16,27195.74,57.6,27253.34,89136.82,327.07,Excellent
+Cotton Scrap,Textile,Paper,89.21,96,317,248.4,32.43,2.31,22159.76,2893.08,732.27,3625.35,18534.41,511.24,Excellent
+Paper Sludge,Paper,Brick Manufacturing,21.1,90,470,101.25,13.53,2.38,2136.38,285.48,1118.6,1404.08,732.3,52.16,High Profit
+Paper Sludge,Paper,Brick Manufacturing,1.09,95,141,103.12,13.07,1.5,112.4,14.25,211.5,225.75,-113.35,-50.21,Loss
+Plastic Scrap,Packaging,Plastic Recycling,79.59,76,221,281.6,42.4,1.5,22412.54,3374.62,331.5,3706.12,18706.42,504.74,Excellent
+Cotton Scrap,Textile,Paper,7.04,87,84,240.3,34.53,1.87,1691.71,243.09,157.08,400.17,1291.54,322.75,Excellent
+Bagasse,Sugar,Paper,27.51,73,267,139.15,19.44,1.05,3828.02,534.79,280.35,815.14,3012.88,369.62,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,5.85,91,136,298.1,38.4,2.12,1743.88,224.64,288.32,512.96,1230.92,239.96,Excellent
+Glass Waste,Glass,Glass Recycling,50.77,86,245,133.0,21.85,2.31,6752.41,1109.32,565.95,1675.27,5077.14,303.06,Excellent
+Paper Sludge,Paper,Brick Manufacturing,29.5,85,410,99.38,14.0,1.79,2931.71,413.0,733.9,1146.9,1784.81,155.62,Excellent
+Cotton Scrap,Textile,Paper,74.15,72,478,226.8,38.03,1.03,16817.22,2819.92,492.34,3312.26,13504.96,407.73,Excellent
+Fly Ash,Thermal Power,Cement,92.81,93,171,95.55,11.36,1.79,8868.0,1054.32,306.09,1360.41,7507.59,551.86,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,86.47,99,217,627.75,108.8,0.98,54281.54,9407.94,212.66,9620.6,44660.94,464.22,Excellent
+Bagasse,Sugar,Paper,21.83,87,274,146.85,17.76,0.94,3205.74,387.7,257.56,645.26,2560.48,396.81,Excellent
+Fly Ash,Thermal Power,Cement,49.56,71,436,87.85,13.12,2.25,4353.85,650.23,981.0,1631.23,2722.62,166.91,Excellent
+Steel Slag,Steel,Construction,17.12,93,137,116.03,14.2,0.92,1986.43,243.1,126.04,369.14,1617.29,438.12,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,94.04,83,89,1183.5,304.0,2.07,111296.34,28588.16,184.23,28772.39,82523.95,286.82,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,53.96,88,278,603.0,117.6,1.33,32537.88,6345.7,369.74,6715.44,25822.44,384.52,Excellent
+Food Waste,Food,Biogas,41.96,81,193,78.3,10.27,1.62,3285.47,430.93,312.66,743.59,2541.88,341.84,Excellent
+Paper Sludge,Paper,Brick Manufacturing,35.72,81,381,97.88,14.37,1.86,3496.27,513.3,708.66,1221.96,2274.31,186.12,Excellent
+Cotton Scrap,Textile,Paper,1.9,70,205,225.0,38.5,2.34,427.5,73.15,479.7,552.85,-125.35,-22.67,Loss
+Glass Waste,Glass,Glass Recycling,29.25,73,500,126.5,23.76,1.45,3700.12,694.98,725.0,1419.98,2280.14,160.58,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,32.79,94,77,1233.0,282.0,1.77,40430.07,9246.78,136.29,9383.07,31047.0,330.88,Excellent
+Fly Ash,Thermal Power,Cement,73.57,91,489,94.85,11.52,1.12,6978.11,847.53,547.68,1395.21,5582.9,400.15,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,72.03,70,132,275.0,44.0,2.15,19808.25,3169.32,283.8,3453.12,16355.13,473.63,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,15.25,77,203,668.2,189.6,1.22,10190.05,2891.4,247.66,3139.06,7050.99,224.62,Excellent
+Food Waste,Food,Biogas,6.84,75,483,76.5,10.67,1.42,523.26,72.98,685.86,758.84,-235.58,-31.04,Loss
+Bagasse,Sugar,Paper,1.5,88,200,147.4,17.64,1.55,221.1,26.46,310.0,336.46,-115.36,-34.29,Loss
+E-Waste,Electronics,Authorized E-Waste Recycler,14.54,99,237,1255.5,272.0,1.06,18254.97,3954.88,251.22,4206.1,14048.87,334.01,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,12.21,93,18,1228.5,284.0,1.79,14999.99,3467.64,32.22,3499.86,11500.13,328.59,Excellent
+Fly Ash,Thermal Power,Cement,52.8,84,328,92.4,12.08,1.82,4878.72,637.82,596.96,1234.78,3643.94,295.11,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,6.73,96,176,1242.0,278.0,1.76,8358.66,1870.94,309.76,2180.7,6177.96,283.3,Excellent
+Rice Husk,Agriculture,Biofuel,16.23,97,210,131.57,18.4,2.25,2135.38,298.63,472.5,771.13,1364.25,176.92,Excellent
+Steel Slag,Steel,Construction,66.83,73,336,107.53,16.2,1.95,7186.23,1082.65,655.2,1737.85,5448.38,313.51,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,81.79,82,256,589.5,122.4,0.86,48215.21,10011.1,220.16,10231.26,37983.95,371.25,Excellent
+Fly Ash,Thermal Power,Cement,33.48,94,468,95.9,11.28,2.08,3210.73,377.65,973.44,1351.09,1859.64,137.64,Excellent
+Food Waste,Food,Biogas,87.34,75,416,76.5,10.67,0.8,6681.51,931.92,332.8,1264.72,5416.79,428.3,Excellent
+Food Waste,Food,Biogas,53.51,84,295,79.2,10.07,2.38,4237.99,538.85,702.1,1240.95,2997.04,241.51,Excellent
+Rice Husk,Agriculture,Biofuel,14.69,89,54,127.77,19.47,1.05,1876.94,286.01,56.7,342.71,1534.23,447.68,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,59.1,98,27,722.8,164.4,1.79,42717.48,9716.04,48.33,9764.37,32953.11,337.48,Excellent
+Rice Husk,Agriculture,Biofuel,95.84,78,474,122.55,20.93,1.72,11745.19,2005.93,815.28,2821.21,8923.98,316.32,Excellent
+Paper Sludge,Paper,Brick Manufacturing,74.95,82,310,98.25,14.28,2.16,7363.84,1070.29,669.6,1739.89,5623.95,323.24,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,35.57,76,21,576.0,127.2,1.9,20488.32,4524.5,39.9,4564.4,15923.92,348.87,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,78.06,92,113,707.2,171.6,1.96,55204.03,13395.1,221.48,13616.58,41587.45,305.42,Excellent
+Steel Slag,Steel,Construction,5.27,76,326,108.8,15.9,0.95,573.38,83.79,309.7,393.49,179.89,45.72,High Profit
+Glass Waste,Glass,Glass Recycling,54.77,73,452,126.5,23.76,1.23,6928.41,1301.34,555.96,1857.3,5071.11,273.04,Excellent
+Cotton Scrap,Textile,Paper,84.54,77,310,231.3,36.87,1.71,19554.1,3116.99,530.1,3647.09,15907.01,436.16,Excellent
+Rice Husk,Agriculture,Biofuel,28.5,83,268,124.92,20.27,1.96,3560.22,577.69,525.28,1102.97,2457.25,222.78,Excellent
+Glass Waste,Glass,Glass Recycling,2.83,75,361,127.5,23.47,1.89,360.82,66.42,682.29,748.71,-387.89,-51.81,Loss
+Used Oil,Automotive,Authorized Oil Recycler,55.9,76,88,576.0,127.2,1.61,32198.4,7110.48,141.68,7252.16,24946.24,343.98,Excellent
+Paper Sludge,Paper,Brick Manufacturing,83.54,97,474,103.88,12.88,1.27,8678.14,1076.0,601.98,1677.98,7000.16,417.18,Excellent
+Rice Husk,Agriculture,Biofuel,89.56,93,86,129.68,18.93,2.42,11614.14,1695.37,208.12,1903.49,9710.65,510.15,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,26.99,98,400,625.5,109.6,1.29,16882.24,2958.1,516.0,3474.1,13408.14,385.95,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,26.38,82,84,288.2,40.8,1.34,7602.72,1076.3,112.56,1188.86,6413.86,539.5,Excellent
+Bagasse,Sugar,Paper,5.35,94,302,150.7,16.92,2.33,806.24,90.52,703.66,794.18,12.06,1.52,Low Profit
+Chemical Sludge,Chemical,Hazardous Treatment Facility,7.29,70,79,650.0,198.0,0.85,4738.5,1443.42,67.15,1510.57,3227.93,213.69,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,8.64,90,235,297.0,38.67,1.75,2566.08,334.11,411.25,745.36,1820.72,244.27,Excellent
+Fly Ash,Thermal Power,Cement,61.51,75,112,89.25,12.8,1.44,5489.77,787.33,161.28,948.61,4541.16,478.72,Excellent
+Paper Sludge,Paper,Brick Manufacturing,45.83,77,17,96.38,14.75,2.2,4417.1,675.99,37.4,713.39,3703.71,519.17,Excellent
+Cotton Scrap,Textile,Paper,3.69,81,45,234.9,35.93,1.67,866.78,132.58,75.15,207.73,659.05,317.26,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,82.31,98,434,305.8,36.53,2.49,25170.4,3006.78,1080.66,4087.44,21082.96,515.8,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,16.1,71,250,1129.5,328.0,0.94,18184.95,5280.8,235.0,5515.8,12669.15,229.69,Excellent
+Fly Ash,Thermal Power,Cement,40.45,93,264,95.55,11.36,2.43,3865.0,459.51,641.52,1101.03,2763.97,251.03,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,68.3,75,265,1147.5,320.0,1.4,78374.25,21856.0,371.0,22227.0,56147.25,252.61,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,23.27,96,148,1242.0,278.0,0.91,28901.34,6469.06,134.68,6603.74,22297.6,337.65,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,80.42,70,243,562.5,132.0,1.82,45236.25,10615.44,442.26,11057.7,34178.55,309.09,Excellent
+Rice Husk,Agriculture,Biofuel,30.43,94,363,130.15,18.8,2.32,3960.46,572.08,842.16,1414.24,2546.22,180.04,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,11.31,89,14,295.9,38.93,2.45,3346.63,440.3,34.3,474.6,2872.03,605.15,Excellent
+Rice Husk,Agriculture,Biofuel,23.75,72,168,119.7,21.73,2.43,2842.88,516.09,408.24,924.33,1918.55,207.56,Excellent
+Glass Waste,Glass,Glass Recycling,15.03,71,352,125.5,24.05,2.1,1886.26,361.47,739.2,1100.67,785.59,71.37,High Profit
+Plastic Scrap,Packaging,Plastic Recycling,60.83,75,330,280.5,42.67,2.27,17062.81,2595.62,749.1,3344.72,13718.09,410.14,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,7.43,96,422,1242.0,278.0,1.17,9228.06,2065.54,493.74,2559.28,6668.78,260.57,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,31.39,73,206,278.3,43.2,2.17,8735.84,1356.05,447.02,1803.07,6932.77,384.5,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,16.58,91,378,1219.5,288.0,1.65,20219.31,4775.04,623.7,5398.74,14820.57,274.52,Excellent
+Cotton Scrap,Textile,Paper,39.33,95,494,247.5,32.67,1.59,9734.17,1284.91,785.46,2070.37,7663.8,370.17,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,48.9,86,322,598.5,119.2,2.21,29266.65,5828.88,711.62,6540.5,22726.15,347.47,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,68.36,95,364,302.5,37.33,2.37,20678.9,2551.88,862.68,3414.56,17264.34,505.61,Excellent
+Food Waste,Food,Biogas,1.8,71,399,75.3,10.93,2.1,135.54,19.67,837.9,857.57,-722.03,-84.19,Loss
+Cotton Scrap,Textile,Paper,52.79,88,268,241.2,34.3,2.04,12732.95,1810.7,546.72,2357.42,10375.53,440.12,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,64.11,85,117,291.5,40.0,1.46,18688.06,2564.4,170.82,2735.22,15952.84,583.24,Excellent
+Glass Waste,Glass,Glass Recycling,63.79,89,189,134.5,21.41,2.38,8579.75,1365.74,449.82,1815.56,6764.19,372.57,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,36.52,75,53,1147.5,320.0,0.9,41906.7,11686.4,47.7,11734.1,30172.6,257.14,Excellent
+Steel Slag,Steel,Construction,29.17,93,306,116.03,14.2,0.97,3384.6,414.21,296.82,711.03,2673.57,376.01,Excellent
+Glass Waste,Glass,Glass Recycling,37.36,93,35,136.5,20.83,1.26,5099.64,778.21,44.1,822.31,4277.33,520.16,Excellent
+Fly Ash,Thermal Power,Cement,28.26,89,43,94.15,11.68,2.35,2660.68,330.08,101.05,431.13,2229.55,517.14,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,70.09,94,360,1233.0,282.0,0.97,86420.97,19765.38,349.2,20114.58,66306.39,329.64,Excellent
+Rice Husk,Agriculture,Biofuel,94.91,70,72,118.75,22.0,2.43,11270.56,2088.02,174.96,2262.98,9007.58,398.04,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,28.09,76,183,281.6,42.4,1.43,7910.14,1191.02,261.69,1452.71,6457.43,444.51,Excellent
+Rice Husk,Agriculture,Biofuel,46.09,95,348,130.62,18.67,2.1,6020.28,860.5,730.8,1591.3,4428.98,278.32,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,18.33,89,232,1210.5,292.0,2.11,22188.46,5352.36,489.52,5841.88,16346.58,279.82,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,58.92,87,65,600.75,118.4,2.09,35396.19,6976.13,135.85,7111.98,28284.21,397.7,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,15.33,74,115,279.4,42.93,1.51,4283.2,658.12,173.65,831.77,3451.43,414.95,Excellent
+Rice Husk,Agriculture,Biofuel,99.68,97,70,131.57,18.4,1.12,13114.9,1834.11,78.4,1912.51,11202.39,585.74,Excellent
+Glass Waste,Glass,Glass Recycling,28.16,95,130,137.5,20.53,1.71,3872.0,578.12,222.3,800.42,3071.58,383.75,Excellent
+Bagasse,Sugar,Paper,71.39,84,497,145.2,18.12,1.64,10365.83,1293.59,815.08,2108.67,8257.16,391.58,Excellent
+Cotton Scrap,Textile,Paper,40.28,87,137,240.3,34.53,1.22,9679.28,1390.87,167.14,1558.01,8121.27,521.26,Excellent
+Cotton Scrap,Textile,Paper,77.84,94,358,246.6,32.9,1.89,19195.34,2560.94,676.62,3237.56,15957.78,492.9,Excellent
+Rice Husk,Agriculture,Biofuel,57.25,99,180,132.53,18.13,2.34,7587.34,1037.94,421.2,1459.14,6128.2,419.99,Excellent
+Bagasse,Sugar,Paper,21.09,88,131,147.4,17.64,1.66,3108.67,372.03,217.46,589.49,2519.18,427.35,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,55.25,90,337,1215.0,290.0,2.3,67128.75,16022.5,775.1,16797.6,50331.15,299.63,Excellent
+Fly Ash,Thermal Power,Cement,78.43,76,432,89.6,12.72,1.5,7027.33,997.63,648.0,1645.63,5381.7,327.03,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,39.02,79,359,673.4,187.2,1.12,26276.07,7304.54,402.08,7706.62,18569.45,240.95,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,59.22,85,199,596.25,120.0,2.02,35309.93,7106.4,401.98,7508.38,27801.55,370.27,Excellent
+Food Waste,Food,Biogas,1.82,77,48,77.1,10.53,1.09,140.32,19.16,52.32,71.48,68.84,96.31,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,22.46,82,381,589.5,122.4,0.88,13240.17,2749.1,335.28,3084.38,10155.79,329.27,Excellent
+Fly Ash,Thermal Power,Cement,77.81,76,471,89.6,12.72,1.97,6971.78,989.74,927.87,1917.61,5054.17,263.57,Excellent
+Cotton Scrap,Textile,Paper,70.07,73,113,227.7,37.8,1.95,15954.94,2648.65,220.35,2869.0,13085.94,456.12,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,51.63,81,70,678.6,184.8,2.49,35036.12,9541.22,174.3,9715.52,25320.6,260.62,Excellent
+Steel Slag,Steel,Construction,39.33,70,436,106.25,16.5,2.12,4178.81,648.94,924.32,1573.26,2605.55,165.61,Excellent
+Bagasse,Sugar,Paper,88.21,71,200,138.05,19.68,1.73,12177.39,1735.97,346.0,2081.97,10095.42,484.9,Excellent
+Food Waste,Food,Biogas,9.44,83,304,78.9,10.13,1.24,744.82,95.63,376.96,472.59,272.23,57.6,High Profit
+Rice Husk,Agriculture,Biofuel,45.05,94,112,130.15,18.8,2.05,5863.26,846.94,229.6,1076.54,4786.72,444.64,Excellent
+Paper Sludge,Paper,Brick Manufacturing,33.09,71,363,94.12,15.31,1.25,3114.43,506.61,453.75,960.36,2154.07,224.3,Excellent
+Steel Slag,Steel,Construction,57.22,99,315,118.58,13.6,1.61,6785.15,778.19,507.15,1285.34,5499.81,427.89,Excellent
+Paper Sludge,Paper,Brick Manufacturing,78.58,71,187,94.12,15.31,2.17,7395.95,1203.06,405.79,1608.85,5787.1,359.7,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,13.19,72,400,567.0,130.4,2.35,7478.73,1719.98,940.0,2659.98,4818.75,181.16,Excellent
+Fly Ash,Thermal Power,Cement,44.67,81,428,91.35,12.32,2.23,4080.6,550.33,954.44,1504.77,2575.83,171.18,Excellent
+Paper Sludge,Paper,Brick Manufacturing,93.01,98,412,104.25,12.79,1.59,9696.29,1189.6,655.08,1844.68,7851.61,425.64,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,65.44,88,189,1206.0,294.0,1.8,78920.64,19239.36,340.2,19579.56,59341.08,303.08,Excellent
+Rice Husk,Agriculture,Biofuel,3.45,81,104,123.98,20.53,1.81,427.73,70.83,188.24,259.07,168.66,65.1,High Profit
+Bagasse,Sugar,Paper,86.33,83,317,144.65,18.24,1.31,12487.63,1574.66,415.27,1989.93,10497.7,527.54,Excellent
+Food Waste,Food,Biogas,22.07,83,11,78.9,10.13,1.24,1741.32,223.57,13.64,237.21,1504.11,634.08,Excellent
+Cotton Scrap,Textile,Paper,3.74,97,176,249.3,32.2,1.83,932.38,120.43,322.08,442.51,489.87,110.7,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,5.24,98,476,305.8,36.53,1.08,1602.39,191.42,514.08,705.5,896.89,127.13,Excellent
+Fly Ash,Thermal Power,Cement,4.33,76,99,89.6,12.72,1.38,387.97,55.08,136.62,191.7,196.27,102.38,Excellent
+Paper Sludge,Paper,Brick Manufacturing,86.5,86,143,99.75,13.91,2.49,8628.38,1203.21,356.07,1559.28,7069.1,453.36,Excellent
+Fly Ash,Thermal Power,Cement,65.54,96,89,96.6,11.12,1.48,6331.16,728.8,131.72,860.52,5470.64,635.74,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,83.73,88,482,696.8,176.4,2.25,58343.06,14769.97,1084.5,15854.47,42488.59,267.99,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,55.47,83,108,1183.5,304.0,2.12,65648.74,16862.88,228.96,17091.84,48556.9,284.09,Excellent
+Cotton Scrap,Textile,Paper,68.77,76,249,230.4,37.1,2.27,15844.61,2551.37,565.23,3116.6,12728.01,408.39,Excellent
+Rice Husk,Agriculture,Biofuel,24.01,70,453,118.75,22.0,1.81,2851.19,528.22,819.93,1348.15,1503.04,111.49,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,73.56,88,472,1206.0,294.0,2.06,88713.36,21626.64,972.32,22598.96,66114.4,292.56,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,69.91,98,340,625.5,109.6,1.75,43728.7,7662.14,595.0,8257.14,35471.56,429.59,Excellent
+Steel Slag,Steel,Construction,48.94,90,250,114.75,14.5,1.92,5615.86,709.63,480.0,1189.63,4426.23,372.07,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,97.01,97,241,720.2,165.6,2.26,69866.6,16064.86,544.66,16609.52,53257.08,320.64,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,1.38,95,444,1237.5,280.0,1.61,1707.75,386.4,714.84,1101.24,606.51,55.08,High Profit
+E-Waste,Electronics,Authorized E-Waste Recycler,90.1,76,10,1152.0,318.0,1.9,103795.2,28651.8,19.0,28670.8,75124.4,262.02,Excellent
+Glass Waste,Glass,Glass Recycling,67.95,72,77,126.0,23.91,2.42,8561.7,1624.68,186.34,1811.02,6750.68,372.76,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,37.3,78,202,283.8,41.87,1.27,10585.74,1561.75,256.54,1818.29,8767.45,482.18,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,7.07,75,219,1147.5,320.0,2.37,8112.83,2262.4,519.03,2781.43,5331.4,191.68,Excellent
+Steel Slag,Steel,Construction,71.22,75,301,108.37,16.0,1.08,7718.11,1139.52,325.08,1464.6,6253.51,426.98,Excellent
+Glass Waste,Glass,Glass Recycling,61.62,90,262,135.0,21.27,2.09,8318.7,1310.66,547.58,1858.24,6460.46,347.67,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,52.26,92,72,612.0,114.4,2.38,31983.12,5978.54,171.36,6149.9,25833.22,420.06,Excellent
+Rice Husk,Agriculture,Biofuel,66.91,78,210,122.55,20.93,1.47,8199.82,1400.43,308.7,1709.13,6490.69,379.77,Excellent
+Paper Sludge,Paper,Brick Manufacturing,34.65,99,171,104.62,12.69,0.93,3625.08,439.71,159.03,598.74,3026.34,505.45,Excellent
+Rice Husk,Agriculture,Biofuel,94.34,79,316,123.02,20.8,1.61,11605.71,1962.27,508.76,2471.03,9134.68,369.67,Excellent
+Bagasse,Sugar,Paper,92.4,90,73,148.5,17.4,2.04,13721.4,1607.76,148.92,1756.68,11964.72,681.1,Excellent
+Glass Waste,Glass,Glass Recycling,35.8,82,497,131.0,22.44,1.59,4689.8,803.35,790.23,1593.58,3096.22,194.29,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,42.31,88,133,1206.0,294.0,1.06,51025.86,12439.14,140.98,12580.12,38445.74,305.61,Excellent
+Fly Ash,Thermal Power,Cement,41.86,84,122,92.4,12.08,0.87,3867.86,505.67,106.14,611.81,3256.05,532.2,Excellent
+Fly Ash,Thermal Power,Cement,38.53,99,178,97.65,10.88,0.83,3762.45,419.21,147.74,566.95,3195.5,563.63,Excellent
+Paper Sludge,Paper,Brick Manufacturing,72.02,80,349,97.5,14.47,1.35,7021.95,1042.13,471.15,1513.28,5508.67,364.02,Excellent
+Fly Ash,Thermal Power,Cement,40.47,79,444,90.65,12.48,2.16,3668.61,505.07,959.04,1464.11,2204.5,150.57,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,23.45,93,450,1228.5,284.0,1.86,28808.33,6659.8,837.0,7496.8,21311.53,284.28,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,54.33,73,70,569.25,129.6,0.96,30927.35,7041.17,67.2,7108.37,23818.98,335.08,Excellent
+Fly Ash,Thermal Power,Cement,59.2,98,255,97.3,10.96,1.39,5760.16,648.83,354.45,1003.28,4756.88,474.13,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,62.15,92,224,1224.0,286.0,2.35,76071.6,17774.9,526.4,18301.3,57770.3,315.66,Excellent
+Glass Waste,Glass,Glass Recycling,4.55,94,31,137.0,20.68,1.11,623.35,94.09,34.41,128.5,494.85,385.1,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,54.06,91,488,609.75,115.2,1.93,32963.08,6227.71,941.84,7169.55,25793.53,359.76,Excellent
+Food Waste,Food,Biogas,32.17,70,97,75.0,11.0,0.82,2412.75,353.87,79.54,433.41,1979.34,456.69,Excellent
+Cotton Scrap,Textile,Paper,64.26,76,245,230.4,37.1,1.93,14805.5,2384.05,472.85,2856.9,11948.6,418.24,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,11.66,81,180,287.1,41.07,1.49,3347.59,478.88,268.2,747.08,2600.51,348.09,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,10.78,70,98,275.0,44.0,2.19,2964.5,474.32,214.62,688.94,2275.56,330.3,Excellent
+Cotton Scrap,Textile,Paper,62.08,83,211,236.7,35.47,1.7,14694.34,2201.98,358.7,2560.68,12133.66,473.85,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,6.37,70,289,650.0,198.0,1.06,4140.5,1261.26,306.34,1567.6,2572.9,164.13,Excellent
+Steel Slag,Steel,Construction,91.66,70,337,106.25,16.5,1.7,9738.88,1512.39,572.9,2085.29,7653.59,367.03,Excellent
+Paper Sludge,Paper,Brick Manufacturing,45.42,82,193,98.25,14.28,1.07,4462.52,648.6,206.51,855.11,3607.41,421.87,Excellent
+Food Waste,Food,Biogas,20.9,71,138,75.3,10.93,1.92,1573.77,228.44,264.96,493.4,1080.37,218.96,Excellent
+Bagasse,Sugar,Paper,89.27,90,117,148.5,17.4,1.54,13256.59,1553.3,180.18,1733.48,11523.11,664.74,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,47.53,83,422,591.75,121.6,2.16,28125.88,5779.65,911.52,6691.17,21434.71,320.34,Excellent
+Food Waste,Food,Biogas,70.95,70,96,75.0,11.0,1.72,5321.25,780.45,165.12,945.57,4375.68,462.76,Excellent
+Paper Sludge,Paper,Brick Manufacturing,49.49,84,120,99.0,14.09,1.8,4899.51,697.31,216.0,913.31,3986.2,436.46,Excellent
+Cotton Scrap,Textile,Paper,57.5,84,451,237.6,35.23,1.87,13662.0,2025.72,843.37,2869.09,10792.91,376.18,Excellent
+Glass Waste,Glass,Glass Recycling,4.01,85,293,132.5,22.0,0.88,531.32,88.22,257.84,346.06,185.26,53.53,High Profit
+Used Oil,Automotive,Authorized Oil Recycler,98.83,78,168,580.5,125.6,1.92,57370.82,12413.05,322.56,12735.61,44635.21,350.48,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,32.02,93,235,1228.5,284.0,2.39,39336.57,9093.68,561.65,9655.33,29681.24,307.41,Excellent
+Steel Slag,Steel,Construction,56.53,85,235,112.62,15.0,1.77,6366.41,847.95,415.95,1263.9,5102.51,403.71,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,74.07,83,139,591.75,121.6,0.91,43830.92,9006.91,126.49,9133.4,34697.52,379.9,Excellent
+Bagasse,Sugar,Paper,92.59,98,264,152.9,16.44,2.11,14157.01,1522.18,557.04,2079.22,12077.79,580.88,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,11.16,80,41,585.0,124.0,1.83,6528.6,1383.84,75.03,1458.87,5069.73,347.51,Excellent
+Rice Husk,Agriculture,Biofuel,59.65,81,389,123.98,20.53,1.72,7395.41,1224.61,669.08,1893.69,5501.72,290.53,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,5.69,77,288,668.2,189.6,0.95,3802.06,1078.82,273.6,1352.42,2449.64,181.13,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,73.13,80,412,1170.0,310.0,1.84,85562.1,22670.3,758.08,23428.38,62133.72,265.21,Excellent
+Paper Sludge,Paper,Brick Manufacturing,98.9,95,459,103.12,13.07,0.97,10198.57,1292.62,445.23,1737.85,8460.72,486.85,Excellent
+Food Waste,Food,Biogas,10.33,90,139,81.0,9.67,0.9,836.73,99.89,125.1,224.99,611.74,271.9,Excellent
+Glass Waste,Glass,Glass Recycling,58.84,72,252,126.0,23.91,1.93,7413.84,1406.86,486.36,1893.22,5520.62,291.6,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,28.9,77,341,282.7,42.13,1.55,8170.03,1217.56,528.55,1746.11,6423.92,367.9,Excellent
+Steel Slag,Steel,Construction,61.46,98,268,118.15,13.7,1.51,7261.5,842.0,404.68,1246.68,6014.82,482.47,Excellent
+Steel Slag,Steel,Construction,14.29,76,215,108.8,15.9,1.91,1554.75,227.21,410.65,637.86,916.89,143.74,Excellent
+Cotton Scrap,Textile,Paper,32.23,92,114,244.8,33.37,0.96,7889.9,1075.52,109.44,1184.96,6704.94,565.84,Excellent
+Fly Ash,Thermal Power,Cement,23.13,73,28,88.55,12.96,1.07,2048.16,299.76,29.96,329.72,1718.44,521.18,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,29.47,87,215,600.75,118.4,1.0,17704.1,3489.25,215.0,3704.25,13999.85,377.94,Excellent
+Cotton Scrap,Textile,Paper,20.74,82,22,235.8,35.7,2.49,4890.49,740.42,54.78,795.2,4095.29,515.0,Excellent
+Paper Sludge,Paper,Brick Manufacturing,13.11,80,393,97.5,14.47,2.27,1278.22,189.7,892.11,1081.81,196.41,18.16,Moderate Profit
+Rice Husk,Agriculture,Biofuel,57.62,82,456,124.45,20.4,2.4,7170.81,1175.45,1094.4,2269.85,4900.96,215.92,Excellent
+Cotton Scrap,Textile,Paper,8.14,95,368,247.5,32.67,2.15,2014.65,265.93,791.2,1057.13,957.52,90.58,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,64.99,86,161,598.5,119.2,1.02,38896.51,7746.81,164.22,7911.03,30985.48,391.67,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,98.07,97,61,720.2,165.6,0.81,70630.01,16240.39,49.41,16289.8,54340.21,333.58,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,96.39,91,137,1219.5,288.0,2.48,117547.6,27760.32,339.76,28100.08,89447.52,318.32,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,9.95,80,266,1170.0,310.0,2.37,11641.5,3084.5,630.42,3714.92,7926.58,213.37,Excellent
+Paper Sludge,Paper,Brick Manufacturing,12.36,89,208,100.88,13.63,0.89,1246.88,168.47,185.12,353.59,893.29,252.63,Excellent
+Rice Husk,Agriculture,Biofuel,32.75,88,454,127.3,19.6,2.18,4169.07,641.9,989.72,1631.62,2537.45,155.52,Excellent
+Paper Sludge,Paper,Brick Manufacturing,79.06,70,191,93.75,15.4,2.26,7411.88,1217.52,431.66,1649.18,5762.7,349.43,Excellent
+Rice Husk,Agriculture,Biofuel,6.63,85,402,125.88,20.0,1.1,834.58,132.6,442.2,574.8,259.78,45.19,High Profit
+Bagasse,Sugar,Paper,21.72,96,250,151.8,16.68,2.29,3297.1,362.29,572.5,934.79,2362.31,252.71,Excellent
+Glass Waste,Glass,Glass Recycling,71.23,76,307,128.0,23.32,1.59,9117.44,1661.08,488.13,2149.21,6968.23,324.22,Excellent
+Glass Waste,Glass,Glass Recycling,65.44,73,91,126.5,23.76,2.0,8278.16,1554.85,182.0,1736.85,6541.31,376.62,Excellent
+Paper Sludge,Paper,Brick Manufacturing,28.62,83,92,98.62,14.19,0.9,2822.5,406.12,82.8,488.92,2333.58,477.29,Excellent
+Cotton Scrap,Textile,Paper,97.1,79,351,233.1,36.4,1.49,22634.01,3534.44,522.99,4057.43,18576.58,457.84,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,36.17,86,344,1197.0,298.0,1.37,43295.49,10778.66,471.28,11249.94,32045.55,284.85,Excellent
+Food Waste,Food,Biogas,76.61,88,87,80.4,9.8,0.99,6159.44,750.78,86.13,836.91,5322.53,635.97,Excellent
+Bagasse,Sugar,Paper,10.85,83,351,144.65,18.24,1.83,1569.45,197.9,642.33,840.23,729.22,86.79,Excellent
+Paper Sludge,Paper,Brick Manufacturing,47.18,72,38,94.5,15.21,0.81,4458.51,717.61,30.78,748.39,3710.12,495.75,Excellent
+Food Waste,Food,Biogas,43.21,77,466,77.1,10.53,0.98,3331.49,455.0,456.68,911.68,2419.81,265.42,Excellent
+Fly Ash,Thermal Power,Cement,92.51,80,260,91.0,12.4,1.06,8418.41,1147.12,275.6,1422.72,6995.69,491.71,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,29.83,95,274,302.5,37.33,0.8,9023.57,1113.55,219.2,1332.75,7690.82,577.06,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,80.98,76,125,1152.0,318.0,1.41,93288.96,25751.64,176.25,25927.89,67361.07,259.8,Excellent
+Bagasse,Sugar,Paper,62.99,82,173,144.1,18.36,2.07,9076.86,1156.5,358.11,1514.61,7562.25,499.29,Excellent
+Rice Husk,Agriculture,Biofuel,85.84,86,328,126.35,19.87,1.23,10845.88,1705.64,403.44,2109.08,8736.8,414.25,Excellent
+Steel Slag,Steel,Construction,69.45,97,122,117.72,13.8,1.25,8175.65,958.41,152.5,1110.91,7064.74,635.94,Excellent
+Food Waste,Food,Biogas,6.01,86,129,79.8,9.93,2.15,479.6,59.68,277.35,337.03,142.57,42.3,High Profit
+Fly Ash,Thermal Power,Cement,81.77,75,230,89.25,12.8,1.88,7297.97,1046.66,432.4,1479.06,5818.91,393.42,Excellent
+Paper Sludge,Paper,Brick Manufacturing,77.0,81,70,97.88,14.37,2.32,7536.76,1106.49,162.4,1268.89,6267.87,493.96,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,4.88,93,319,614.25,113.6,2.11,2997.54,554.37,673.09,1227.46,1770.08,144.21,Excellent
+Fly Ash,Thermal Power,Cement,76.55,74,380,88.9,12.88,0.87,6805.3,985.96,330.6,1316.56,5488.74,416.9,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,93.85,77,19,1156.5,316.0,1.55,108537.52,29656.6,29.45,29686.05,78851.47,265.62,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,71.62,71,256,564.75,131.2,1.6,40447.4,9396.54,409.6,9806.14,30641.26,312.47,Excellent
+Glass Waste,Glass,Glass Recycling,29.16,85,304,132.5,22.0,1.04,3863.7,641.52,316.16,957.68,2906.02,303.44,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,80.4,88,145,603.0,117.6,2.08,48481.2,9455.04,301.6,9756.64,38724.56,396.9,Excellent
+Glass Waste,Glass,Glass Recycling,21.68,98,203,139.0,20.09,2.26,3013.52,435.55,458.78,894.33,2119.19,236.96,Excellent
+Bagasse,Sugar,Paper,35.53,84,228,145.2,18.12,1.49,5158.96,643.8,339.72,983.52,4175.44,424.54,Excellent
+Cotton Scrap,Textile,Paper,88.02,91,111,243.9,33.6,2.07,21468.08,2957.47,229.77,3187.24,18280.84,573.56,Excellent
+Bagasse,Sugar,Paper,98.06,74,51,139.7,19.32,1.1,13698.98,1894.52,56.1,1950.62,11748.36,602.29,Excellent
+Food Waste,Food,Biogas,27.65,92,87,81.6,9.53,1.25,2256.24,263.5,108.75,372.25,1883.99,506.11,Excellent
+Rice Husk,Agriculture,Biofuel,16.38,88,213,127.3,19.6,1.39,2085.17,321.05,296.07,617.12,1468.05,237.89,Excellent
+Fly Ash,Thermal Power,Cement,8.35,88,303,93.8,11.76,2.18,783.23,98.2,660.54,758.74,24.49,3.23,Low Profit
+Cotton Scrap,Textile,Paper,33.31,91,205,243.9,33.6,1.86,8124.31,1119.22,381.3,1500.52,6623.79,441.43,Excellent
+Steel Slag,Steel,Construction,82.48,85,394,112.62,15.0,1.79,9288.9,1237.2,705.26,1942.46,7346.44,378.2,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,19.91,83,304,591.75,121.6,2.12,11781.74,2421.06,644.48,3065.54,8716.2,284.33,Excellent
+Food Waste,Food,Biogas,97.98,96,237,82.8,9.27,2.38,8112.74,908.27,564.06,1472.33,6640.41,451.01,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,11.18,86,424,292.6,39.73,2.37,3271.27,444.18,1004.88,1449.06,1822.21,125.75,Excellent
+Cotton Scrap,Textile,Paper,75.41,95,181,247.5,32.67,1.18,18663.97,2463.64,213.58,2677.22,15986.75,597.14,Excellent
+Glass Waste,Glass,Glass Recycling,90.1,91,334,135.5,21.12,1.83,12208.55,1902.91,611.22,2514.13,9694.42,385.6,Excellent
+Paper Sludge,Paper,Brick Manufacturing,35.38,97,284,103.88,12.88,1.45,3675.27,455.69,411.8,867.49,2807.78,323.67,Excellent
+Paper Sludge,Paper,Brick Manufacturing,63.28,84,383,99.0,14.09,1.26,6264.72,891.62,482.58,1374.2,4890.52,355.88,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,53.18,88,11,696.8,176.4,2.18,37055.82,9380.95,23.98,9404.93,27650.89,294.0,Excellent
+Glass Waste,Glass,Glass Recycling,82.12,99,182,139.5,19.95,2.28,11455.74,1638.29,414.96,2053.25,9402.49,457.93,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,95.06,86,123,598.5,119.2,2.07,56893.41,11331.15,254.61,11585.76,45307.65,391.06,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,9.28,99,205,1255.5,272.0,1.22,11651.04,2524.16,250.1,2774.26,8876.78,319.97,Excellent
+Cotton Scrap,Textile,Paper,1.99,83,62,236.7,35.47,2.03,471.03,70.59,125.86,196.45,274.58,139.77,Excellent
+Glass Waste,Glass,Glass Recycling,48.01,98,52,139.0,20.09,1.13,6673.39,964.52,58.76,1023.28,5650.11,552.16,Excellent
+Paper Sludge,Paper,Brick Manufacturing,44.38,83,103,98.62,14.19,1.47,4376.76,629.75,151.41,781.16,3595.6,460.29,Excellent
+Steel Slag,Steel,Construction,2.04,71,184,106.67,16.4,1.48,217.61,33.46,272.32,305.78,-88.17,-28.83,Loss
+Used Oil,Automotive,Authorized Oil Recycler,89.37,96,487,621.0,111.2,1.48,55498.77,9937.94,720.76,10658.7,44840.07,420.69,Excellent
+Paper Sludge,Paper,Brick Manufacturing,11.61,77,492,96.38,14.75,1.23,1118.97,171.25,605.16,776.41,342.56,44.12,High Profit
+Plastic Scrap,Packaging,Plastic Recycling,31.87,79,371,284.9,41.6,1.2,9079.76,1325.79,445.2,1770.99,7308.77,412.69,Excellent
+Bagasse,Sugar,Paper,46.87,97,220,152.35,16.56,1.14,7140.64,776.17,250.8,1026.97,6113.67,595.31,Excellent
+Steel Slag,Steel,Construction,37.9,88,476,113.9,14.7,1.59,4316.81,557.13,756.84,1313.97,3002.84,228.53,Excellent
+Cotton Scrap,Textile,Paper,16.27,97,211,249.3,32.2,2.14,4056.11,523.89,451.54,975.43,3080.68,315.83,Excellent
+Fly Ash,Thermal Power,Cement,64.01,70,248,87.5,13.2,2.09,5600.88,844.93,518.32,1363.25,4237.63,310.85,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,69.6,72,396,1134.0,326.0,1.26,78926.4,22689.6,498.96,23188.56,55737.84,240.37,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,84.23,95,119,715.0,168.0,1.47,60224.45,14150.64,174.93,14325.57,45898.88,320.4,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,81.67,75,311,1147.5,320.0,1.9,93716.32,26134.4,590.9,26725.3,66991.02,250.67,Excellent
+Food Waste,Food,Biogas,51.07,72,234,75.6,10.87,1.91,3860.89,555.13,446.94,1002.07,2858.82,285.29,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,8.48,70,499,650.0,198.0,1.74,5512.0,1679.04,868.26,2547.3,2964.7,116.39,Excellent
+Food Waste,Food,Biogas,18.77,97,145,83.1,9.2,1.75,1559.79,172.68,253.75,426.43,1133.36,265.78,Excellent
+Bagasse,Sugar,Paper,98.72,70,298,137.5,19.8,1.08,13574.0,1954.66,321.84,2276.5,11297.5,496.27,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,46.79,99,473,627.75,108.8,2.35,29372.42,5090.75,1111.55,6202.3,23170.12,373.57,Excellent
+Fly Ash,Thermal Power,Cement,16.74,89,25,94.15,11.68,1.05,1576.07,195.52,26.25,221.77,1354.3,610.68,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,5.79,71,22,276.1,43.73,2.38,1598.62,253.2,52.36,305.56,1293.06,423.18,Excellent
+Rice Husk,Agriculture,Biofuel,88.5,97,189,131.57,18.4,2.22,11643.94,1628.4,419.58,2047.98,9595.96,468.56,Excellent
+Food Waste,Food,Biogas,39.91,85,248,79.5,10.0,0.85,3172.84,399.1,210.8,609.9,2562.94,420.22,Excellent
+Fly Ash,Thermal Power,Cement,57.53,74,432,88.9,12.88,1.62,5114.42,740.99,699.84,1440.83,3673.59,254.96,Excellent
+Fly Ash,Thermal Power,Cement,86.03,85,275,92.75,12.0,1.83,7979.28,1032.36,503.25,1535.61,6443.67,419.62,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,61.67,96,144,621.0,111.2,1.9,38297.07,6857.7,273.6,7131.3,31165.77,437.03,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,47.63,88,489,696.8,176.4,1.47,33188.58,8401.93,718.83,9120.76,24067.82,263.88,Excellent
+Food Waste,Food,Biogas,2.22,88,173,80.4,9.8,1.01,178.49,21.76,174.73,196.49,-18.0,-9.16,Loss
+Glass Waste,Glass,Glass Recycling,19.43,77,410,128.5,23.17,1.53,2496.76,450.19,627.3,1077.49,1419.27,131.72,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,7.85,89,375,699.4,175.2,2.36,5490.29,1375.32,885.0,2260.32,3229.97,142.9,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,29.07,91,321,298.1,38.4,2.26,8665.77,1116.29,725.46,1841.75,6824.02,370.52,Excellent
+Bagasse,Sugar,Paper,42.53,80,138,143.0,18.6,1.67,6081.79,791.06,230.46,1021.52,5060.27,495.37,Excellent
+Cotton Scrap,Textile,Paper,95.76,72,495,226.8,38.03,0.84,21718.37,3641.75,415.8,4057.55,17660.82,435.26,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,21.68,93,213,614.25,113.6,2.02,13316.94,2462.85,430.26,2893.11,10423.83,360.3,Excellent
+Rice Husk,Agriculture,Biofuel,26.88,96,332,131.1,18.53,1.81,3523.97,498.09,600.92,1099.01,2424.96,220.65,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,54.4,94,456,712.4,169.2,2.31,38754.56,9204.48,1053.36,10257.84,28496.72,277.8,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,52.72,77,207,1156.5,316.0,2.09,60970.68,16659.52,432.63,17092.15,43878.53,256.72,Excellent
+Steel Slag,Steel,Construction,88.79,72,403,107.1,16.3,2.38,9509.41,1447.28,959.14,2406.42,7102.99,295.17,Excellent
+Food Waste,Food,Biogas,76.06,85,340,79.5,10.0,0.89,6046.77,760.6,302.6,1063.2,4983.57,468.73,Excellent
+Paper Sludge,Paper,Brick Manufacturing,51.62,81,360,97.88,14.37,1.13,5052.57,741.78,406.8,1148.58,3903.99,339.9,Excellent
+Steel Slag,Steel,Construction,83.25,71,368,106.67,16.4,0.97,8880.28,1365.3,356.96,1722.26,7158.02,415.62,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,23.19,84,423,594.0,120.8,1.75,13774.86,2801.35,740.25,3541.6,10233.26,288.94,Excellent
+Steel Slag,Steel,Construction,21.74,77,179,109.23,15.8,1.86,2374.66,343.49,332.94,676.43,1698.23,251.06,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,3.57,78,415,670.8,188.4,1.33,2394.76,672.59,551.95,1224.54,1170.22,95.56,Excellent
+Rice Husk,Agriculture,Biofuel,70.19,77,356,122.08,21.07,2.17,8568.8,1478.9,772.52,2251.42,6317.38,280.6,Excellent
+Steel Slag,Steel,Construction,27.94,89,297,114.33,14.6,1.26,3194.38,407.92,374.22,782.14,2412.24,308.42,Excellent
+Food Waste,Food,Biogas,56.73,80,380,78.0,10.33,2.31,4424.94,586.02,877.8,1463.82,2961.12,202.29,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,14.51,87,500,293.7,39.47,2.13,4261.59,572.71,1065.0,1637.71,2623.88,160.22,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,60.62,90,253,607.5,116.0,1.7,36826.65,7031.92,430.1,7462.02,29364.63,393.52,Excellent
+Bagasse,Sugar,Paper,41.6,96,318,151.8,16.68,1.92,6314.88,693.89,610.56,1304.45,5010.43,384.1,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,75.74,75,401,280.5,42.67,1.99,21245.07,3231.83,797.99,4029.82,17215.25,427.2,Excellent
+Steel Slag,Steel,Construction,57.15,85,296,112.62,15.0,1.5,6436.23,857.25,444.0,1301.25,5134.98,394.62,Excellent
+Glass Waste,Glass,Glass Recycling,4.96,90,300,135.0,21.27,2.08,669.6,105.5,624.0,729.5,-59.9,-8.21,Loss
+Paper Sludge,Paper,Brick Manufacturing,89.76,72,359,94.5,15.21,0.81,8482.32,1365.25,290.79,1656.04,6826.28,412.21,Excellent
+Rice Husk,Agriculture,Biofuel,11.44,97,95,131.57,18.4,0.89,1505.16,210.5,84.55,295.05,1210.11,410.14,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,26.65,76,158,576.0,127.2,2.32,15350.4,3389.88,366.56,3756.44,11593.96,308.64,Excellent
+Steel Slag,Steel,Construction,27.96,71,284,106.67,16.4,1.9,2982.49,458.54,539.6,998.14,1984.35,198.8,Excellent
+Steel Slag,Steel,Construction,59.19,70,300,106.25,16.5,2.29,6288.94,976.63,687.0,1663.63,4625.31,278.03,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,64.72,98,448,625.5,109.6,1.73,40482.36,7093.31,775.04,7868.35,32614.01,414.5,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,93.06,94,465,616.5,112.8,1.4,57371.49,10497.17,651.0,11148.17,46223.32,414.63,Excellent
+Bagasse,Sugar,Paper,62.39,70,469,137.5,19.8,1.64,8578.62,1235.32,769.16,2004.48,6574.14,327.97,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,45.11,90,440,702.0,174.0,1.11,31667.22,7849.14,488.4,8337.54,23329.68,279.81,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,96.45,72,394,567.0,130.4,1.3,54687.15,12577.08,512.2,13089.28,41597.87,317.8,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,38.12,73,47,569.25,129.6,2.36,21699.81,4940.35,110.92,5051.27,16648.54,329.59,Excellent
+Fly Ash,Thermal Power,Cement,18.16,84,479,92.4,12.08,2.02,1677.98,219.37,967.58,1186.95,491.03,41.37,High Profit
+Bagasse,Sugar,Paper,93.58,98,271,152.9,16.44,1.48,14308.38,1538.46,401.08,1939.54,12368.84,637.72,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,9.45,79,456,284.9,41.6,0.93,2692.3,393.12,424.08,817.2,1875.1,229.45,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,52.48,72,17,655.2,195.6,0.97,34384.9,10265.09,16.49,10281.58,24103.32,234.43,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,74.55,86,103,1197.0,298.0,1.86,89236.35,22215.9,191.58,22407.48,66828.87,298.24,Excellent
+Food Waste,Food,Biogas,47.67,79,30,77.7,10.4,1.69,3703.96,495.77,50.7,546.47,3157.49,577.8,Excellent
+Glass Waste,Glass,Glass Recycling,56.72,95,267,137.5,20.53,2.33,7799.0,1164.46,622.11,1786.57,6012.43,336.53,Excellent
+Paper Sludge,Paper,Brick Manufacturing,67.45,93,155,102.38,13.25,1.99,6905.53,893.71,308.45,1202.16,5703.37,474.43,Excellent
+Glass Waste,Glass,Glass Recycling,24.65,75,11,127.5,23.47,2.14,3142.88,578.54,23.54,602.08,2540.8,422.0,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,26.24,83,74,1183.5,304.0,2.3,31055.04,7976.96,170.2,8147.16,22907.88,281.18,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,81.24,99,461,1255.5,272.0,2.2,101996.82,22097.28,1014.2,23111.48,78885.34,341.33,Excellent
+Paper Sludge,Paper,Brick Manufacturing,70.2,88,221,100.5,13.72,1.0,7055.1,963.14,221.0,1184.14,5870.96,495.8,Excellent
+Rice Husk,Agriculture,Biofuel,92.91,98,186,132.05,18.27,1.52,12268.77,1697.47,282.72,1980.19,10288.58,519.58,Excellent
+Paper Sludge,Paper,Brick Manufacturing,37.69,81,194,97.88,14.37,2.3,3689.1,541.61,446.2,987.81,2701.29,273.46,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,18.68,75,212,663.0,192.0,1.32,12384.84,3586.56,279.84,3866.4,8518.44,220.32,Excellent
+Food Waste,Food,Biogas,38.68,81,105,78.3,10.27,2.48,3028.64,397.24,260.4,657.64,2371.0,360.53,Excellent
+Steel Slag,Steel,Construction,5.78,76,309,108.8,15.9,1.27,628.86,91.9,392.43,484.33,144.53,29.84,Moderate Profit
+Cotton Scrap,Textile,Paper,34.91,87,432,240.3,34.53,0.93,8388.87,1205.44,401.76,1607.2,6781.67,421.96,Excellent
+Fly Ash,Thermal Power,Cement,96.02,80,342,91.0,12.4,0.94,8737.82,1190.65,321.48,1512.13,7225.69,477.85,Excellent
+Paper Sludge,Paper,Brick Manufacturing,19.08,80,436,97.5,14.47,1.85,1860.3,276.09,806.6,1082.69,777.61,71.82,High Profit
+Food Waste,Food,Biogas,34.41,79,105,77.7,10.4,2.16,2673.66,357.86,226.8,584.66,2089.0,357.3,Excellent
+Food Waste,Food,Biogas,93.19,86,60,79.8,9.93,0.85,7436.56,925.38,51.0,976.38,6460.18,661.65,Excellent
+Food Waste,Food,Biogas,35.13,94,411,82.2,9.4,1.96,2887.69,330.22,805.56,1135.78,1751.91,154.25,Excellent
+Cotton Scrap,Textile,Paper,28.61,83,433,236.7,35.47,0.82,6771.99,1014.8,355.06,1369.86,5402.13,394.36,Excellent
+Fly Ash,Thermal Power,Cement,5.62,94,413,95.9,11.28,2.16,538.96,63.39,892.08,955.47,-416.51,-43.59,Loss
+E-Waste,Electronics,Authorized E-Waste Recycler,97.69,83,286,1183.5,304.0,1.76,115616.11,29697.76,503.36,30201.12,85414.99,282.82,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,57.86,76,76,665.6,190.8,0.98,38511.62,11039.69,74.48,11114.17,27397.45,246.51,Excellent
+Cotton Scrap,Textile,Paper,27.66,97,429,249.3,32.2,1.49,6895.64,890.65,639.21,1529.86,5365.78,350.74,Excellent
+Paper Sludge,Paper,Brick Manufacturing,72.55,93,248,102.38,13.25,2.14,7427.67,961.29,530.72,1492.01,5935.66,397.83,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,35.03,96,76,717.6,166.8,2.4,25137.53,5843.0,182.4,6025.4,19112.13,317.19,Excellent
+Rice Husk,Agriculture,Biofuel,44.77,85,313,125.88,20.0,2.21,5635.65,895.4,691.73,1587.13,4048.52,255.08,Excellent
+Bagasse,Sugar,Paper,46.39,94,200,150.7,16.92,0.97,6990.97,784.92,194.0,978.92,6012.05,614.15,Excellent
+Rice Husk,Agriculture,Biofuel,86.16,95,203,130.62,18.67,1.14,11254.22,1608.61,231.42,1840.03,9414.19,511.63,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,20.8,89,135,605.25,116.8,2.0,12589.2,2429.44,270.0,2699.44,9889.76,366.36,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,47.61,83,80,683.8,182.4,1.69,32555.72,8684.06,135.2,8819.26,23736.46,269.14,Excellent
+Paper Sludge,Paper,Brick Manufacturing,73.99,78,312,96.75,14.65,1.44,7158.53,1083.95,449.28,1533.23,5625.3,366.89,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,73.2,77,453,282.7,42.13,1.96,20693.64,3083.92,887.88,3971.8,16721.84,421.01,Excellent
+Glass Waste,Glass,Glass Recycling,51.62,77,50,128.5,23.17,1.24,6633.17,1196.04,62.0,1258.04,5375.13,427.26,Excellent
+Rice Husk,Agriculture,Biofuel,22.86,83,336,124.92,20.27,1.58,2855.67,463.37,530.88,994.25,1861.42,187.22,Excellent
+Steel Slag,Steel,Construction,64.39,91,11,115.17,14.4,1.52,7415.8,927.22,16.72,943.94,6471.86,685.62,Excellent
+Cotton Scrap,Textile,Paper,13.33,98,215,250.2,31.97,1.16,3335.17,426.16,249.4,675.56,2659.61,393.69,Excellent
+Fly Ash,Thermal Power,Cement,25.32,99,417,97.65,10.88,2.23,2472.5,275.48,929.91,1205.39,1267.11,105.12,Excellent
+Glass Waste,Glass,Glass Recycling,4.99,96,247,138.0,20.39,1.32,688.62,101.75,326.04,427.79,260.83,60.97,High Profit
+E-Waste,Electronics,Authorized E-Waste Recycler,50.21,84,69,1188.0,302.0,1.85,59649.48,15163.42,127.65,15291.07,44358.41,290.09,Excellent
+Cotton Scrap,Textile,Paper,67.7,88,155,241.2,34.3,1.59,16329.24,2322.11,246.45,2568.56,13760.68,535.74,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,75.16,71,291,1129.5,328.0,1.03,84893.22,24652.48,299.73,24952.21,59941.01,240.22,Excellent
+Cotton Scrap,Textile,Paper,71.98,97,281,249.3,32.2,1.84,17944.61,2317.76,517.04,2834.8,15109.81,533.01,Excellent
+Steel Slag,Steel,Construction,40.66,87,101,113.47,14.8,1.96,4613.69,601.77,197.96,799.73,3813.96,476.91,Excellent
+Bagasse,Sugar,Paper,96.32,70,308,137.5,19.8,1.42,13244.0,1907.14,437.36,2344.5,10899.5,464.9,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,41.11,70,155,275.0,44.0,1.9,11305.25,1808.84,294.5,2103.34,9201.91,437.49,Excellent
+Food Waste,Food,Biogas,79.17,83,385,78.9,10.13,2.06,6246.51,801.99,793.1,1595.09,4651.42,291.61,Excellent
+Cotton Scrap,Textile,Paper,67.32,87,250,240.3,34.53,0.96,16177.0,2324.56,240.0,2564.56,13612.44,530.79,Excellent
+Cotton Scrap,Textile,Paper,22.41,79,189,233.1,36.4,1.79,5223.77,815.72,338.31,1154.03,4069.74,352.65,Excellent
+Rice Husk,Agriculture,Biofuel,71.63,83,437,124.92,20.27,0.86,8948.02,1451.94,375.82,1827.76,7120.26,389.56,Excellent
+Bagasse,Sugar,Paper,77.28,88,221,147.4,17.64,2.04,11391.07,1363.22,450.84,1814.06,9577.01,527.93,Excellent
+Bagasse,Sugar,Paper,31.15,80,416,143.0,18.6,1.97,4454.45,579.39,819.52,1398.91,3055.54,218.42,Excellent
+Fly Ash,Thermal Power,Cement,68.94,90,24,94.5,11.6,1.77,6514.83,799.7,42.48,842.18,5672.65,673.57,Excellent
+Food Waste,Food,Biogas,61.48,98,134,83.4,9.13,1.49,5127.43,561.31,199.66,760.97,4366.46,573.8,Excellent
+Glass Waste,Glass,Glass Recycling,31.58,99,481,139.5,19.95,1.01,4405.41,630.02,485.81,1115.83,3289.58,294.81,Excellent
+Bagasse,Sugar,Paper,32.95,92,170,149.6,17.16,1.47,4929.32,565.42,249.9,815.32,4114.0,504.59,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,75.56,94,206,712.4,169.2,1.74,53828.94,12784.75,358.44,13143.19,40685.75,309.56,Excellent
+Glass Waste,Glass,Glass Recycling,69.29,94,459,137.0,20.68,1.19,9492.73,1432.92,546.21,1979.13,7513.6,379.64,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,16.44,71,472,564.75,131.2,0.93,9284.49,2156.93,438.96,2595.89,6688.6,257.66,Excellent
+Bagasse,Sugar,Paper,97.66,70,485,137.5,19.8,1.04,13428.25,1933.67,504.4,2438.07,10990.18,450.77,Excellent
+Bagasse,Sugar,Paper,92.7,71,358,138.05,19.68,0.89,12797.24,1824.34,318.62,2142.96,10654.28,497.18,Excellent
+Paper Sludge,Paper,Brick Manufacturing,66.56,77,293,96.38,14.75,1.42,6415.05,981.76,416.06,1397.82,5017.23,358.93,Excellent
+Bagasse,Sugar,Paper,45.44,97,138,152.35,16.56,2.14,6922.78,752.49,295.32,1047.81,5874.97,560.69,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,24.22,84,16,1188.0,302.0,1.12,28773.36,7314.44,17.92,7332.36,21441.0,292.42,Excellent
+Bagasse,Sugar,Paper,15.73,87,495,146.85,17.76,0.86,2309.95,279.36,425.7,705.06,1604.89,227.62,Excellent
+Cotton Scrap,Textile,Paper,20.27,84,259,237.6,35.23,1.37,4816.15,714.11,354.83,1068.94,3747.21,350.55,Excellent
+Rice Husk,Agriculture,Biofuel,3.68,88,64,127.3,19.6,0.91,468.46,72.13,58.24,130.37,338.09,259.33,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,38.99,74,395,279.4,42.93,0.94,10893.81,1673.84,371.3,2045.14,8848.67,432.67,Excellent
+Paper Sludge,Paper,Brick Manufacturing,55.1,77,192,96.38,14.75,1.7,5310.54,812.73,326.4,1139.13,4171.41,366.19,Excellent
+Paper Sludge,Paper,Brick Manufacturing,71.73,99,253,104.62,12.69,1.76,7504.39,910.25,445.28,1355.53,6148.86,453.61,Excellent
+Cotton Scrap,Textile,Paper,70.19,71,100,225.9,38.27,1.86,15855.92,2686.17,186.0,2872.17,12983.75,452.05,Excellent
+Paper Sludge,Paper,Brick Manufacturing,43.76,80,272,97.5,14.47,0.9,4266.6,633.21,244.8,878.01,3388.59,385.94,Excellent
+Rice Husk,Agriculture,Biofuel,45.54,79,368,123.02,20.8,0.98,5602.33,947.23,360.64,1307.87,4294.46,328.36,Excellent
+Cotton Scrap,Textile,Paper,88.39,81,253,234.9,35.93,1.5,20762.81,3175.85,379.5,3555.35,17207.46,483.99,Excellent
+Glass Waste,Glass,Glass Recycling,26.09,78,386,129.0,23.03,2.41,3365.61,600.85,930.26,1531.11,1834.5,119.82,Excellent
+Food Waste,Food,Biogas,26.62,79,56,77.7,10.4,1.22,2068.37,276.85,68.32,345.17,1723.2,499.23,Excellent
+Glass Waste,Glass,Glass Recycling,15.3,96,322,138.0,20.39,2.2,2111.4,311.97,708.4,1020.37,1091.03,106.92,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,98.98,77,383,578.25,126.4,1.79,57235.19,12511.07,685.57,13196.64,44038.55,333.71,Excellent
+Fly Ash,Thermal Power,Cement,28.27,70,79,87.5,13.2,1.52,2473.62,373.16,120.08,493.24,1980.38,401.5,Excellent
+Rice Husk,Agriculture,Biofuel,61.29,70,26,118.75,22.0,1.72,7278.19,1348.38,44.72,1393.1,5885.09,422.45,Excellent
+Food Waste,Food,Biogas,31.33,86,139,79.8,9.93,1.25,2500.13,311.11,173.75,484.86,2015.27,415.64,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,70.2,86,126,292.6,39.73,2.08,20540.52,2789.05,262.08,3051.13,17489.39,573.21,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,73.47,80,408,676.0,186.0,1.27,49665.72,13665.42,518.16,14183.58,35482.14,250.16,Excellent
+Steel Slag,Steel,Construction,12.68,84,324,112.2,15.1,2.21,1422.7,191.47,716.04,907.51,515.19,56.77,High Profit
+Food Waste,Food,Biogas,60.95,98,256,83.4,9.13,1.2,5083.23,556.47,307.2,863.67,4219.56,488.56,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,28.56,89,193,605.25,116.8,0.87,17285.94,3335.81,167.91,3503.72,13782.22,393.36,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,58.71,72,91,655.2,195.6,1.33,38466.79,11483.68,121.03,11604.71,26862.08,231.48,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,40.37,87,119,293.7,39.47,1.36,11856.67,1593.4,161.84,1755.24,10101.43,575.5,Excellent
+Cotton Scrap,Textile,Paper,5.09,87,60,240.3,34.53,0.82,1223.13,175.76,49.2,224.96,998.17,443.71,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,92.4,88,232,696.8,176.4,0.96,64384.32,16299.36,222.72,16522.08,47862.24,289.69,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,58.02,82,93,1179.0,306.0,1.98,68405.58,17754.12,184.14,17938.26,50467.32,281.34,Excellent
+Rice Husk,Agriculture,Biofuel,16.41,86,260,126.35,19.87,1.61,2073.4,326.07,418.6,744.67,1328.73,178.43,Excellent
+Steel Slag,Steel,Construction,31.88,80,393,110.5,15.5,1.55,3522.74,494.14,609.15,1103.29,2419.45,219.29,Excellent
+Fly Ash,Thermal Power,Cement,62.26,97,380,96.95,11.04,2.01,6036.11,687.35,763.8,1451.15,4584.96,315.95,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,71.56,79,410,582.75,124.8,1.66,41701.59,8930.69,680.6,9611.29,32090.3,333.88,Excellent
+Food Waste,Food,Biogas,58.68,77,376,77.1,10.53,2.29,4524.23,617.9,861.04,1478.94,3045.29,205.91,Excellent
+Rice Husk,Agriculture,Biofuel,48.87,80,203,123.5,20.67,0.84,6035.44,1010.14,170.52,1180.66,4854.78,411.19,Excellent
+Fly Ash,Thermal Power,Cement,77.42,72,142,88.2,13.04,1.28,6828.44,1009.56,181.76,1191.32,5637.12,473.18,Excellent
+Glass Waste,Glass,Glass Recycling,14.98,99,221,139.5,19.95,0.8,2089.71,298.85,176.8,475.65,1614.06,339.34,Excellent
+Glass Waste,Glass,Glass Recycling,92.24,89,397,134.5,21.41,2.33,12406.28,1974.86,925.01,2899.87,9506.41,327.82,Excellent
+Steel Slag,Steel,Construction,45.11,96,71,117.3,13.9,2.4,5291.4,627.03,170.4,797.43,4493.97,563.56,Excellent
+Food Waste,Food,Biogas,97.75,78,192,77.4,10.47,1.72,7565.85,1023.44,330.24,1353.68,6212.17,458.91,Excellent
+Bagasse,Sugar,Paper,78.54,71,337,138.05,19.68,2.47,10842.45,1545.67,832.39,2378.06,8464.39,355.94,Excellent
+Glass Waste,Glass,Glass Recycling,64.01,76,194,128.0,23.32,1.68,8193.28,1492.71,325.92,1818.63,6374.65,350.52,Excellent
+Bagasse,Sugar,Paper,56.04,75,56,140.25,19.2,2.16,7859.61,1075.97,120.96,1196.93,6662.68,556.65,Excellent
+Cotton Scrap,Textile,Paper,68.72,91,467,243.9,33.6,2.2,16760.81,2308.99,1027.4,3336.39,13424.42,402.36,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,18.88,70,436,650.0,198.0,1.67,12272.0,3738.24,728.12,4466.36,7805.64,174.77,Excellent
+Steel Slag,Steel,Construction,50.83,74,367,107.95,16.1,2.3,5487.1,818.36,844.1,1662.46,3824.64,230.06,Excellent
+Cotton Scrap,Textile,Paper,73.57,74,173,228.6,37.57,1.33,16818.1,2764.02,230.09,2994.11,13823.99,461.71,Excellent
+Paper Sludge,Paper,Brick Manufacturing,26.28,97,377,103.88,12.88,0.84,2729.97,338.49,316.68,655.17,2074.8,316.68,Excellent
+Food Waste,Food,Biogas,62.1,95,44,82.5,9.33,0.92,5123.25,579.39,40.48,619.87,4503.38,726.5,Excellent
+Food Waste,Food,Biogas,3.71,91,68,81.3,9.6,2.34,301.62,35.62,159.12,194.74,106.88,54.88,High Profit
+Steel Slag,Steel,Construction,44.66,81,217,110.93,15.4,1.66,4954.13,687.76,360.22,1047.98,3906.15,372.73,Excellent
+Paper Sludge,Paper,Brick Manufacturing,24.44,86,199,99.75,13.91,1.2,2437.89,339.96,238.8,578.76,1859.13,321.23,Excellent
+Fly Ash,Thermal Power,Cement,8.79,70,358,87.5,13.2,2.25,769.12,116.03,805.5,921.53,-152.41,-16.54,Loss
+Used Oil,Automotive,Authorized Oil Recycler,4.51,78,199,580.5,125.6,1.73,2618.05,566.46,344.27,910.73,1707.32,187.47,Excellent
+Fly Ash,Thermal Power,Cement,34.47,89,242,94.15,11.68,2.35,3245.35,402.61,568.7,971.31,2274.04,234.12,Excellent
+Rice Husk,Agriculture,Biofuel,81.48,93,404,129.68,18.93,2.06,10566.33,1542.42,832.24,2374.66,8191.67,344.96,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,4.96,84,38,594.0,120.8,1.32,2946.24,599.17,50.16,649.33,2296.91,353.74,Excellent
+Fly Ash,Thermal Power,Cement,10.01,92,328,95.2,11.44,2.37,952.95,114.51,777.36,891.87,61.08,6.85,Low Profit
+Chemical Sludge,Chemical,Hazardous Treatment Facility,93.36,96,75,717.6,166.8,2.07,66995.14,15572.45,155.25,15727.7,51267.44,325.97,Excellent
+Rice Husk,Agriculture,Biofuel,88.02,70,464,118.75,22.0,1.51,10452.38,1936.44,700.64,2637.08,7815.3,296.36,Excellent
+Glass Waste,Glass,Glass Recycling,91.75,92,94,136.0,20.97,1.4,12478.0,1924.0,131.6,2055.6,10422.4,507.02,Excellent
+Cotton Scrap,Textile,Paper,16.02,91,154,243.9,33.6,0.86,3907.28,538.27,132.44,670.71,3236.57,482.56,Excellent
+Rice Husk,Agriculture,Biofuel,27.65,79,407,123.02,20.8,2.05,3401.5,575.12,834.35,1409.47,1992.03,141.33,Excellent
+Steel Slag,Steel,Construction,11.21,87,105,113.47,14.8,1.99,1272.0,165.91,208.95,374.86,897.14,239.33,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,95.52,70,136,650.0,198.0,0.92,62088.0,18912.96,125.12,19038.08,43049.92,226.13,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,87.24,88,139,294.8,39.2,1.11,25718.35,3419.81,154.29,3574.1,22144.25,619.58,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,46.15,76,392,665.6,190.8,2.02,30717.44,8805.42,791.84,9597.26,21120.18,220.06,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,12.64,98,412,625.5,109.6,1.88,7906.32,1385.34,774.56,2159.9,5746.42,266.05,Excellent
+Fly Ash,Thermal Power,Cement,60.83,94,475,95.9,11.28,1.42,5833.6,686.16,674.5,1360.66,4472.94,328.73,Excellent
+Bagasse,Sugar,Paper,45.68,98,319,152.9,16.44,2.36,6984.47,750.98,752.84,1503.82,5480.65,364.45,Excellent
+Fly Ash,Thermal Power,Cement,35.34,84,339,92.4,12.08,0.92,3265.42,426.91,311.88,738.79,2526.63,342.0,Excellent
+Bagasse,Sugar,Paper,34.47,88,209,147.4,17.64,2.14,5080.88,608.05,447.26,1055.31,4025.57,381.46,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,41.28,87,352,694.2,177.6,1.26,28656.58,7331.33,443.52,7774.85,20881.73,268.58,Excellent
+Food Waste,Food,Biogas,59.92,99,86,83.7,9.07,1.75,5015.3,543.47,150.5,693.97,4321.33,622.7,Excellent
+Fly Ash,Thermal Power,Cement,75.38,84,29,92.4,12.08,2.01,6965.11,910.59,58.29,968.88,5996.23,618.88,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,60.28,80,354,286.0,41.33,1.82,17240.08,2491.37,644.28,3135.65,14104.43,449.81,Excellent
+Food Waste,Food,Biogas,31.72,96,125,82.8,9.27,2.0,2626.42,294.04,250.0,544.04,2082.38,382.76,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,40.67,82,356,1179.0,306.0,2.02,47949.93,12445.02,719.12,13164.14,34785.79,264.25,Excellent
+Cotton Scrap,Textile,Paper,84.95,84,16,237.6,35.23,1.57,20184.12,2992.79,25.12,3017.91,17166.21,568.81,Excellent
+Rice Husk,Agriculture,Biofuel,39.29,75,310,121.12,21.33,2.24,4758.8,838.06,694.4,1532.46,3226.34,210.53,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,30.95,82,334,589.5,122.4,1.56,18245.02,3788.28,521.04,4309.32,13935.7,323.39,Excellent
+Fly Ash,Thermal Power,Cement,85.27,83,423,92.05,12.16,1.78,7849.1,1036.88,752.94,1789.82,6059.28,338.54,Excellent
+Steel Slag,Steel,Construction,29.65,89,365,114.33,14.6,1.35,3389.88,432.89,492.75,925.64,2464.24,266.22,Excellent
+Steel Slag,Steel,Construction,21.86,74,152,107.95,16.1,1.42,2359.79,351.95,215.84,567.79,1792.0,315.61,Excellent
+Glass Waste,Glass,Glass Recycling,69.09,73,360,126.5,23.76,1.1,8739.89,1641.58,396.0,2037.58,6702.31,328.93,Excellent
+Rice Husk,Agriculture,Biofuel,44.76,96,460,131.1,18.53,1.82,5868.04,829.4,837.2,1666.6,4201.44,252.1,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,99.14,92,372,612.0,114.4,2.13,60673.68,11341.62,792.36,12133.98,48539.7,400.03,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,6.87,86,444,598.5,119.2,1.0,4111.69,818.9,444.0,1262.9,2848.79,225.58,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,69.16,77,123,1156.5,316.0,2.19,79983.54,21854.56,269.37,22123.93,57859.61,261.53,Excellent
+Fly Ash,Thermal Power,Cement,92.99,91,244,94.85,11.52,1.47,8820.1,1071.24,358.68,1429.92,7390.18,516.82,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,82.53,98,39,1251.0,274.0,1.99,103245.03,22613.22,77.61,22690.83,80554.2,355.01,Excellent
+Rice Husk,Agriculture,Biofuel,1.13,79,69,123.02,20.8,2.21,139.01,23.5,152.49,175.99,-36.98,-21.01,Loss
+Plastic Scrap,Packaging,Plastic Recycling,65.25,88,151,294.8,39.2,1.54,19235.7,2557.8,232.54,2790.34,16445.36,589.37,Excellent
+Paper Sludge,Paper,Brick Manufacturing,61.21,94,487,102.75,13.16,1.53,6289.33,805.52,745.11,1550.63,4738.7,305.6,Excellent
+Food Waste,Food,Biogas,73.27,72,220,75.6,10.87,1.61,5539.21,796.44,354.2,1150.64,4388.57,381.4,Excellent
+Rice Husk,Agriculture,Biofuel,19.86,89,492,127.77,19.47,1.71,2537.51,386.67,841.32,1227.99,1309.52,106.64,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,31.33,81,215,587.25,123.2,1.72,18398.54,3859.86,369.8,4229.66,14168.88,334.99,Excellent
+Paper Sludge,Paper,Brick Manufacturing,49.61,79,365,97.12,14.56,2.24,4818.12,722.32,817.6,1539.92,3278.2,212.88,Excellent
+Rice Husk,Agriculture,Biofuel,32.32,85,264,125.88,20.0,1.88,4068.44,646.4,496.32,1142.72,2925.72,256.03,Excellent
+Steel Slag,Steel,Construction,60.42,72,207,107.1,16.3,2.05,6470.98,984.85,424.35,1409.2,5061.78,359.2,Excellent
+Steel Slag,Steel,Construction,91.29,79,67,110.07,15.6,1.64,10048.29,1424.12,109.88,1534.0,8514.29,555.04,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,54.84,87,166,600.75,118.4,0.95,32945.13,6493.06,157.7,6650.76,26294.37,395.36,Excellent
+Steel Slag,Steel,Construction,29.22,94,46,116.45,14.1,2.36,3402.67,412.0,108.56,520.56,2882.11,553.66,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,75.98,88,370,603.0,117.6,0.95,45815.94,8935.25,351.5,9286.75,36529.19,393.35,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,54.4,80,253,676.0,186.0,2.47,36774.4,10118.4,624.91,10743.31,26031.09,242.3,Excellent
+Rice Husk,Agriculture,Biofuel,20.77,89,151,127.77,19.47,1.68,2653.78,404.39,253.68,658.07,1995.71,303.27,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,45.4,71,45,652.6,196.8,1.74,29628.04,8934.72,78.3,9013.02,20615.02,228.72,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,46.9,72,82,655.2,195.6,1.86,30728.88,9173.64,152.52,9326.16,21402.72,229.49,Excellent
+Food Waste,Food,Biogas,10.42,92,350,81.6,9.53,1.64,850.27,99.3,574.0,673.3,176.97,26.28,Moderate Profit
+Fly Ash,Thermal Power,Cement,20.18,86,313,93.1,11.92,0.99,1878.76,240.55,309.87,550.42,1328.34,241.33,Excellent
+Steel Slag,Steel,Construction,10.54,99,234,118.58,13.6,1.33,1249.83,143.34,311.22,454.56,795.27,174.95,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,33.19,84,106,290.4,40.27,2.12,9638.38,1336.56,224.72,1561.28,8077.1,517.34,Excellent
+Fly Ash,Thermal Power,Cement,18.7,71,131,87.85,13.12,2.01,1642.79,245.34,263.31,508.65,1134.14,222.97,Excellent
+Rice Husk,Agriculture,Biofuel,10.9,71,150,119.22,21.87,2.07,1299.5,238.38,310.5,548.88,750.62,136.75,Excellent
+Fly Ash,Thermal Power,Cement,72.98,92,164,95.2,11.44,1.76,6947.7,834.89,288.64,1123.53,5824.17,518.38,Excellent
+Fly Ash,Thermal Power,Cement,73.81,96,269,96.6,11.12,1.03,7130.05,820.77,277.07,1097.84,6032.21,549.46,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,77.86,95,300,302.5,37.33,1.37,23552.65,2906.51,411.0,3317.51,20235.14,609.95,Excellent
+Paper Sludge,Paper,Brick Manufacturing,13.32,97,15,103.88,12.88,2.05,1383.68,171.56,30.75,202.31,1181.37,583.94,Excellent
+Paper Sludge,Paper,Brick Manufacturing,11.83,75,127,95.62,14.93,1.88,1131.18,176.62,238.76,415.38,715.8,172.32,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,74.24,85,490,689.0,180.0,2.18,51151.36,13363.2,1068.2,14431.4,36719.96,254.44,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,13.16,92,169,1224.0,286.0,2.15,16107.84,3763.76,363.35,4127.11,11980.73,290.29,Excellent
+Fly Ash,Thermal Power,Cement,35.39,97,450,96.95,11.04,1.97,3431.06,390.71,886.5,1277.21,2153.85,168.64,Excellent
+Rice Husk,Agriculture,Biofuel,5.26,95,494,130.62,18.67,1.1,687.06,98.2,543.4,641.6,45.46,7.09,Low Profit
+Cotton Scrap,Textile,Paper,62.58,98,408,250.2,31.97,2.06,15657.52,2000.68,840.48,2841.16,12816.36,451.1,Excellent
+Food Waste,Food,Biogas,58.11,91,18,81.3,9.6,1.12,4724.34,557.86,20.16,578.02,4146.32,717.33,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,9.33,82,320,681.2,183.6,1.9,6355.6,1712.99,608.0,2320.99,4034.61,173.83,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,66.01,72,36,1134.0,326.0,1.21,74855.34,21519.26,43.56,21562.82,53292.52,247.15,Excellent
+Fly Ash,Thermal Power,Cement,59.01,74,442,88.9,12.88,1.32,5245.99,760.05,583.44,1343.49,3902.5,290.47,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,73.18,91,184,1219.5,288.0,1.16,89243.01,21075.84,213.44,21289.28,67953.73,319.19,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,85.88,75,488,1147.5,320.0,2.05,98547.3,27481.6,1000.4,28482.0,70065.3,246.0,Excellent
+Food Waste,Food,Biogas,12.43,96,418,82.8,9.27,1.07,1029.2,115.23,447.26,562.49,466.71,82.97,Excellent
+Glass Waste,Glass,Glass Recycling,52.73,88,206,134.0,21.56,2.11,7065.82,1136.86,434.66,1571.52,5494.3,349.62,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,65.28,99,41,306.9,36.27,2.18,20034.43,2367.71,89.38,2457.09,17577.34,715.37,Excellent
+Rice Husk,Agriculture,Biofuel,64.43,87,444,126.83,19.73,1.2,8171.66,1271.2,532.8,1804.0,6367.66,352.97,Excellent
+Food Waste,Food,Biogas,72.94,94,270,82.2,9.4,1.38,5995.67,685.64,372.6,1058.24,4937.43,466.57,Excellent
+Cotton Scrap,Textile,Paper,70.17,99,77,251.1,31.73,1.38,17619.69,2226.49,106.26,2332.75,15286.94,655.32,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,50.67,89,135,1210.5,292.0,2.44,61336.04,14795.64,329.4,15125.04,46211.0,305.53,Excellent
+Cotton Scrap,Textile,Paper,65.21,83,12,236.7,35.47,1.6,15435.21,2313.0,19.2,2332.2,13103.01,561.83,Excellent
+Cotton Scrap,Textile,Paper,19.71,86,299,239.4,34.77,1.65,4718.57,685.32,493.35,1178.67,3539.9,300.33,Excellent
+Glass Waste,Glass,Glass Recycling,6.74,73,231,126.5,23.76,1.62,852.61,160.14,374.22,534.36,318.25,59.56,High Profit
+Plastic Scrap,Packaging,Plastic Recycling,78.61,90,155,297.0,38.67,2.39,23347.17,3039.85,370.45,3410.3,19936.87,584.61,Excellent
+Glass Waste,Glass,Glass Recycling,88.62,88,492,134.0,21.56,1.13,11875.08,1910.65,555.96,2466.61,9408.47,381.43,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,57.19,89,423,295.9,38.93,1.84,16922.52,2226.41,778.32,3004.73,13917.79,463.2,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,77.14,81,411,287.1,41.07,1.96,22146.89,3168.14,805.56,3973.7,18173.19,457.34,Excellent
+Rice Husk,Agriculture,Biofuel,84.84,89,419,127.77,19.47,1.01,10840.01,1651.83,423.19,2075.02,8764.99,422.41,Excellent
+Steel Slag,Steel,Construction,76.0,78,94,109.65,15.7,0.89,8333.4,1193.2,83.66,1276.86,7056.54,552.65,Excellent
+Rice Husk,Agriculture,Biofuel,57.71,89,252,127.77,19.47,1.76,7373.61,1123.61,443.52,1567.13,5806.48,370.52,Excellent
+Fly Ash,Thermal Power,Cement,73.95,95,234,96.25,11.2,1.65,7117.69,828.24,386.1,1214.34,5903.35,486.14,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,44.38,72,185,567.0,130.4,1.24,25163.46,5787.15,229.4,6016.55,19146.91,318.24,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,32.41,80,138,1170.0,310.0,1.24,37919.7,10047.1,171.12,10218.22,27701.48,271.1,Excellent
+Food Waste,Food,Biogas,49.86,94,348,82.2,9.4,1.82,4098.49,468.68,633.36,1102.04,2996.45,271.9,Excellent
+Cotton Scrap,Textile,Paper,39.91,81,189,234.9,35.93,1.65,9374.86,1433.97,311.85,1745.82,7629.04,436.99,Excellent
+Glass Waste,Glass,Glass Recycling,14.09,96,330,138.0,20.39,1.98,1944.42,287.3,653.4,940.7,1003.72,106.7,Excellent
+Steel Slag,Steel,Construction,89.3,88,354,113.9,14.7,2.26,10171.27,1312.71,800.04,2112.75,8058.52,381.42,Excellent
+Food Waste,Food,Biogas,34.49,92,86,81.6,9.53,1.46,2814.38,328.69,125.56,454.25,2360.13,519.57,Excellent
+Food Waste,Food,Biogas,13.49,74,452,76.2,10.73,1.63,1027.94,144.75,736.76,881.51,146.43,16.61,Moderate Profit
+Fly Ash,Thermal Power,Cement,91.1,96,111,96.6,11.12,1.03,8800.26,1013.03,114.33,1127.36,7672.9,680.61,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,3.29,95,496,715.0,168.0,2.34,2352.35,552.72,1160.64,1713.36,638.99,37.29,Moderate Profit
+Food Waste,Food,Biogas,46.34,87,360,80.1,9.87,1.53,3711.83,457.38,550.8,1008.18,2703.65,268.17,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,3.82,70,161,275.0,44.0,2.45,1050.5,168.08,394.45,562.53,487.97,86.75,Excellent
+Glass Waste,Glass,Glass Recycling,79.36,80,491,130.0,22.73,2.32,10316.8,1803.85,1139.12,2942.97,7373.83,250.56,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,29.26,87,221,694.2,177.6,2.11,20312.29,5196.58,466.31,5662.89,14649.4,258.69,Excellent
+Rice Husk,Agriculture,Biofuel,91.59,78,376,122.55,20.93,2.28,11224.35,1916.98,857.28,2774.26,8450.09,304.59,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,75.58,78,270,580.5,125.6,2.1,43874.19,9492.85,567.0,10059.85,33814.34,336.13,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,71.93,99,424,627.75,108.8,1.92,45154.06,7825.98,814.08,8640.06,36514.0,422.61,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,23.96,74,49,660.4,193.2,1.67,15823.18,4629.07,81.83,4710.9,11112.28,235.88,Excellent
+Paper Sludge,Paper,Brick Manufacturing,7.58,81,427,97.88,14.37,1.28,741.93,108.92,546.56,655.48,86.45,13.19,Low Profit
+Chemical Sludge,Chemical,Hazardous Treatment Facility,42.22,90,416,702.0,174.0,1.0,29638.44,7346.28,416.0,7762.28,21876.16,281.83,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,22.12,86,464,691.6,178.8,1.16,15298.19,3955.06,538.24,4493.3,10804.89,240.47,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,28.36,95,402,1237.5,280.0,2.41,35095.5,7940.8,968.82,8909.62,26185.88,293.91,Excellent
+Paper Sludge,Paper,Brick Manufacturing,93.15,98,468,104.25,12.79,1.2,9710.89,1191.39,561.6,1752.99,7957.9,453.96,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,83.31,89,359,1210.5,292.0,2.21,100846.76,24326.52,793.39,25119.91,75726.85,301.46,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,72.03,88,350,294.8,39.2,1.83,21234.44,2823.58,640.5,3464.08,17770.36,512.99,Excellent
+Steel Slag,Steel,Construction,99.17,85,160,112.62,15.0,1.12,11168.53,1487.55,179.2,1666.75,9501.78,570.08,Excellent
+Fly Ash,Thermal Power,Cement,22.06,99,348,97.65,10.88,2.45,2154.16,240.01,852.6,1092.61,1061.55,97.16,Excellent
+Steel Slag,Steel,Construction,32.11,93,263,116.03,14.2,2.19,3725.72,455.96,575.97,1031.93,2693.79,261.04,Excellent
+Paper Sludge,Paper,Brick Manufacturing,33.91,86,336,99.75,13.91,2.29,3382.52,471.69,769.44,1241.13,2141.39,172.54,Excellent
+Fly Ash,Thermal Power,Cement,64.67,84,23,92.4,12.08,2.14,5975.51,781.21,49.22,830.43,5145.08,619.57,Excellent
+Paper Sludge,Paper,Brick Manufacturing,41.54,98,425,104.25,12.79,2.1,4330.55,531.3,892.5,1423.8,2906.75,204.15,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,20.47,73,483,657.8,194.4,1.37,13465.17,3979.37,661.71,4641.08,8824.09,190.13,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,77.84,71,356,1129.5,328.0,2.4,87920.28,25531.52,854.4,26385.92,61534.36,233.21,Excellent
+Glass Waste,Glass,Glass Recycling,17.68,98,84,139.0,20.09,2.07,2457.52,355.19,173.88,529.07,1928.45,364.5,Excellent
+Cotton Scrap,Textile,Paper,93.71,84,416,237.6,35.23,2.01,22265.5,3301.4,836.16,4137.56,18127.94,438.13,Excellent
+Cotton Scrap,Textile,Paper,41.08,80,66,234.0,36.17,1.55,9612.72,1485.86,102.3,1588.16,8024.56,505.27,Excellent
+Fly Ash,Thermal Power,Cement,25.17,76,163,89.6,12.72,1.84,2255.23,320.16,299.92,620.08,1635.15,263.7,Excellent
+Paper Sludge,Paper,Brick Manufacturing,47.14,94,186,102.75,13.16,1.15,4843.64,620.36,213.9,834.26,4009.38,480.59,Excellent
+Bagasse,Sugar,Paper,2.09,85,223,145.75,18.0,1.46,304.62,37.62,325.58,363.2,-58.58,-16.13,Loss
+Fly Ash,Thermal Power,Cement,72.34,79,50,90.65,12.48,2.12,6557.62,902.8,106.0,1008.8,5548.82,550.04,Excellent
+Steel Slag,Steel,Construction,75.66,82,353,111.35,15.3,0.89,8424.74,1157.6,314.17,1471.77,6952.97,472.42,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,81.37,80,424,1170.0,310.0,1.07,95202.9,25224.7,453.68,25678.38,69524.52,270.75,Excellent
+Paper Sludge,Paper,Brick Manufacturing,9.92,80,362,97.5,14.47,1.07,967.2,143.54,387.34,530.88,436.32,82.19,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,33.71,99,303,725.4,163.2,1.07,24453.23,5501.47,324.21,5825.68,18627.55,319.75,Excellent
+Paper Sludge,Paper,Brick Manufacturing,95.3,83,471,98.62,14.19,0.95,9398.49,1352.31,447.45,1799.76,7598.73,422.21,Excellent
+Glass Waste,Glass,Glass Recycling,91.81,84,441,132.0,22.15,1.94,12118.92,2033.59,855.54,2889.13,9229.79,319.47,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,52.88,99,459,1255.5,272.0,1.26,66390.84,14383.36,578.34,14961.7,51429.14,343.74,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,12.6,83,404,683.8,182.4,1.13,8615.88,2298.24,456.52,2754.76,5861.12,212.76,Excellent
+Steel Slag,Steel,Construction,46.57,86,499,113.05,14.9,2.01,5264.74,693.89,1002.99,1696.88,3567.86,210.26,Excellent
+Steel Slag,Steel,Construction,55.11,71,258,106.67,16.4,0.86,5878.58,903.8,221.88,1125.68,4752.9,422.22,Excellent
+Rice Husk,Agriculture,Biofuel,89.51,96,246,131.1,18.53,1.48,11734.76,1658.62,364.08,2022.7,9712.06,480.15,Excellent
+Steel Slag,Steel,Construction,13.16,88,468,113.9,14.7,1.26,1498.92,193.45,589.68,783.13,715.79,91.4,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,23.43,91,209,298.1,38.4,0.88,6984.48,899.71,183.92,1083.63,5900.85,544.54,Excellent
+Food Waste,Food,Biogas,89.4,74,102,76.2,10.73,0.89,6812.28,959.26,90.78,1050.04,5762.24,548.76,Excellent
+Bagasse,Sugar,Paper,33.01,91,223,149.05,17.28,2.03,4920.14,570.41,452.69,1023.1,3897.04,380.91,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,90.67,89,184,1210.5,292.0,1.82,109756.04,26475.64,334.88,26810.52,82945.52,309.38,Excellent
+Rice Husk,Agriculture,Biofuel,16.47,81,12,123.98,20.53,1.62,2041.95,338.13,19.44,357.57,1684.38,471.06,Excellent
+Bagasse,Sugar,Paper,27.74,74,227,139.7,19.32,1.61,3875.28,535.94,365.47,901.41,2973.87,329.91,Excellent
+Bagasse,Sugar,Paper,58.35,79,101,142.45,18.72,1.54,8311.96,1092.31,155.54,1247.85,7064.11,566.1,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,20.86,81,466,1174.5,308.0,2.37,24500.07,6424.88,1104.42,7529.3,16970.77,225.4,Excellent
+Paper Sludge,Paper,Brick Manufacturing,99.16,93,183,102.38,13.25,1.22,10152.0,1313.87,223.26,1537.13,8614.87,560.45,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,94.98,83,280,1183.5,304.0,1.32,112408.83,28873.92,369.6,29243.52,83165.31,284.39,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,93.02,75,166,1147.5,320.0,1.34,106740.45,29766.4,222.44,29988.84,76751.61,255.93,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,11.95,87,53,600.75,118.4,1.03,7178.96,1414.88,54.59,1469.47,5709.49,388.54,Excellent
+Cotton Scrap,Textile,Paper,52.54,89,320,242.1,34.07,1.71,12719.93,1790.04,547.2,2337.24,10382.69,444.23,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,89.07,76,91,665.6,190.8,1.03,59284.99,16994.56,93.73,17088.29,42196.7,246.93,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,29.57,85,124,291.5,40.0,1.63,8619.66,1182.8,202.12,1384.92,7234.74,522.39,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,11.92,79,102,582.75,124.8,1.04,6946.38,1487.62,106.08,1593.7,5352.68,335.86,Excellent
+Steel Slag,Steel,Construction,6.56,87,29,113.47,14.8,0.89,744.36,97.09,25.81,122.9,621.46,505.66,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,94.08,72,101,655.2,195.6,2.2,61641.22,18402.05,222.2,18624.25,43016.97,230.97,Excellent
+Steel Slag,Steel,Construction,14.55,82,122,111.35,15.3,0.98,1620.14,222.62,119.56,342.18,1277.96,373.48,Excellent
+Paper Sludge,Paper,Brick Manufacturing,81.61,81,56,97.88,14.37,1.55,7987.99,1172.74,86.8,1259.54,6728.45,534.2,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,17.85,84,172,290.4,40.27,1.17,5183.64,718.82,201.24,920.06,4263.58,463.4,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,18.33,96,423,621.0,111.2,1.44,11382.93,2038.3,609.12,2647.42,8735.51,329.96,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,87.13,96,313,1242.0,278.0,2.35,108215.46,24222.14,735.55,24957.69,83257.77,333.6,Excellent
+Fly Ash,Thermal Power,Cement,19.82,94,127,95.9,11.28,1.03,1900.74,223.57,130.81,354.38,1546.36,436.36,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,41.31,99,306,306.9,36.27,1.19,12678.04,1498.31,364.14,1862.45,10815.59,580.72,Excellent
+Paper Sludge,Paper,Brick Manufacturing,27.15,96,474,103.5,12.97,1.12,2810.02,352.14,530.88,883.02,1927.0,218.23,Excellent
+Bagasse,Sugar,Paper,17.94,87,132,146.85,17.76,1.59,2634.49,318.61,209.88,528.49,2106.0,398.49,Excellent
+Food Waste,Food,Biogas,26.02,71,158,75.3,10.93,1.02,1959.31,284.4,161.16,445.56,1513.75,339.74,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,74.87,75,320,1147.5,320.0,1.49,85913.33,23958.4,476.8,24435.2,61478.13,251.6,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,67.09,80,291,676.0,186.0,1.29,45352.84,12478.74,375.39,12854.13,32498.71,252.83,Excellent
+Cotton Scrap,Textile,Paper,26.37,98,113,250.2,31.97,1.95,6597.77,843.05,220.35,1063.4,5534.37,520.44,Excellent
+Bagasse,Sugar,Paper,28.08,77,414,141.35,18.96,1.34,3969.11,532.4,554.76,1087.16,2881.95,265.09,Excellent
+Fly Ash,Thermal Power,Cement,37.2,91,498,94.85,11.52,1.46,3528.42,428.54,727.08,1155.62,2372.8,205.33,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,53.5,81,37,678.6,184.8,2.28,36305.1,9886.8,84.36,9971.16,26333.94,264.1,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,72.56,71,413,1129.5,328.0,1.38,81956.52,23799.68,569.94,24369.62,57586.9,236.31,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,33.42,95,39,618.75,112.0,2.29,20678.62,3743.04,89.31,3832.35,16846.27,439.58,Excellent
+Rice Husk,Agriculture,Biofuel,36.33,96,440,131.1,18.53,2.29,4762.86,673.19,1007.6,1680.79,3082.07,183.37,Excellent
+Glass Waste,Glass,Glass Recycling,18.8,99,343,139.5,19.95,2.01,2622.6,375.06,689.43,1064.49,1558.11,146.37,Excellent
+Paper Sludge,Paper,Brick Manufacturing,20.94,98,119,104.25,12.79,2.42,2183.0,267.82,287.98,555.8,1627.2,292.77,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,84.23,72,281,655.2,195.6,2.31,55187.5,16475.39,649.11,17124.5,38063.0,222.27,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,13.5,77,431,578.25,126.4,2.07,7806.38,1706.4,892.17,2598.57,5207.81,200.41,Excellent
+Glass Waste,Glass,Glass Recycling,92.03,84,123,132.0,22.15,1.08,12147.96,2038.46,132.84,2171.3,9976.66,459.48,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,32.77,97,254,720.2,165.6,1.48,23600.95,5426.71,375.92,5802.63,17798.32,306.73,Excellent
+Steel Slag,Steel,Construction,93.38,76,201,108.8,15.9,1.66,10159.74,1484.74,333.66,1818.4,8341.34,458.72,Excellent
+Glass Waste,Glass,Glass Recycling,72.48,95,340,137.5,20.53,1.73,9966.0,1488.01,588.2,2076.21,7889.79,380.01,Excellent
+Steel Slag,Steel,Construction,24.57,96,310,117.3,13.9,1.75,2882.06,341.52,542.5,884.02,1998.04,226.02,Excellent
+Fly Ash,Thermal Power,Cement,81.75,72,122,88.2,13.04,1.91,7210.35,1066.02,233.02,1299.04,5911.31,455.05,Excellent
+Bagasse,Sugar,Paper,38.82,82,320,144.1,18.36,1.33,5593.96,712.74,425.6,1138.34,4455.62,391.41,Excellent
+Steel Slag,Steel,Construction,87.09,83,118,111.77,15.2,1.18,9734.05,1323.77,139.24,1463.01,8271.04,565.34,Excellent
+Steel Slag,Steel,Construction,80.19,70,263,106.25,16.5,2.33,8520.19,1323.13,612.79,1935.92,6584.27,340.11,Excellent
+Cotton Scrap,Textile,Paper,20.31,72,233,226.8,38.03,1.56,4606.31,772.39,363.48,1135.87,3470.44,305.53,Excellent
+Cotton Scrap,Textile,Paper,35.03,91,268,243.9,33.6,0.81,8543.82,1177.01,217.08,1394.09,7149.73,512.86,Excellent
+Food Waste,Food,Biogas,87.4,75,432,76.5,10.67,2.33,6686.1,932.56,1006.56,1939.12,4746.98,244.8,Excellent
+Steel Slag,Steel,Construction,80.59,93,302,116.03,14.2,2.05,9350.86,1144.38,619.1,1763.48,7587.38,430.25,Excellent
+Cotton Scrap,Textile,Paper,83.05,92,358,244.8,33.37,2.02,20330.64,2771.38,723.16,3494.54,16836.1,481.78,Excellent
+Paper Sludge,Paper,Brick Manufacturing,69.92,97,180,103.88,12.88,0.96,7263.29,900.57,172.8,1073.37,6189.92,576.68,Excellent
+Paper Sludge,Paper,Brick Manufacturing,89.72,99,36,104.62,12.69,2.34,9386.51,1138.55,84.24,1222.79,8163.72,667.63,Excellent
+Food Waste,Food,Biogas,51.84,79,445,77.7,10.4,1.63,4027.97,539.14,725.35,1264.49,2763.48,218.55,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,99.35,92,86,612.0,114.4,1.12,60802.2,11365.64,96.32,11461.96,49340.24,430.47,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,24.61,81,270,287.1,41.07,1.01,7065.53,1010.73,272.7,1283.43,5782.1,450.52,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,82.67,89,397,295.9,38.93,1.04,24462.05,3218.34,412.88,3631.22,20830.83,573.66,Excellent
+Paper Sludge,Paper,Brick Manufacturing,9.93,93,433,102.38,13.25,0.97,1016.63,131.57,420.01,551.58,465.05,84.31,Excellent
+Cotton Scrap,Textile,Paper,92.63,85,235,238.5,35.0,2.09,22092.25,3242.05,491.15,3733.2,18359.05,491.78,Excellent
+Food Waste,Food,Biogas,75.28,94,264,82.2,9.4,1.47,6188.02,707.63,388.08,1095.71,5092.31,464.75,Excellent
+Cotton Scrap,Textile,Paper,98.78,93,272,245.7,33.13,2.33,24270.25,3272.58,633.76,3906.34,20363.91,521.3,Excellent
+Fly Ash,Thermal Power,Cement,28.83,75,218,89.25,12.8,1.53,2573.08,369.02,333.54,702.56,1870.52,266.24,Excellent
+Cotton Scrap,Textile,Paper,77.09,75,100,229.5,37.33,1.63,17692.16,2877.77,163.0,3040.77,14651.39,481.83,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,60.85,72,162,655.2,195.6,1.73,39868.92,11902.26,280.26,12182.52,27686.4,227.26,Excellent
+Paper Sludge,Paper,Brick Manufacturing,88.03,77,312,96.38,14.75,1.62,8484.33,1298.44,505.44,1803.88,6680.45,370.34,Excellent
+Steel Slag,Steel,Construction,97.58,82,443,111.35,15.3,1.86,10865.53,1492.97,823.98,2316.95,8548.58,368.96,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,24.16,93,85,709.8,170.4,0.98,17148.77,4116.86,83.3,4200.16,12948.61,308.29,Excellent
+Food Waste,Food,Biogas,60.82,86,122,79.8,9.93,2.49,4853.44,603.94,303.78,907.72,3945.72,434.68,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,86.46,77,81,1156.5,316.0,1.62,99990.99,27321.36,131.22,27452.58,72538.41,264.23,Excellent
+Food Waste,Food,Biogas,8.07,81,117,78.3,10.27,2.23,631.88,82.88,260.91,343.79,288.09,83.8,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,19.31,95,75,618.75,112.0,1.85,11948.06,2162.72,138.75,2301.47,9646.59,419.15,Excellent
+Paper Sludge,Paper,Brick Manufacturing,19.56,70,144,93.75,15.4,2.07,1833.75,301.22,298.08,599.3,1234.45,205.98,Excellent
+Rice Husk,Agriculture,Biofuel,43.9,94,256,130.15,18.8,1.03,5713.59,825.32,263.68,1089.0,4624.59,424.66,Excellent
+Food Waste,Food,Biogas,94.15,78,125,77.4,10.47,1.16,7287.21,985.75,145.0,1130.75,6156.46,544.46,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,51.71,88,461,603.0,117.6,1.45,31181.13,6081.1,668.45,6749.55,24431.58,361.97,Excellent
+Glass Waste,Glass,Glass Recycling,52.72,81,334,130.5,22.59,1.68,6879.96,1190.94,561.12,1752.06,5127.9,292.68,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,92.67,83,222,683.8,182.4,1.59,63367.75,16903.01,352.98,17255.99,46111.76,267.22,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,50.64,88,496,603.0,117.6,0.83,30535.92,5955.26,411.68,6366.94,24168.98,379.6,Excellent
+Rice Husk,Agriculture,Biofuel,74.88,82,106,124.45,20.4,0.9,9318.82,1527.55,95.4,1622.95,7695.87,474.19,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,87.14,70,289,275.0,44.0,2.25,23963.5,3834.16,650.25,4484.41,19479.09,434.37,Excellent
+Cotton Scrap,Textile,Paper,49.0,93,258,245.7,33.13,1.32,12039.3,1623.37,340.56,1963.93,10075.37,513.02,Excellent
+Food Waste,Food,Biogas,7.38,96,216,82.8,9.27,1.74,611.06,68.41,375.84,444.25,166.81,37.55,Moderate Profit
+Fly Ash,Thermal Power,Cement,20.71,90,167,94.5,11.6,1.91,1957.1,240.24,318.97,559.21,1397.89,249.98,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,82.98,70,207,275.0,44.0,1.83,22819.5,3651.12,378.81,4029.93,18789.57,466.25,Excellent
+Paper Sludge,Paper,Brick Manufacturing,70.49,90,271,101.25,13.53,1.54,7137.11,953.73,417.34,1371.07,5766.04,420.55,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,51.9,94,445,1233.0,282.0,1.04,63992.7,14635.8,462.8,15098.6,48894.1,323.83,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,40.06,92,217,1224.0,286.0,1.09,49033.44,11457.16,236.53,11693.69,37339.75,319.32,Excellent
+Steel Slag,Steel,Construction,74.01,76,46,108.8,15.9,2.03,8052.29,1176.76,93.38,1270.14,6782.15,533.97,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,64.65,93,400,300.3,37.87,2.32,19414.4,2448.3,928.0,3376.3,16038.1,475.02,Excellent
+Rice Husk,Agriculture,Biofuel,3.12,88,189,127.3,19.6,2.13,397.18,61.15,402.57,463.72,-66.54,-14.35,Loss
+Fly Ash,Thermal Power,Cement,80.15,94,322,95.9,11.28,2.07,7686.39,904.09,666.54,1570.63,6115.76,389.38,Excellent
+Glass Waste,Glass,Glass Recycling,88.59,78,236,129.0,23.03,2.26,11428.11,2040.23,533.36,2573.59,8854.52,344.05,Excellent
+Paper Sludge,Paper,Brick Manufacturing,49.64,84,475,99.0,14.09,1.22,4914.36,699.43,579.5,1278.93,3635.43,284.26,Excellent
+Rice Husk,Agriculture,Biofuel,47.22,72,256,119.7,21.73,2.1,5652.23,1026.09,537.6,1563.69,4088.54,261.47,Excellent
+Fly Ash,Thermal Power,Cement,89.04,87,257,93.45,11.84,0.96,8320.79,1054.23,246.72,1300.95,7019.84,539.59,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,17.09,77,472,578.25,126.4,2.1,9882.29,2160.18,991.2,3151.38,6730.91,213.59,Excellent
+Steel Slag,Steel,Construction,89.81,82,139,111.35,15.3,1.15,10000.34,1374.09,159.85,1533.94,8466.4,551.94,Excellent
+Fly Ash,Thermal Power,Cement,98.11,96,77,96.6,11.12,2.44,9477.43,1090.98,187.88,1278.86,8198.57,641.08,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,2.97,82,277,589.5,122.4,2.05,1750.82,363.53,567.85,931.38,819.44,87.98,Excellent
+Rice Husk,Agriculture,Biofuel,35.52,75,95,121.12,21.33,2.39,4302.18,757.64,227.05,984.69,3317.49,336.91,Excellent
+Steel Slag,Steel,Construction,49.75,73,232,107.53,16.2,1.9,5349.62,805.95,440.8,1246.75,4102.87,329.09,Excellent
+Food Waste,Food,Biogas,26.01,87,176,80.1,9.87,1.95,2083.4,256.72,343.2,599.92,1483.48,247.28,Excellent
+Fly Ash,Thermal Power,Cement,43.0,80,156,91.0,12.4,1.23,3913.0,533.2,191.88,725.08,3187.92,439.66,Excellent
+Bagasse,Sugar,Paper,91.99,74,163,139.7,19.32,1.9,12851.0,1777.25,309.7,2086.95,10764.05,515.78,Excellent
+Rice Husk,Agriculture,Biofuel,36.02,72,390,119.7,21.73,2.05,4311.59,782.71,799.5,1582.21,2729.38,172.5,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,96.73,80,51,1170.0,310.0,1.48,113174.1,29986.3,75.48,30061.78,83112.32,276.47,Excellent
+Fly Ash,Thermal Power,Cement,4.41,81,347,91.35,12.32,1.39,402.85,54.33,482.33,536.66,-133.81,-24.93,Loss
+Glass Waste,Glass,Glass Recycling,34.76,91,15,135.5,21.12,2.06,4709.98,734.13,30.9,765.03,3944.95,515.66,Excellent
+Glass Waste,Glass,Glass Recycling,31.56,99,461,139.5,19.95,0.95,4402.62,629.62,437.95,1067.57,3335.05,312.4,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,62.98,97,119,1246.5,276.0,1.34,78504.57,17382.48,159.46,17541.94,60962.63,347.53,Excellent
+Steel Slag,Steel,Construction,58.66,78,455,109.65,15.7,1.9,6432.07,920.96,864.5,1785.46,4646.61,260.25,Excellent
+Cotton Scrap,Textile,Paper,43.55,91,231,243.9,33.6,1.89,10621.84,1463.28,436.59,1899.87,8721.97,459.08,Excellent
+Bagasse,Sugar,Paper,47.06,99,350,153.45,16.32,1.23,7221.36,768.02,430.5,1198.52,6022.84,502.52,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,98.04,72,35,655.2,195.6,2.31,64235.81,19176.62,80.85,19257.47,44978.34,233.56,Excellent
+Food Waste,Food,Biogas,92.28,86,253,79.8,9.93,1.74,7363.94,916.34,440.22,1356.56,6007.38,442.84,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,87.46,99,451,627.75,108.8,1.0,54903.01,9515.65,451.0,9966.65,44936.36,450.87,Excellent
+Cotton Scrap,Textile,Paper,79.13,95,379,247.5,32.67,2.06,19584.67,2585.18,780.74,3365.92,16218.75,481.85,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,62.96,83,193,591.75,121.6,1.01,37256.58,7655.94,194.93,7850.87,29405.71,374.55,Excellent
+Food Waste,Food,Biogas,55.52,75,381,76.5,10.67,0.88,4247.28,592.4,335.28,927.68,3319.6,357.84,Excellent
+Bagasse,Sugar,Paper,23.25,81,24,143.55,18.48,1.42,3337.54,429.66,34.08,463.74,2873.8,619.7,Excellent
+Fly Ash,Thermal Power,Cement,64.68,98,368,97.3,10.96,1.35,6293.36,708.89,496.8,1205.69,5087.67,421.97,Excellent
+Food Waste,Food,Biogas,64.15,92,167,81.6,9.53,2.0,5234.64,611.35,334.0,945.35,4289.29,453.73,Excellent
+Rice Husk,Agriculture,Biofuel,18.42,82,344,124.45,20.4,1.92,2292.37,375.77,660.48,1036.25,1256.12,121.22,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,49.21,88,359,603.0,117.6,1.9,29673.63,5787.1,682.1,6469.2,23204.43,358.69,Excellent
+Bagasse,Sugar,Paper,65.2,94,152,150.7,16.92,1.65,9825.64,1103.18,250.8,1353.98,8471.66,625.69,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,17.3,77,56,578.25,126.4,1.55,10003.73,2186.72,86.8,2273.52,7730.21,340.01,Excellent
+Paper Sludge,Paper,Brick Manufacturing,17.22,94,154,102.75,13.16,1.45,1769.35,226.62,223.3,449.92,1319.43,293.26,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,65.4,76,424,665.6,190.8,0.81,43530.24,12478.32,343.44,12821.76,30708.48,239.5,Excellent
+Rice Husk,Agriculture,Biofuel,97.94,75,209,121.12,21.33,0.93,11862.49,2089.06,194.37,2283.43,9579.06,419.5,Excellent
+Cotton Scrap,Textile,Paper,65.37,72,498,226.8,38.03,1.97,14825.92,2486.02,981.06,3467.08,11358.84,327.62,Excellent
+Bagasse,Sugar,Paper,29.38,96,490,151.8,16.68,2.34,4459.88,490.06,1146.6,1636.66,2823.22,172.5,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,35.15,94,468,301.4,37.6,1.96,10594.21,1321.64,917.28,2238.92,8355.29,373.18,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,47.08,99,435,306.9,36.27,2.12,14448.85,1707.59,922.2,2629.79,11819.06,449.43,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,76.57,93,124,300.3,37.87,1.5,22993.97,2899.71,186.0,3085.71,19908.26,645.18,Excellent
+Paper Sludge,Paper,Brick Manufacturing,7.19,70,251,93.75,15.4,2.34,674.06,110.73,587.34,698.07,-24.01,-3.44,Loss
+Fly Ash,Thermal Power,Cement,56.11,91,452,94.85,11.52,0.84,5322.03,646.39,379.68,1026.07,4295.96,418.68,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,81.0,76,491,1152.0,318.0,1.21,93312.0,25758.0,594.11,26352.11,66959.89,254.1,Excellent
+Food Waste,Food,Biogas,34.85,99,114,83.7,9.07,2.42,2916.95,316.09,275.88,591.97,2324.98,392.75,Excellent
+Cotton Scrap,Textile,Paper,44.09,88,306,241.2,34.3,1.73,10634.51,1512.29,529.38,2041.67,8592.84,420.87,Excellent
+Fly Ash,Thermal Power,Cement,62.53,97,176,96.95,11.04,0.93,6062.28,690.33,163.68,854.01,5208.27,609.86,Excellent
+Cotton Scrap,Textile,Paper,1.34,71,425,225.9,38.27,0.91,302.71,51.28,386.75,438.03,-135.32,-30.89,Loss
+Glass Waste,Glass,Glass Recycling,48.74,70,282,125.0,24.2,2.17,6092.5,1179.51,611.94,1791.45,4301.05,240.09,Excellent
+Rice Husk,Agriculture,Biofuel,61.49,82,101,124.45,20.4,2.46,7652.43,1254.4,248.46,1502.86,6149.57,409.19,Excellent
+Glass Waste,Glass,Glass Recycling,66.43,87,189,133.5,21.71,1.47,8868.41,1442.2,277.83,1720.03,7148.38,415.6,Excellent
+Bagasse,Sugar,Paper,34.4,83,48,144.65,18.24,2.41,4975.96,627.46,115.68,743.14,4232.82,569.59,Excellent
+Food Waste,Food,Biogas,11.71,82,345,78.6,10.2,1.55,920.41,119.44,534.75,654.19,266.22,40.69,High Profit
+Plastic Scrap,Packaging,Plastic Recycling,80.62,73,188,278.3,43.2,0.94,22436.55,3482.78,176.72,3659.5,18777.05,513.1,Excellent
+Fly Ash,Thermal Power,Cement,15.47,98,315,97.3,10.96,1.0,1505.23,169.55,315.0,484.55,1020.68,210.64,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,34.87,99,426,725.4,163.2,1.97,25294.7,5690.78,839.22,6530.0,18764.7,287.36,Excellent
+Steel Slag,Steel,Construction,31.94,91,382,115.17,14.4,2.35,3678.53,459.94,897.7,1357.64,2320.89,170.95,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,29.09,94,485,1233.0,282.0,1.45,35867.97,8203.38,703.25,8906.63,26961.34,302.71,Excellent
+Fly Ash,Thermal Power,Cement,54.55,98,17,97.3,10.96,1.06,5307.71,597.87,18.02,615.89,4691.82,761.8,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,30.81,97,176,1246.5,276.0,1.26,38404.67,8503.56,221.76,8725.32,29679.35,340.15,Excellent
+Rice Husk,Agriculture,Biofuel,28.04,90,383,128.25,19.33,2.01,3596.13,542.01,769.83,1311.84,2284.29,174.13,Excellent
+Cotton Scrap,Textile,Paper,72.46,99,352,251.1,31.73,1.11,18194.71,2299.16,390.72,2689.88,15504.83,576.41,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,5.18,84,211,686.4,181.2,2.49,3555.55,938.62,525.39,1464.01,2091.54,142.86,Excellent
+Fly Ash,Thermal Power,Cement,20.19,74,367,88.9,12.88,2.42,1794.89,260.05,888.14,1148.19,646.7,56.32,High Profit
+Plastic Scrap,Packaging,Plastic Recycling,19.83,99,267,306.9,36.27,0.94,6085.83,719.23,250.98,970.21,5115.62,527.27,Excellent
+Paper Sludge,Paper,Brick Manufacturing,11.24,86,149,99.75,13.91,1.3,1121.19,156.35,193.7,350.05,771.14,220.29,Excellent
+Bagasse,Sugar,Paper,53.39,92,342,149.6,17.16,2.18,7987.14,916.17,745.56,1661.73,6325.41,380.65,Excellent
+Paper Sludge,Paper,Brick Manufacturing,3.58,75,297,95.62,14.93,2.29,342.32,53.45,680.13,733.58,-391.26,-53.34,Loss
+Chemical Sludge,Chemical,Hazardous Treatment Facility,70.39,75,115,663.0,192.0,1.12,46668.57,13514.88,128.8,13643.68,33024.89,242.05,Excellent
+Fly Ash,Thermal Power,Cement,4.91,79,45,90.65,12.48,1.75,445.09,61.28,78.75,140.03,305.06,217.85,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,46.98,78,470,283.8,41.87,1.98,13332.92,1967.05,930.6,2897.65,10435.27,360.13,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,37.7,83,28,591.75,121.6,2.42,22308.98,4584.32,67.76,4652.08,17656.9,379.55,Excellent
+Paper Sludge,Paper,Brick Manufacturing,6.26,93,489,102.38,13.25,1.01,640.9,82.94,493.89,576.83,64.07,11.11,Low Profit
+Used Oil,Automotive,Authorized Oil Recycler,82.79,71,124,564.75,131.2,2.12,46755.65,10862.05,262.88,11124.93,35630.72,320.28,Excellent
+Cotton Scrap,Textile,Paper,61.74,84,333,237.6,35.23,2.0,14669.42,2175.1,666.0,2841.1,11828.32,416.33,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,63.41,86,178,1197.0,298.0,1.11,75901.77,18896.18,197.58,19093.76,56808.01,297.52,Excellent
+Bagasse,Sugar,Paper,2.38,70,196,137.5,19.8,1.22,327.25,47.12,239.12,286.24,41.01,14.33,Low Profit
+Cotton Scrap,Textile,Paper,63.06,84,204,237.6,35.23,0.96,14983.06,2221.6,195.84,2417.44,12565.62,519.79,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,35.58,82,222,589.5,122.4,1.88,20974.41,4354.99,417.36,4772.35,16202.06,339.5,Excellent
+Steel Slag,Steel,Construction,62.29,93,24,116.03,14.2,1.12,7227.51,884.52,26.88,911.4,6316.11,693.01,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,63.29,72,311,567.0,130.4,2.08,35885.43,8253.02,646.88,8899.9,26985.53,303.21,Excellent
+E-Waste,Electronics,Authorized E-Waste Recycler,45.15,83,118,1183.5,304.0,1.64,53435.03,13725.6,193.52,13919.12,39515.91,283.9,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,45.74,90,126,297.0,38.67,2.22,13584.78,1768.77,279.72,2048.49,11536.29,563.16,Excellent
+Bagasse,Sugar,Paper,85.57,95,452,151.25,16.8,2.42,12942.46,1437.58,1093.84,2531.42,10411.04,411.27,Excellent
+Bagasse,Sugar,Paper,10.0,73,67,139.15,19.44,1.27,1391.5,194.4,85.09,279.49,1112.01,397.87,Excellent
+Fly Ash,Thermal Power,Cement,44.14,85,53,92.75,12.0,1.77,4093.99,529.68,93.81,623.49,3470.5,556.62,Excellent
+Food Waste,Food,Biogas,78.96,78,389,77.4,10.47,1.17,6111.5,826.71,455.13,1281.84,4829.66,376.78,Excellent
+Glass Waste,Glass,Glass Recycling,54.92,80,216,130.0,22.73,1.66,7139.6,1248.33,358.56,1606.89,5532.71,344.31,Excellent
+Rice Husk,Agriculture,Biofuel,96.48,97,176,131.57,18.4,1.57,12693.87,1775.23,276.32,2051.55,10642.32,518.75,Excellent
+Paper Sludge,Paper,Brick Manufacturing,14.94,96,412,103.5,12.97,1.4,1546.29,193.77,576.8,770.57,775.72,100.67,Excellent
+Cotton Scrap,Textile,Paper,14.78,85,374,238.5,35.0,1.72,3525.03,517.3,643.28,1160.58,2364.45,203.73,Excellent
+Used Oil,Automotive,Authorized Oil Recycler,53.15,92,40,612.0,114.4,2.34,32527.8,6080.36,93.6,6173.96,26353.84,426.85,Excellent
+Glass Waste,Glass,Glass Recycling,32.47,77,93,128.5,23.17,0.87,4172.39,752.33,80.91,833.24,3339.15,400.74,Excellent
+Glass Waste,Glass,Glass Recycling,98.76,76,490,128.0,23.32,1.86,12641.28,2303.08,911.4,3214.48,9426.8,293.26,Excellent
+Bagasse,Sugar,Paper,18.06,72,131,138.6,19.56,1.54,2503.12,353.25,201.74,554.99,1948.13,351.02,Excellent
+Cotton Scrap,Textile,Paper,8.27,72,94,226.8,38.03,1.82,1875.64,314.51,171.08,485.59,1390.05,286.26,Excellent
+Glass Waste,Glass,Glass Recycling,97.58,74,80,127.0,23.61,0.82,12392.66,2303.86,65.6,2369.46,10023.2,423.02,Excellent
+Glass Waste,Glass,Glass Recycling,29.72,94,242,137.0,20.68,1.19,4071.64,614.61,287.98,902.59,3169.05,351.11,Excellent
+Steel Slag,Steel,Construction,17.22,72,485,107.1,16.3,2.06,1844.26,280.69,999.1,1279.79,564.47,44.11,High Profit
+Plastic Scrap,Packaging,Plastic Recycling,18.86,77,226,282.7,42.13,2.11,5331.72,794.57,476.86,1271.43,4060.29,319.35,Excellent
+Steel Slag,Steel,Construction,11.59,76,408,108.8,15.9,1.54,1260.99,184.28,628.32,812.6,448.39,55.18,High Profit
+E-Waste,Electronics,Authorized E-Waste Recycler,62.65,75,282,1147.5,320.0,2.36,71890.88,20048.0,665.52,20713.52,51177.36,247.07,Excellent
+Chemical Sludge,Chemical,Hazardous Treatment Facility,51.75,92,253,707.2,171.6,1.53,36597.6,8880.3,387.09,9267.39,27330.21,294.91,Excellent
+Steel Slag,Steel,Construction,57.45,71,244,106.67,16.4,2.46,6128.19,942.18,600.24,1542.42,4585.77,297.31,Excellent
+Plastic Scrap,Packaging,Plastic Recycling,75.65,82,75,288.2,40.8,0.94,21802.33,3086.52,70.5,3157.02,18645.31,590.6,Excellent
+Fly Ash,Thermal Power,Cement,61.83,93,143,95.55,11.36,1.11,5907.86,702.39,158.73,861.12,5046.74,586.07,Excellent
