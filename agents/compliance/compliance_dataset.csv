@@ -1,0 +1,501 @@
+material,source_industry,destination_industry,quantity_tons,purity,hazard_level,hazardous,permit_required,authorized_destination,transport_authorized,transport_distance_km,missing_documents,pollution_category,required_documents,compliance_score,verdict
+Food Waste,Food,Unauthorized Facility,58.47,83,Low,No,No,No,Yes,186,0,Organic,Organic Waste Record,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,65.57,72,High,Yes,Yes,Yes,Yes,240,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Food Waste,Food,Biogas,184.88,97,Low,No,No,Yes,Yes,266,0,Organic,Organic Waste Record,100,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,111.34,84,Low,No,No,No,Yes,188,0,Plastic,Invoice,75,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,74.47,79,High,Yes,Yes,Yes,No,258,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Paper Sludge,Paper,Brick Manufacturing,1.57,85,Low,No,No,Yes,Yes,231,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,44.48,87,High,Yes,Yes,Yes,Yes,175,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Rice Husk,Agriculture,Biofuel,6.61,94,Low,No,No,Yes,Yes,169,0,Organic,Invoice,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,118.64,86,Low,No,No,Yes,Yes,46,1,Plastic,Invoice,90,Pass
+Polyester Scrap,Textile,Plastic Recycling,163.87,93,Low,No,No,Yes,Yes,121,1,Plastic,Invoice,90,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,127.48,78,High,Yes,Yes,Yes,Yes,5,2,Hazardous,E-Waste Manifest; Transport Permit,65,Fail
+Food Waste,Food,Biogas,147.1,76,Low,No,No,Yes,Yes,157,0,Organic,Organic Waste Record,100,Pass
+Fly Ash,Thermal Power,Cement,94.89,98,Low,No,No,Yes,Yes,281,0,Industrial,Transfer Record,100,Pass
+Bagasse,Sugar,Unauthorized Facility,81.64,70,Low,No,No,No,Yes,235,0,Organic,Invoice,75,Pass
+Fly Ash,Thermal Power,Cement,137.91,81,Low,No,No,Yes,Yes,218,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,195.78,82,Low,No,No,Yes,Yes,196,0,Plastic,Invoice,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,146.52,92,High,Yes,Yes,Yes,No,298,1,Hazardous,E-Waste Manifest; Transport Permit,55,Fail
+Paper Sludge,Paper,Brick Manufacturing,34.85,90,Low,No,No,Yes,Yes,27,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,26.69,84,High,Yes,Yes,Yes,Yes,186,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Fly Ash,Thermal Power,Cement,36.2,80,Low,No,No,Yes,Yes,71,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,179.77,80,Low,No,No,Yes,Yes,47,0,Organic,Invoice,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,82.71,93,Low,No,No,Yes,Yes,217,0,Plastic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,20.77,75,Low,No,No,Yes,Yes,71,0,Plastic,Invoice,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,123.2,73,Low,No,No,Yes,Yes,63,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,38.58,73,High,Yes,Yes,Yes,Yes,126,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Fly Ash,Thermal Power,Cement,180.02,76,Low,No,No,Yes,Yes,193,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,194.12,76,Low,No,No,Yes,Yes,240,1,Plastic,Invoice,90,Pass
+Paper Sludge,Paper,Brick Manufacturing,108.41,97,Low,No,No,Yes,Yes,58,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,196.15,72,Low,No,No,Yes,Yes,268,0,Organic,Invoice,100,Pass
+Steel Slag,Steel,Construction,132.6,78,Medium,No,No,Yes,Yes,197,1,Industrial,Transfer Record,90,Pass
+Bagasse,Sugar,Unauthorized Facility,92.26,71,Low,No,No,No,Yes,25,0,Organic,Invoice,75,Pass
+Rice Husk,Agriculture,Unauthorized Facility,132.28,78,Low,No,No,No,Yes,97,0,Organic,Invoice,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,66.38,90,High,Yes,Yes,Yes,Yes,86,1,Hazardous,E-Waste Manifest; Transport Permit,75,Pass
+Plastic Scrap,Packaging,Plastic Recycling,91.9,75,Low,No,No,Yes,Yes,153,1,Plastic,Invoice,90,Pass
+Bagasse,Sugar,Unauthorized Facility,162.7,82,Low,No,No,No,Yes,95,0,Organic,Invoice,75,Pass
+Rice Husk,Agriculture,Unauthorized Facility,79.49,92,Low,No,No,No,Yes,11,0,Organic,Invoice,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,126.76,77,High,Yes,Yes,Yes,Yes,9,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,168.68,80,High,Yes,Yes,Yes,No,105,3,Hazardous,E-Waste Manifest; Transport Permit,35,Fail
+Paper Sludge,Paper,Unauthorized Facility,36.86,97,Low,No,No,No,Yes,180,0,Industrial,Transfer Record,75,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,106.09,82,Low,No,No,No,Yes,109,0,Plastic,Invoice,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,26.14,90,High,Yes,Yes,Yes,No,290,2,Hazardous,E-Waste Manifest; Transport Permit,45,Fail
+Cotton Scrap,Textile,Paper,196.14,97,Low,No,No,Yes,Yes,296,0,Non-Hazardous,Waste Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,1.95,98,High,Yes,Yes,Yes,Yes,284,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Food Waste,Food,Biogas,61.77,99,Low,No,No,Yes,Yes,240,0,Organic,Organic Waste Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,89.99,79,High,Yes,Yes,Yes,Yes,173,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,66.24,82,High,Yes,Yes,Yes,No,165,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Cotton Scrap,Textile,Paper,57.99,95,Low,No,No,Yes,Yes,66,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Food Waste,Food,Biogas,77.59,86,Low,No,No,Yes,Yes,236,0,Organic,Organic Waste Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,188.99,76,High,Yes,Yes,Yes,Yes,214,1,Hazardous,E-Waste Manifest; Transport Permit,75,Pass
+Steel Slag,Steel,Construction,16.67,89,Medium,No,No,Yes,Yes,38,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,3.91,76,Low,No,No,Yes,Yes,48,0,Plastic,Invoice,100,Pass
+Food Waste,Food,Biogas,136.44,77,Low,No,No,Yes,Yes,253,0,Organic,Organic Waste Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,61.13,76,High,Yes,Yes,Yes,Yes,181,1,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,75,Pass
+Cotton Scrap,Textile,Paper,111.83,97,Low,No,No,Yes,Yes,89,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,19.52,94,Low,No,No,Yes,Yes,218,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Unauthorized Facility,106.69,94,High,Yes,Yes,No,Yes,253,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Rice Husk,Agriculture,Biofuel,185.92,88,Low,No,No,Yes,Yes,181,0,Organic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,147.59,94,Low,No,No,Yes,Yes,65,0,Plastic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,129.95,87,Low,No,No,Yes,Yes,28,0,Plastic,Invoice,100,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,10.86,93,Low,No,No,No,Yes,153,0,Plastic,Invoice,75,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,99.15,71,Low,No,No,No,Yes,221,0,Industrial,Transfer Record,75,Pass
+Bagasse,Sugar,Paper,93.72,87,Low,No,No,Yes,Yes,290,1,Organic,Invoice,90,Pass
+Polyester Scrap,Textile,Plastic Recycling,44.59,73,Low,No,No,Yes,Yes,195,0,Plastic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,189.28,90,Low,No,No,Yes,Yes,289,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,55.56,83,High,Yes,Yes,Yes,No,83,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,174.83,88,High,Yes,Yes,Yes,Yes,263,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Fly Ash,Thermal Power,Cement,106.04,90,Low,No,No,Yes,Yes,6,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,16.09,91,Low,No,No,Yes,Yes,45,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,109.97,73,Low,No,No,Yes,Yes,168,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,167.04,74,High,Yes,Yes,Yes,No,252,1,Hazardous,E-Waste Manifest; Transport Permit,55,Fail
+E-Waste,Electronics,Unauthorized Facility,17.42,90,High,Yes,Yes,No,Yes,91,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Food Waste,Food,Unauthorized Facility,135.57,91,Low,No,No,No,Yes,150,0,Organic,Organic Waste Record,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,166.88,98,Low,No,No,Yes,Yes,187,1,Industrial,Transfer Record,90,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,149.95,90,High,Yes,Yes,Yes,No,156,0,Hazardous,E-Waste Manifest; Transport Permit,65,Fail
+Plastic Scrap,Packaging,Plastic Recycling,172.47,93,Low,No,No,Yes,Yes,71,1,Plastic,Invoice,90,Pass
+Steel Slag,Steel,Unauthorized Facility,197.4,75,Medium,No,No,No,Yes,22,0,Industrial,Transfer Record,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,79.69,90,High,Yes,Yes,Yes,Yes,131,1,Hazardous,Hazardous Waste Manifest; Transport Permit,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,109.75,89,High,Yes,Yes,Yes,Yes,151,3,Hazardous,Hazardous Waste Manifest; Transport Permit,55,Fail
+Paper Sludge,Paper,Unauthorized Facility,50.4,99,Low,No,No,No,Yes,266,0,Industrial,Transfer Record,75,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,142.09,95,Low,No,No,No,Yes,180,1,Industrial,Transfer Record,65,Fail
+Steel Slag,Steel,Construction,1.95,97,Medium,No,No,Yes,Yes,122,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,17.64,74,High,Yes,Yes,Yes,Yes,61,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Used Oil,Automotive,Authorized Oil Recycler,118.76,87,High,Yes,Yes,Yes,Yes,215,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,93.8,91,High,Yes,Yes,Yes,Yes,276,3,Hazardous,E-Waste Manifest; Transport Permit,55,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,119.89,77,High,Yes,Yes,Yes,Yes,37,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Polyester Scrap,Textile,Unauthorized Facility,36.59,74,Low,No,No,No,Yes,35,0,Plastic,Invoice,75,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,68.26,97,High,Yes,Yes,Yes,No,199,3,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,35,Fail
+Paper Sludge,Paper,Brick Manufacturing,112.74,96,Low,No,No,Yes,Yes,295,0,Industrial,Transfer Record,100,Pass
+Steel Slag,Steel,Construction,27.53,87,Medium,No,No,Yes,Yes,247,1,Industrial,Transfer Record,90,Pass
+Fly Ash,Thermal Power,Cement,65.39,78,Low,No,No,Yes,Yes,134,1,Industrial,Transfer Record,90,Pass
+Bagasse,Sugar,Paper,133.77,79,Low,No,No,Yes,Yes,266,0,Organic,Invoice,100,Pass
+Steel Slag,Steel,Construction,138.17,71,Medium,No,No,Yes,Yes,291,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,163.21,97,Low,No,No,Yes,Yes,256,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,108.29,98,High,Yes,Yes,Yes,Yes,222,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Paper Sludge,Paper,Unauthorized Facility,115.68,93,Low,No,No,No,Yes,250,0,Industrial,Transfer Record,75,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,25.08,82,High,Yes,Yes,Yes,No,138,1,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,55,Fail
+Used Oil,Automotive,Unauthorized Facility,134.42,88,High,Yes,Yes,No,Yes,262,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Plastic Scrap,Packaging,Plastic Recycling,41.22,73,Low,No,No,Yes,Yes,179,1,Plastic,Invoice,90,Pass
+Steel Slag,Steel,Construction,3.7,97,Medium,No,No,Yes,Yes,79,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,104.72,89,High,Yes,Yes,Yes,No,230,0,Hazardous,Hazardous Waste Manifest; Transport Permit,65,Fail
+Polyester Scrap,Textile,Plastic Recycling,111.87,75,Low,No,No,Yes,Yes,284,0,Plastic,Invoice,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,174.59,96,Low,No,No,Yes,Yes,148,1,Plastic,Invoice,90,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,2.52,91,Low,No,No,No,Yes,31,0,Industrial,Transfer Record,75,Pass
+Plastic Scrap,Packaging,Plastic Recycling,126.22,81,Low,No,No,Yes,Yes,117,0,Plastic,Invoice,100,Pass
+Cotton Scrap,Textile,Paper,12.36,81,Low,No,No,Yes,Yes,137,0,Non-Hazardous,Waste Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,90.89,98,High,Yes,Yes,Yes,No,30,0,Hazardous,E-Waste Manifest; Transport Permit,65,Fail
+Bagasse,Sugar,Paper,57.5,94,Low,No,No,Yes,Yes,73,0,Organic,Invoice,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,115.36,89,High,Yes,Yes,Yes,Yes,99,2,Hazardous,Hazardous Waste Manifest; Transport Permit,65,Fail
+Plastic Scrap,Packaging,Plastic Recycling,46.51,79,Low,No,No,Yes,Yes,97,0,Plastic,Invoice,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,192.26,76,High,Yes,Yes,Yes,Yes,151,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Plastic Scrap,Packaging,Plastic Recycling,80.03,87,Low,No,No,Yes,Yes,7,0,Plastic,Invoice,100,Pass
+Food Waste,Food,Biogas,65.6,91,Low,No,No,Yes,Yes,294,0,Organic,Organic Waste Record,100,Pass
+Cotton Scrap,Textile,Unauthorized Facility,70.63,73,Low,No,No,No,Yes,234,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,141.31,89,High,Yes,Yes,No,Yes,245,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Polyester Scrap,Textile,Plastic Recycling,1.46,84,Low,No,No,Yes,Yes,142,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,157.24,87,High,Yes,Yes,Yes,Yes,210,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Used Oil,Automotive,Authorized Oil Recycler,29.18,81,High,Yes,Yes,Yes,Yes,8,1,Hazardous,Hazardous Waste Manifest; Transport Permit,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,165.28,85,Low,No,No,Yes,Yes,227,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,71.04,95,Low,No,No,Yes,Yes,140,0,Organic,Invoice,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,19.57,95,Low,No,No,No,Yes,221,0,Organic,Invoice,75,Pass
+Bagasse,Sugar,Unauthorized Facility,194.74,72,Low,No,No,No,Yes,120,0,Organic,Invoice,75,Pass
+Bagasse,Sugar,Unauthorized Facility,182.66,86,Low,No,No,No,Yes,26,0,Organic,Invoice,75,Pass
+Steel Slag,Steel,Construction,159.4,73,Medium,No,No,Yes,Yes,128,0,Industrial,Transfer Record,100,Pass
+Steel Slag,Steel,Construction,162.06,97,Medium,No,No,Yes,Yes,213,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Unauthorized Facility,152.58,87,Low,No,No,No,Yes,283,0,Plastic,Invoice,75,Pass
+Bagasse,Sugar,Unauthorized Facility,63.58,86,Low,No,No,No,Yes,25,0,Organic,Invoice,75,Pass
+Paper Sludge,Paper,Unauthorized Facility,97.51,95,Low,No,No,No,Yes,73,0,Industrial,Transfer Record,75,Pass
+Food Waste,Food,Biogas,15.96,87,Low,No,No,Yes,Yes,139,0,Organic,Organic Waste Record,100,Pass
+Fly Ash,Thermal Power,Cement,130.82,98,Low,No,No,Yes,Yes,53,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,3.29,93,High,Yes,Yes,Yes,Yes,93,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,135.49,82,Low,No,No,No,Yes,10,0,Plastic,Invoice,75,Pass
+Cotton Scrap,Textile,Paper,77.4,74,Low,No,No,Yes,Yes,54,1,Non-Hazardous,Waste Transfer Record,90,Pass
+Rice Husk,Agriculture,Biofuel,122.52,78,Low,No,No,Yes,Yes,48,0,Organic,Invoice,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,192.65,71,High,Yes,Yes,Yes,No,187,0,Hazardous,Hazardous Waste Manifest; Transport Permit,65,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,71.79,97,High,Yes,Yes,Yes,Yes,288,2,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Fly Ash,Thermal Power,Unauthorized Facility,194.46,88,Low,No,No,No,Yes,36,0,Industrial,Transfer Record,75,Pass
+Polyester Scrap,Textile,Plastic Recycling,18.26,95,Low,No,No,Yes,Yes,99,1,Plastic,Invoice,90,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,97.71,95,High,Yes,Yes,Yes,Yes,143,2,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Steel Slag,Steel,Construction,13.58,85,Medium,No,No,Yes,Yes,27,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,49.27,73,High,Yes,Yes,Yes,Yes,78,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Food Waste,Food,Biogas,180.85,79,Low,No,No,Yes,Yes,11,0,Organic,Organic Waste Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,28.65,82,Low,No,No,Yes,Yes,171,1,Plastic,Invoice,90,Pass
+Paper Sludge,Paper,Brick Manufacturing,167.24,72,Low,No,No,Yes,Yes,185,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,150.96,88,Low,No,No,Yes,Yes,160,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,22.62,89,High,Yes,Yes,Yes,Yes,192,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Bagasse,Sugar,Paper,47.12,73,Low,No,No,Yes,Yes,18,0,Organic,Invoice,100,Pass
+Food Waste,Food,Biogas,151.06,80,Low,No,No,Yes,Yes,131,0,Organic,Organic Waste Record,100,Pass
+Bagasse,Sugar,Unauthorized Facility,152.58,96,Low,No,No,No,Yes,147,0,Organic,Invoice,75,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,121.56,73,High,Yes,Yes,Yes,Yes,83,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Used Oil,Automotive,Unauthorized Facility,2.04,92,High,Yes,Yes,No,Yes,188,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Plastic Scrap,Packaging,Plastic Recycling,105.09,71,Low,No,No,Yes,Yes,203,0,Plastic,Invoice,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,56.54,71,High,Yes,Yes,Yes,Yes,109,2,Hazardous,Hazardous Waste Manifest; Transport Permit,65,Fail
+Polyester Scrap,Textile,Plastic Recycling,114.32,94,Low,No,No,Yes,Yes,82,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,135.97,93,High,Yes,Yes,Yes,No,154,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Plastic Scrap,Packaging,Plastic Recycling,83.91,98,Low,No,No,Yes,Yes,291,0,Plastic,Invoice,100,Pass
+Food Waste,Food,Unauthorized Facility,129.42,73,Low,No,No,No,Yes,186,0,Organic,Organic Waste Record,75,Pass
+Steel Slag,Steel,Construction,91.12,76,Medium,No,No,Yes,Yes,125,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Unauthorized Facility,156.35,84,High,Yes,Yes,No,No,73,0,Hazardous,Hazardous Waste Manifest; Transport Permit,40,Fail
+Polyester Scrap,Textile,Plastic Recycling,177.0,77,Low,No,No,Yes,Yes,145,0,Plastic,Invoice,100,Pass
+Rice Husk,Agriculture,Biofuel,8.65,84,Low,No,No,Yes,Yes,121,0,Organic,Invoice,100,Pass
+Cotton Scrap,Textile,Paper,197.01,75,Low,No,No,Yes,Yes,239,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Steel Slag,Steel,Construction,176.11,78,Medium,No,No,Yes,Yes,53,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,68.66,97,Low,No,No,Yes,Yes,205,1,Organic,Invoice,90,Pass
+Cotton Scrap,Textile,Paper,120.39,76,Low,No,No,Yes,Yes,281,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Bagasse,Sugar,Paper,18.12,87,Low,No,No,Yes,Yes,116,0,Organic,Invoice,100,Pass
+Cotton Scrap,Textile,Paper,185.73,94,Low,No,No,Yes,Yes,82,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,92.99,71,High,Yes,Yes,No,Yes,95,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Steel Slag,Steel,Construction,86.7,76,Medium,No,No,Yes,Yes,34,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,29.07,73,High,Yes,Yes,Yes,Yes,59,3,Hazardous,Hazardous Waste Manifest; Transport Permit,55,Fail
+Steel Slag,Steel,Unauthorized Facility,122.59,85,Medium,No,No,No,Yes,156,0,Industrial,Transfer Record,75,Pass
+Fly Ash,Thermal Power,Cement,13.44,70,Low,No,No,Yes,Yes,238,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,76.82,80,Low,No,No,Yes,Yes,115,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,89.5,89,Low,No,No,Yes,Yes,217,0,Organic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,61.87,82,Low,No,No,Yes,Yes,284,0,Plastic,Invoice,100,Pass
+E-Waste,Electronics,Unauthorized Facility,183.96,96,High,Yes,Yes,No,Yes,230,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Cotton Scrap,Textile,Unauthorized Facility,108.39,81,Low,No,No,No,Yes,299,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Steel Slag,Steel,Unauthorized Facility,1.84,98,Medium,No,No,No,Yes,156,0,Industrial,Transfer Record,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,109.63,99,High,Yes,Yes,Yes,Yes,127,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,104.07,90,High,Yes,Yes,Yes,Yes,47,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Food Waste,Food,Biogas,149.72,99,Low,No,No,Yes,Yes,291,1,Organic,Organic Waste Record,90,Pass
+Polyester Scrap,Textile,Plastic Recycling,8.76,95,Low,No,No,Yes,Yes,126,0,Plastic,Invoice,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,87.82,92,Low,No,No,No,Yes,132,0,Organic,Invoice,75,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,39.5,97,Low,No,No,No,Yes,29,1,Plastic,Invoice,65,Fail
+Used Oil,Automotive,Unauthorized Facility,90.49,88,High,Yes,Yes,No,Yes,174,3,Hazardous,Hazardous Waste Manifest; Transport Permit,30,Fail
+Polyester Scrap,Textile,Unauthorized Facility,151.9,85,Low,No,No,No,Yes,249,0,Plastic,Invoice,75,Pass
+Steel Slag,Steel,Construction,171.02,79,Medium,No,No,Yes,Yes,46,0,Industrial,Transfer Record,100,Pass
+Cotton Scrap,Textile,Unauthorized Facility,176.02,78,Low,No,No,No,Yes,252,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,134.99,93,Low,No,No,Yes,Yes,74,0,Industrial,Transfer Record,100,Pass
+Bagasse,Sugar,Paper,78.03,84,Low,No,No,Yes,Yes,102,0,Organic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,64.35,83,High,Yes,Yes,Yes,Yes,206,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Plastic Scrap,Packaging,Plastic Recycling,126.0,83,Low,No,No,Yes,Yes,227,0,Plastic,Invoice,100,Pass
+Bagasse,Sugar,Unauthorized Facility,44.69,89,Low,No,No,No,Yes,109,0,Organic,Invoice,75,Pass
+Steel Slag,Steel,Construction,20.62,94,Medium,No,No,Yes,Yes,248,1,Industrial,Transfer Record,90,Pass
+Steel Slag,Steel,Unauthorized Facility,2.07,94,Medium,No,No,No,Yes,66,0,Industrial,Transfer Record,75,Pass
+Paper Sludge,Paper,Unauthorized Facility,9.38,88,Low,No,No,No,Yes,251,0,Industrial,Transfer Record,75,Pass
+Cotton Scrap,Textile,Paper,5.02,71,Low,No,No,Yes,Yes,61,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,151.4,79,High,Yes,Yes,Yes,Yes,141,2,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Fly Ash,Thermal Power,Cement,95.52,74,Low,No,No,Yes,Yes,273,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,92.56,78,Low,No,No,Yes,Yes,110,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,189.52,73,High,Yes,Yes,Yes,No,73,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Used Oil,Automotive,Authorized Oil Recycler,183.22,73,High,Yes,Yes,Yes,Yes,48,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Cotton Scrap,Textile,Paper,84.42,86,Low,No,No,Yes,Yes,236,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Cotton Scrap,Textile,Paper,59.15,95,Low,No,No,Yes,Yes,167,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Steel Slag,Steel,Construction,130.6,96,Medium,No,No,Yes,Yes,95,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,99.05,80,Low,No,No,Yes,Yes,125,0,Plastic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,143.0,74,Low,No,No,Yes,Yes,9,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,99.66,83,High,Yes,Yes,Yes,Yes,137,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Bagasse,Sugar,Paper,40.16,79,Low,No,No,Yes,Yes,17,0,Organic,Invoice,100,Pass
+Cotton Scrap,Textile,Paper,199.13,95,Low,No,No,Yes,Yes,15,0,Non-Hazardous,Waste Transfer Record,100,Pass
+E-Waste,Electronics,Unauthorized Facility,99.22,94,High,Yes,Yes,No,Yes,186,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,96.34,96,High,Yes,Yes,Yes,Yes,233,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Food Waste,Food,Unauthorized Facility,71.47,99,Low,No,No,No,Yes,90,0,Organic,Organic Waste Record,75,Pass
+Cotton Scrap,Textile,Paper,55.75,71,Low,No,No,Yes,Yes,244,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Paper Sludge,Paper,Unauthorized Facility,124.08,85,Low,No,No,No,Yes,91,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,157.83,74,High,Yes,Yes,Yes,No,178,1,Hazardous,E-Waste Manifest; Transport Permit,55,Fail
+Steel Slag,Steel,Construction,133.63,77,Medium,No,No,Yes,Yes,13,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,6.96,89,Low,No,No,Yes,Yes,108,0,Plastic,Invoice,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,4.52,78,High,Yes,Yes,Yes,No,5,0,Hazardous,Hazardous Waste Manifest; Transport Permit,65,Fail
+Rice Husk,Agriculture,Biofuel,97.09,71,Low,No,No,Yes,Yes,254,0,Organic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,54.4,93,High,Yes,Yes,Yes,No,240,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Fly Ash,Thermal Power,Unauthorized Facility,30.58,85,Low,No,No,No,Yes,56,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,33.26,82,High,Yes,Yes,Yes,No,112,0,Hazardous,E-Waste Manifest; Transport Permit,65,Fail
+Chemical Sludge,Chemical,Unauthorized Facility,186.43,71,High,Yes,Yes,No,Yes,77,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Plastic Scrap,Packaging,Plastic Recycling,70.33,76,Low,No,No,Yes,Yes,225,0,Plastic,Invoice,100,Pass
+Food Waste,Food,Unauthorized Facility,40.72,98,Low,No,No,No,Yes,269,0,Organic,Organic Waste Record,75,Pass
+E-Waste,Electronics,Unauthorized Facility,133.41,90,High,Yes,Yes,No,Yes,226,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Fly Ash,Thermal Power,Cement,119.93,78,Low,No,No,Yes,Yes,110,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,12.39,82,Low,No,No,Yes,Yes,264,0,Plastic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,179.37,92,Low,No,No,Yes,Yes,187,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,92.99,91,High,Yes,Yes,No,Yes,97,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Fly Ash,Thermal Power,Cement,181.66,92,Low,No,No,Yes,Yes,229,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,164.2,91,High,Yes,Yes,Yes,No,67,3,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,35,Fail
+Plastic Scrap,Packaging,Unauthorized Facility,29.76,72,Low,No,No,No,Yes,52,0,Plastic,Invoice,75,Pass
+Polyester Scrap,Textile,Plastic Recycling,54.57,70,Low,No,No,Yes,Yes,225,1,Plastic,Invoice,90,Pass
+Bagasse,Sugar,Unauthorized Facility,37.61,77,Low,No,No,No,Yes,76,0,Organic,Invoice,75,Pass
+Bagasse,Sugar,Paper,35.11,83,Low,No,No,Yes,Yes,186,0,Organic,Invoice,100,Pass
+Steel Slag,Steel,Unauthorized Facility,164.69,86,Medium,No,No,No,Yes,171,0,Industrial,Transfer Record,75,Pass
+Food Waste,Food,Biogas,102.34,75,Low,No,No,Yes,Yes,59,0,Organic,Organic Waste Record,100,Pass
+Rice Husk,Agriculture,Biofuel,161.7,87,Low,No,No,Yes,Yes,18,1,Organic,Invoice,90,Pass
+Used Oil,Automotive,Unauthorized Facility,194.21,89,High,Yes,Yes,No,Yes,164,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Paper Sludge,Paper,Brick Manufacturing,119.28,78,Low,No,No,Yes,Yes,160,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,147.54,99,Low,No,No,Yes,Yes,112,0,Plastic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,181.58,75,Low,No,No,Yes,Yes,147,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,161.02,71,High,Yes,Yes,Yes,Yes,80,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Polyester Scrap,Textile,Unauthorized Facility,150.63,70,Low,No,No,No,Yes,56,0,Plastic,Invoice,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,112.33,90,High,Yes,Yes,Yes,Yes,141,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,125.09,95,High,Yes,Yes,Yes,Yes,180,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Polyester Scrap,Textile,Plastic Recycling,92.93,70,Low,No,No,Yes,Yes,157,0,Plastic,Invoice,100,Pass
+Paper Sludge,Paper,Unauthorized Facility,4.63,88,Low,No,No,No,Yes,172,0,Industrial,Transfer Record,75,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,173.81,92,High,Yes,Yes,Yes,Yes,189,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Cotton Scrap,Textile,Paper,154.32,76,Low,No,No,Yes,Yes,67,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,175.39,77,Low,No,No,Yes,Yes,253,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,15.57,88,Low,No,No,Yes,Yes,251,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,77.05,75,High,Yes,Yes,Yes,Yes,208,1,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,75,Pass
+Cotton Scrap,Textile,Paper,73.46,94,Low,No,No,Yes,Yes,16,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Cotton Scrap,Textile,Unauthorized Facility,48.11,71,Low,No,No,No,Yes,251,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Fly Ash,Thermal Power,Cement,54.06,92,Low,No,No,Yes,Yes,111,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,185.02,95,Low,No,No,No,Yes,252,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,87.68,82,High,Yes,Yes,Yes,Yes,102,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Paper Sludge,Paper,Brick Manufacturing,55.9,83,Low,No,No,Yes,Yes,148,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,16.53,85,High,Yes,Yes,Yes,Yes,130,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Fly Ash,Thermal Power,Cement,106.74,85,Low,No,No,Yes,Yes,222,0,Industrial,Transfer Record,100,Pass
+Food Waste,Food,Biogas,131.35,97,Low,No,No,Yes,Yes,291,0,Organic,Organic Waste Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,21.09,89,High,Yes,Yes,Yes,Yes,209,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Rice Husk,Agriculture,Unauthorized Facility,75.89,90,Low,No,No,No,Yes,67,0,Organic,Invoice,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,41.14,82,Low,No,No,Yes,Yes,77,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,179.99,92,Low,No,No,Yes,Yes,49,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,139.95,72,Low,No,No,Yes,Yes,28,0,Organic,Invoice,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,194.93,83,Low,No,No,No,Yes,5,0,Organic,Invoice,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,88.76,77,High,Yes,Yes,Yes,Yes,45,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Bagasse,Sugar,Unauthorized Facility,139.61,93,Low,No,No,No,Yes,126,0,Organic,Invoice,75,Pass
+Bagasse,Sugar,Unauthorized Facility,149.95,89,Low,No,No,No,Yes,265,0,Organic,Invoice,75,Pass
+Paper Sludge,Paper,Unauthorized Facility,177.78,70,Low,No,No,No,Yes,279,0,Industrial,Transfer Record,75,Pass
+Cotton Scrap,Textile,Paper,30.83,96,Low,No,No,Yes,Yes,250,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,148.9,85,Low,No,No,No,Yes,190,0,Organic,Invoice,75,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,102.08,93,Low,No,No,No,Yes,139,0,Plastic,Invoice,75,Pass
+Steel Slag,Steel,Construction,38.02,74,Medium,No,No,Yes,Yes,261,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,16.53,88,Low,No,No,No,Yes,15,1,Organic,Invoice,65,Fail
+Used Oil,Automotive,Authorized Oil Recycler,12.66,83,High,Yes,Yes,Yes,Yes,148,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Polyester Scrap,Textile,Unauthorized Facility,30.96,73,Low,No,No,No,Yes,19,0,Plastic,Invoice,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,69.07,88,High,Yes,Yes,Yes,Yes,121,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,12.93,89,High,Yes,Yes,Yes,Yes,154,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Paper Sludge,Paper,Brick Manufacturing,70.95,89,Low,No,No,Yes,Yes,54,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,9.78,94,Low,No,No,Yes,Yes,232,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,70.59,86,High,Yes,Yes,Yes,Yes,77,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,17.6,95,High,Yes,Yes,Yes,Yes,236,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Fly Ash,Thermal Power,Cement,17.96,71,Low,No,No,Yes,Yes,124,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,180.93,77,High,Yes,Yes,Yes,No,43,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+E-Waste,Electronics,Authorized E-Waste Recycler,122.9,80,High,Yes,Yes,Yes,Yes,266,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,101.33,81,High,Yes,Yes,Yes,Yes,52,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,198.57,87,High,Yes,Yes,No,Yes,21,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Cotton Scrap,Textile,Paper,24.7,78,Low,No,No,Yes,Yes,226,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,101.43,71,Low,No,No,Yes,Yes,164,1,Industrial,Transfer Record,90,Pass
+Paper Sludge,Paper,Brick Manufacturing,174.39,90,Low,No,No,Yes,Yes,141,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,114.25,83,High,Yes,Yes,Yes,Yes,68,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Used Oil,Automotive,Unauthorized Facility,14.41,76,High,Yes,Yes,No,Yes,125,3,Hazardous,Hazardous Waste Manifest; Transport Permit,30,Fail
+Bagasse,Sugar,Unauthorized Facility,15.07,74,Low,No,No,No,Yes,130,0,Organic,Invoice,75,Pass
+Bagasse,Sugar,Unauthorized Facility,6.73,76,Low,No,No,No,Yes,10,0,Organic,Invoice,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,91.27,96,Low,No,No,Yes,Yes,103,1,Industrial,Transfer Record,90,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,109.88,84,Low,No,No,No,Yes,176,1,Industrial,Transfer Record,65,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,12.82,90,High,Yes,Yes,Yes,No,57,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Fly Ash,Thermal Power,Cement,5.38,92,Low,No,No,Yes,Yes,222,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,4.57,71,High,Yes,Yes,Yes,Yes,63,3,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,55,Fail
+Polyester Scrap,Textile,Unauthorized Facility,172.83,83,Low,No,No,No,Yes,232,0,Plastic,Invoice,75,Pass
+Food Waste,Food,Biogas,145.2,91,Low,No,No,Yes,Yes,260,0,Organic,Organic Waste Record,100,Pass
+Paper Sludge,Paper,Unauthorized Facility,1.84,78,Low,No,No,No,Yes,172,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Unauthorized Facility,25.61,88,High,Yes,Yes,No,No,112,1,Hazardous,E-Waste Manifest; Transport Permit,30,Fail
+Fly Ash,Thermal Power,Cement,25.5,73,Low,No,No,Yes,Yes,159,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,35.38,79,Low,No,No,Yes,Yes,98,0,Plastic,Invoice,100,Pass
+Paper Sludge,Paper,Unauthorized Facility,39.19,76,Low,No,No,No,Yes,248,0,Industrial,Transfer Record,75,Pass
+Rice Husk,Agriculture,Biofuel,177.25,96,Low,No,No,Yes,Yes,247,0,Organic,Invoice,100,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,108.14,93,Low,No,No,No,Yes,254,0,Plastic,Invoice,75,Pass
+Plastic Scrap,Packaging,Plastic Recycling,172.03,72,Low,No,No,Yes,Yes,113,0,Plastic,Invoice,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,34.76,83,Low,No,No,Yes,Yes,75,0,Plastic,Invoice,100,Pass
+Steel Slag,Steel,Construction,179.03,82,Medium,No,No,Yes,Yes,33,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,68.49,91,Low,No,No,Yes,Yes,278,1,Industrial,Transfer Record,90,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,29.84,74,High,Yes,Yes,Yes,Yes,184,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Used Oil,Automotive,Authorized Oil Recycler,152.12,79,High,Yes,Yes,Yes,No,109,0,Hazardous,Hazardous Waste Manifest; Transport Permit,65,Fail
+Fly Ash,Thermal Power,Cement,180.12,93,Low,No,No,Yes,Yes,240,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,97.15,87,High,Yes,Yes,Yes,Yes,294,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+E-Waste,Electronics,Unauthorized Facility,28.4,78,High,Yes,Yes,No,No,108,0,Hazardous,E-Waste Manifest; Transport Permit,40,Fail
+Bagasse,Sugar,Paper,20.33,74,Low,No,No,Yes,Yes,15,0,Organic,Invoice,100,Pass
+Steel Slag,Steel,Unauthorized Facility,58.5,70,Medium,No,No,No,Yes,163,0,Industrial,Transfer Record,75,Pass
+Cotton Scrap,Textile,Unauthorized Facility,133.79,80,Low,No,No,No,Yes,88,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,35.09,78,Low,No,No,Yes,Yes,230,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,40.55,92,High,Yes,Yes,Yes,Yes,294,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Cotton Scrap,Textile,Paper,127.67,84,Low,No,No,Yes,Yes,52,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,166.41,87,Low,No,No,No,Yes,200,0,Plastic,Invoice,75,Pass
+Cotton Scrap,Textile,Unauthorized Facility,45.44,85,Low,No,No,No,Yes,300,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Bagasse,Sugar,Unauthorized Facility,17.59,90,Low,No,No,No,Yes,32,0,Organic,Invoice,75,Pass
+Paper Sludge,Paper,Unauthorized Facility,75.42,76,Low,No,No,No,Yes,126,0,Industrial,Transfer Record,75,Pass
+Cotton Scrap,Textile,Paper,188.3,98,Low,No,No,Yes,Yes,10,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,184.91,98,Low,No,No,Yes,Yes,107,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,63.94,71,Low,No,No,Yes,Yes,296,1,Industrial,Transfer Record,90,Pass
+Plastic Scrap,Packaging,Plastic Recycling,104.66,88,Low,No,No,Yes,Yes,224,0,Plastic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,32.3,77,Low,No,No,Yes,Yes,226,0,Plastic,Invoice,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,24.88,71,High,Yes,Yes,Yes,Yes,224,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Used Oil,Automotive,Unauthorized Facility,114.75,99,High,Yes,Yes,No,No,126,0,Hazardous,Hazardous Waste Manifest; Transport Permit,40,Fail
+Used Oil,Automotive,Authorized Oil Recycler,177.15,91,High,Yes,Yes,Yes,Yes,156,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Polyester Scrap,Textile,Plastic Recycling,163.13,95,Low,No,No,Yes,Yes,235,0,Plastic,Invoice,100,Pass
+Steel Slag,Steel,Construction,66.71,75,Medium,No,No,Yes,Yes,211,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,166.58,75,Low,No,No,Yes,Yes,254,0,Plastic,Invoice,100,Pass
+Cotton Scrap,Textile,Paper,3.72,83,Low,No,No,Yes,Yes,64,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Bagasse,Sugar,Paper,102.08,90,Low,No,No,Yes,Yes,170,0,Organic,Invoice,100,Pass
+Food Waste,Food,Biogas,5.36,88,Low,No,No,Yes,Yes,85,0,Organic,Organic Waste Record,100,Pass
+Cotton Scrap,Textile,Paper,153.91,74,Low,No,No,Yes,Yes,8,1,Non-Hazardous,Waste Transfer Record,90,Pass
+Paper Sludge,Paper,Unauthorized Facility,7.15,88,Low,No,No,No,Yes,108,0,Industrial,Transfer Record,75,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,14.83,87,Low,No,No,No,Yes,214,0,Industrial,Transfer Record,75,Pass
+Rice Husk,Agriculture,Biofuel,97.19,90,Low,No,No,Yes,Yes,141,0,Organic,Invoice,100,Pass
+Steel Slag,Steel,Construction,131.25,91,Medium,No,No,Yes,Yes,209,1,Industrial,Transfer Record,90,Pass
+Plastic Scrap,Packaging,Plastic Recycling,32.01,88,Low,No,No,Yes,Yes,187,0,Plastic,Invoice,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,83.81,84,Low,No,No,Yes,Yes,244,0,Plastic,Invoice,100,Pass
+Polyester Scrap,Textile,Unauthorized Facility,35.01,99,Low,No,No,No,Yes,113,1,Plastic,Invoice,65,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,172.24,81,High,Yes,Yes,Yes,No,146,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Paper Sludge,Paper,Unauthorized Facility,160.4,82,Low,No,No,No,Yes,181,0,Industrial,Transfer Record,75,Pass
+Food Waste,Food,Biogas,83.32,98,Low,No,No,Yes,Yes,189,0,Organic,Organic Waste Record,100,Pass
+Steel Slag,Steel,Unauthorized Facility,39.87,84,Medium,No,No,No,Yes,215,0,Industrial,Transfer Record,75,Pass
+Used Oil,Automotive,Unauthorized Facility,60.24,70,High,Yes,Yes,No,Yes,79,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Food Waste,Food,Biogas,47.9,91,Low,No,No,Yes,Yes,50,0,Organic,Organic Waste Record,100,Pass
+Rice Husk,Agriculture,Biofuel,32.96,71,Low,No,No,Yes,Yes,98,0,Organic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,92.9,82,Low,No,No,Yes,Yes,61,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Unauthorized Facility,112.1,77,High,Yes,Yes,No,Yes,214,1,Hazardous,Hazardous Waste Manifest; Transport Permit,50,Fail
+Rice Husk,Agriculture,Biofuel,123.63,86,Low,No,No,Yes,Yes,92,0,Organic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,102.48,97,High,Yes,Yes,Yes,No,9,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,65,Fail
+Chemical Sludge,Chemical,Unauthorized Facility,62.89,79,High,Yes,Yes,No,Yes,51,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Bagasse,Sugar,Paper,162.14,87,Low,No,No,Yes,Yes,256,0,Organic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,42.57,71,Low,No,No,Yes,Yes,115,0,Plastic,Invoice,100,Pass
+Steel Slag,Steel,Construction,105.42,72,Medium,No,No,Yes,Yes,180,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Unauthorized Facility,14.99,79,High,Yes,Yes,No,Yes,140,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Rice Husk,Agriculture,Unauthorized Facility,63.29,84,Low,No,No,No,Yes,87,0,Organic,Invoice,75,Pass
+Paper Sludge,Paper,Brick Manufacturing,74.02,70,Low,No,No,Yes,Yes,173,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,101.75,92,High,Yes,Yes,Yes,Yes,143,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,41.76,70,Low,No,No,No,Yes,231,1,Industrial,Transfer Record,65,Fail
+Steel Slag,Steel,Construction,98.42,76,Medium,No,No,Yes,Yes,34,1,Industrial,Transfer Record,90,Pass
+Steel Slag,Steel,Unauthorized Facility,26.25,96,Medium,No,No,No,Yes,93,1,Industrial,Transfer Record,65,Fail
+Food Waste,Food,Biogas,170.51,74,Low,No,No,Yes,Yes,217,0,Organic,Organic Waste Record,100,Pass
+E-Waste,Electronics,Unauthorized Facility,50.13,70,High,Yes,Yes,No,No,269,0,Hazardous,E-Waste Manifest; Transport Permit,40,Fail
+Rice Husk,Agriculture,Unauthorized Facility,135.01,70,Low,No,No,No,Yes,279,0,Organic,Invoice,75,Pass
+Steel Slag,Steel,Construction,63.57,94,Medium,No,No,Yes,Yes,134,0,Industrial,Transfer Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,132.1,86,Low,No,No,Yes,Yes,248,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,177.94,73,High,Yes,Yes,No,No,13,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,40,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,10.92,93,High,Yes,Yes,Yes,Yes,77,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Steel Slag,Steel,Construction,184.56,80,Medium,No,No,Yes,Yes,79,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,155.17,78,Low,No,No,Yes,Yes,133,0,Industrial,Transfer Record,100,Pass
+Steel Slag,Steel,Construction,121.95,92,Medium,No,No,Yes,Yes,90,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,31.82,80,Low,No,No,Yes,Yes,141,0,Plastic,Invoice,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,105.53,74,Low,No,No,Yes,Yes,52,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,134.34,87,Low,No,No,Yes,Yes,210,0,Organic,Invoice,100,Pass
+Steel Slag,Steel,Unauthorized Facility,84.18,81,Medium,No,No,No,Yes,232,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,182.6,94,High,Yes,Yes,Yes,Yes,177,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Polyester Scrap,Textile,Plastic Recycling,141.31,82,Low,No,No,Yes,Yes,112,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,79.91,99,High,Yes,Yes,No,Yes,293,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Paper Sludge,Paper,Unauthorized Facility,46.66,99,Low,No,No,No,Yes,121,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,96.69,86,High,Yes,Yes,Yes,Yes,228,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Paper Sludge,Paper,Brick Manufacturing,37.69,71,Low,No,No,Yes,Yes,148,1,Industrial,Transfer Record,90,Pass
+Bagasse,Sugar,Unauthorized Facility,23.25,74,Low,No,No,No,Yes,19,0,Organic,Invoice,75,Pass
+Plastic Scrap,Packaging,Plastic Recycling,188.17,98,Low,No,No,Yes,Yes,217,0,Plastic,Invoice,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,126.83,76,Low,No,No,Yes,Yes,17,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,30.26,99,High,Yes,Yes,Yes,No,218,0,Hazardous,E-Waste Manifest; Transport Permit,65,Fail
+Food Waste,Food,Biogas,127.22,88,Low,No,No,Yes,Yes,189,1,Organic,Organic Waste Record,90,Pass
+Plastic Scrap,Packaging,Plastic Recycling,125.6,81,Low,No,No,Yes,Yes,174,0,Plastic,Invoice,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,10.09,83,Low,No,No,No,Yes,129,1,Organic,Invoice,65,Fail
+Bagasse,Sugar,Paper,120.6,80,Low,No,No,Yes,Yes,164,0,Organic,Invoice,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,185.27,99,Low,No,No,Yes,Yes,109,0,Industrial,Transfer Record,100,Pass
+Bagasse,Sugar,Paper,132.51,74,Low,No,No,Yes,Yes,218,1,Organic,Invoice,90,Pass
+Bagasse,Sugar,Paper,194.97,73,Low,No,No,Yes,Yes,41,0,Organic,Invoice,100,Pass
+Bagasse,Sugar,Paper,7.16,73,Low,No,No,Yes,Yes,253,0,Organic,Invoice,100,Pass
+Cotton Scrap,Textile,Unauthorized Facility,71.65,99,Low,No,No,No,Yes,141,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Rice Husk,Agriculture,Biofuel,104.76,90,Low,No,No,Yes,Yes,296,0,Organic,Invoice,100,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,84.09,77,Low,No,No,No,Yes,76,0,Industrial,Transfer Record,75,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,41.3,88,Low,No,No,No,Yes,22,0,Industrial,Transfer Record,75,Pass
+Used Oil,Automotive,Authorized Oil Recycler,46.31,92,High,Yes,Yes,Yes,Yes,189,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Food Waste,Food,Biogas,44.32,98,Low,No,No,Yes,Yes,55,0,Organic,Organic Waste Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,64.49,76,High,Yes,Yes,Yes,No,27,3,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,35,Fail
+Fly Ash,Thermal Power,Cement,166.92,88,Low,No,No,Yes,Yes,66,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Unauthorized Facility,166.38,70,Low,No,No,No,Yes,98,1,Industrial,Transfer Record,65,Fail
+Plastic Scrap,Packaging,Plastic Recycling,97.32,98,Low,No,No,Yes,Yes,12,0,Plastic,Invoice,100,Pass
+Steel Slag,Steel,Construction,189.01,74,Medium,No,No,Yes,Yes,202,0,Industrial,Transfer Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,84.27,85,Low,No,No,Yes,Yes,222,0,Plastic,Invoice,100,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,36.63,84,Low,No,No,No,Yes,257,0,Industrial,Transfer Record,75,Pass
+Rice Husk,Agriculture,Biofuel,60.93,89,Low,No,No,Yes,Yes,46,1,Organic,Invoice,90,Pass
+E-Waste,Electronics,Unauthorized Facility,138.45,96,High,Yes,Yes,No,Yes,10,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Used Oil,Automotive,Authorized Oil Recycler,88.54,71,High,Yes,Yes,Yes,Yes,43,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Plastic Scrap,Packaging,Unauthorized Facility,45.62,80,Low,No,No,No,Yes,78,0,Plastic,Invoice,75,Pass
+Polyester Scrap,Textile,Plastic Recycling,80.05,73,Low,No,No,Yes,Yes,233,0,Plastic,Invoice,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,177.75,86,Low,No,No,Yes,Yes,11,0,Plastic,Invoice,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,103.79,97,High,Yes,Yes,Yes,No,108,1,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,55,Fail
+Paper Sludge,Paper,Brick Manufacturing,126.03,81,Low,No,No,Yes,Yes,250,1,Industrial,Transfer Record,90,Pass
+Food Waste,Food,Biogas,133.12,71,Low,No,No,Yes,Yes,258,0,Organic,Organic Waste Record,100,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,48.08,82,Low,No,No,No,Yes,239,1,Industrial,Transfer Record,65,Fail
+Used Oil,Automotive,Unauthorized Facility,192.51,95,High,Yes,Yes,No,Yes,257,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Bagasse,Sugar,Paper,171.39,76,Low,No,No,Yes,Yes,158,0,Organic,Invoice,100,Pass
+E-Waste,Electronics,Unauthorized Facility,136.8,89,High,Yes,Yes,No,Yes,269,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Fly Ash,Thermal Power,Unauthorized Facility,189.14,97,Low,No,No,No,Yes,123,0,Industrial,Transfer Record,75,Pass
+Chemical Sludge,Chemical,Unauthorized Facility,109.81,99,High,Yes,Yes,No,Yes,117,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,60,Fail
+Fly Ash,Thermal Power,Unauthorized Facility,54.58,98,Low,No,No,No,Yes,276,0,Industrial,Transfer Record,75,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,74.21,84,High,Yes,Yes,Yes,No,288,0,Hazardous,E-Waste Manifest; Transport Permit,65,Fail
+Food Waste,Food,Biogas,30.43,84,Low,No,No,Yes,Yes,235,0,Organic,Organic Waste Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,189.63,91,Low,No,No,Yes,Yes,74,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,144.24,81,High,Yes,Yes,Yes,Yes,168,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Steel Slag,Steel,Construction,152.55,77,Medium,No,No,Yes,Yes,116,1,Industrial,Transfer Record,90,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,162.02,72,High,Yes,Yes,Yes,Yes,61,3,Hazardous,E-Waste Manifest; Transport Permit,55,Fail
+Cotton Scrap,Textile,Paper,125.06,72,Low,No,No,Yes,Yes,271,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Food Waste,Food,Biogas,126.84,77,Low,No,No,Yes,Yes,49,0,Organic,Organic Waste Record,100,Pass
+Polyester Scrap,Textile,Plastic Recycling,144.54,87,Low,No,No,Yes,Yes,120,0,Plastic,Invoice,100,Pass
+Bagasse,Sugar,Unauthorized Facility,187.71,70,Low,No,No,No,Yes,243,1,Organic,Invoice,65,Fail
+Chemical Sludge,Chemical,Hazardous Treatment Facility,67.87,86,High,Yes,Yes,Yes,Yes,74,3,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,55,Fail
+Polyester Scrap,Textile,Plastic Recycling,54.44,79,Low,No,No,Yes,Yes,128,0,Plastic,Invoice,100,Pass
+Food Waste,Food,Biogas,165.87,72,Low,No,No,Yes,Yes,243,0,Organic,Organic Waste Record,100,Pass
+E-Waste,Electronics,Unauthorized Facility,47.87,74,High,Yes,Yes,No,Yes,204,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Plastic Scrap,Packaging,Plastic Recycling,7.54,98,Low,No,No,Yes,Yes,259,0,Plastic,Invoice,100,Pass
+Cotton Scrap,Textile,Paper,108.04,91,Low,No,No,Yes,Yes,57,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Food Waste,Food,Biogas,121.49,76,Low,No,No,Yes,Yes,56,0,Organic,Organic Waste Record,100,Pass
+Food Waste,Food,Biogas,59.54,90,Low,No,No,Yes,Yes,75,0,Organic,Organic Waste Record,100,Pass
+Plastic Scrap,Packaging,Plastic Recycling,131.57,94,Low,No,No,Yes,Yes,266,0,Plastic,Invoice,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,150.97,71,High,Yes,Yes,Yes,Yes,225,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Food Waste,Food,Biogas,8.67,95,Low,No,No,Yes,Yes,222,0,Organic,Organic Waste Record,100,Pass
+Steel Slag,Steel,Construction,194.94,86,Medium,No,No,Yes,Yes,144,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,21.84,91,High,Yes,Yes,Yes,Yes,217,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,52.03,87,High,Yes,Yes,Yes,Yes,99,3,Hazardous,E-Waste Manifest; Transport Permit,55,Fail
+Bagasse,Sugar,Paper,187.79,70,Low,No,No,Yes,Yes,50,0,Organic,Invoice,100,Pass
+Bagasse,Sugar,Paper,62.36,82,Low,No,No,Yes,Yes,272,0,Organic,Invoice,100,Pass
+Cotton Scrap,Textile,Unauthorized Facility,131.59,77,Low,No,No,No,Yes,238,1,Non-Hazardous,Waste Transfer Record,65,Fail
+Used Oil,Automotive,Authorized Oil Recycler,181.08,70,High,Yes,Yes,Yes,Yes,79,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Paper Sludge,Paper,Brick Manufacturing,102.17,93,Low,No,No,Yes,Yes,203,0,Industrial,Transfer Record,100,Pass
+Paper Sludge,Paper,Brick Manufacturing,157.49,88,Low,No,No,Yes,Yes,123,0,Industrial,Transfer Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,25.51,94,High,Yes,Yes,Yes,Yes,260,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Polyester Scrap,Textile,Plastic Recycling,165.28,86,Low,No,No,Yes,Yes,104,0,Plastic,Invoice,100,Pass
+Bagasse,Sugar,Paper,100.45,92,Low,No,No,Yes,Yes,267,0,Organic,Invoice,100,Pass
+Used Oil,Automotive,Unauthorized Facility,169.9,70,High,Yes,Yes,No,Yes,67,1,Hazardous,Hazardous Waste Manifest; Transport Permit,50,Fail
+Bagasse,Sugar,Paper,82.01,70,Low,No,No,Yes,Yes,244,0,Organic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,148.34,79,Low,No,No,Yes,Yes,287,0,Industrial,Transfer Record,100,Pass
+Fly Ash,Thermal Power,Unauthorized Facility,65.07,79,Low,No,No,No,Yes,159,0,Industrial,Transfer Record,75,Pass
+Steel Slag,Steel,Construction,51.56,80,Medium,No,No,Yes,Yes,290,0,Industrial,Transfer Record,100,Pass
+Steel Slag,Steel,Construction,146.43,92,Medium,No,No,Yes,Yes,87,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,144.96,79,High,Yes,Yes,Yes,Yes,251,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Bagasse,Sugar,Paper,58.01,78,Low,No,No,Yes,Yes,113,1,Organic,Invoice,90,Pass
+Food Waste,Food,Biogas,107.4,80,Low,No,No,Yes,Yes,112,0,Organic,Organic Waste Record,100,Pass
+Used Oil,Automotive,Authorized Oil Recycler,172.86,92,High,Yes,Yes,Yes,Yes,190,0,Hazardous,Hazardous Waste Manifest; Transport Permit,85,Pass
+Paper Sludge,Paper,Brick Manufacturing,181.67,79,Low,No,No,Yes,Yes,113,0,Industrial,Transfer Record,100,Pass
+Chemical Sludge,Chemical,Hazardous Treatment Facility,65.68,77,High,Yes,Yes,Yes,Yes,130,0,Hazardous,Hazardous Waste Manifest; PCB Authorization; Transport Permit,85,Pass
+Used Oil,Automotive,Unauthorized Facility,74.71,78,High,Yes,Yes,No,Yes,119,0,Hazardous,Hazardous Waste Manifest; Transport Permit,60,Fail
+Cotton Scrap,Textile,Unauthorized Facility,104.65,99,Low,No,No,No,Yes,292,0,Non-Hazardous,Waste Transfer Record,75,Pass
+Steel Slag,Steel,Construction,13.14,86,Medium,No,No,Yes,Yes,21,0,Industrial,Transfer Record,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,186.67,79,High,Yes,Yes,Yes,Yes,14,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+E-Waste,Electronics,Unauthorized Facility,79.17,92,High,Yes,Yes,No,Yes,204,0,Hazardous,E-Waste Manifest; Transport Permit,60,Fail
+Bagasse,Sugar,Paper,194.99,88,Low,No,No,Yes,Yes,42,0,Organic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,161.4,77,Low,No,No,Yes,Yes,224,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,154.64,90,Low,No,No,Yes,Yes,133,0,Organic,Invoice,100,Pass
+E-Waste,Electronics,Authorized E-Waste Recycler,184.61,96,High,Yes,Yes,Yes,Yes,103,0,Hazardous,E-Waste Manifest; Transport Permit,85,Pass
+Cotton Scrap,Textile,Paper,20.17,79,Low,No,No,Yes,Yes,274,0,Non-Hazardous,Waste Transfer Record,100,Pass
+Fly Ash,Thermal Power,Cement,82.56,73,Low,No,No,Yes,Yes,268,0,Industrial,Transfer Record,100,Pass
+Food Waste,Food,Unauthorized Facility,9.54,78,Low,No,No,No,Yes,181,0,Organic,Organic Waste Record,75,Pass
+E-Waste,Electronics,Unauthorized Facility,92.03,98,High,Yes,Yes,No,No,41,1,Hazardous,E-Waste Manifest; Transport Permit,30,Fail
+Steel Slag,Steel,Construction,120.35,86,Medium,No,No,Yes,Yes,146,1,Industrial,Transfer Record,90,Pass
+Bagasse,Sugar,Paper,138.08,85,Low,No,No,Yes,Yes,131,1,Organic,Invoice,90,Pass
+Bagasse,Sugar,Paper,59.32,99,Low,No,No,Yes,Yes,104,0,Organic,Invoice,100,Pass
+Fly Ash,Thermal Power,Cement,4.71,80,Low,No,No,Yes,Yes,274,0,Industrial,Transfer Record,100,Pass
+Rice Husk,Agriculture,Biofuel,182.64,89,Low,No,No,Yes,Yes,56,0,Organic,Invoice,100,Pass
+Rice Husk,Agriculture,Unauthorized Facility,114.87,72,Low,No,No,No,Yes,5,0,Organic,Invoice,75,Pass
