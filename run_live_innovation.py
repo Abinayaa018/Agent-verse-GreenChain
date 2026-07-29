@@ -8,8 +8,7 @@ import sys
 import argparse
 import json
 from agents.circular_innovation.models import WasteProfileInput, CircularInnovationRequest
-from agents.circular_innovation.rules import CircularInnovationEngine
-from agents.circular_innovation.utils import format_innovation_report
+from agents.circular_innovation.rules import CircularInnovationEngine, format_innovation_report
 
 def main():
     parser = argparse.ArgumentParser(description="GreenChain AI Real-Time Circular Innovation Agent")
