@@ -1,0 +1,20 @@
+{
+  "Tiruppur Textiles": [
+    {
+      "contract_id": "GC-AUDIT0001",
+      "material_type": "plastic",
+      "quantity_kg": 500,
+      "co2_saved_kg": 525.0,
+      "landfill_diverted_kg": 450.0,
+      "timestamp": "2026-07-29T09:55:18"
+    },
+    {
+      "contract_id": "GC-AUDIT0001",
+      "material_type": "plastic",
+      "quantity_kg": 500,
+      "co2_saved_kg": 525.0,
+      "landfill_diverted_kg": 450.0,
+      "timestamp": "2026-07-29T09:57:27"
+    }
+  ]
+}
