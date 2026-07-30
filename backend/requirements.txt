@@ -105,3 +105,5 @@ google-generativeai
 qrcode
 scikit-learn
 reportlab
+faker
+prophet

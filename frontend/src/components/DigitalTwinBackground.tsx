@@ -97,8 +97,9 @@ export const DigitalTwinBackground: React.FC = () => {
         if (mouse.x !== -1000) {
           const dx = mouse.x - p.baseX;
           const dy = mouse.y - p.baseY;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 400) {
+          const distSq = dx * dx + dy * dy;
+          if (distSq < 160000) { // 400 * 400
+            const dist = Math.sqrt(distSq);
             const force = (400 - dist) / 400;
             offsetX = -dx * force * 0.04 * p.radius;
             offsetY = -dy * force * 0.04 * p.radius;
@@ -123,9 +124,10 @@ export const DigitalTwinBackground: React.FC = () => {
           const pj = particles[j];
           const dx = pi.x - pj.x;
           const dy = pi.y - pj.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
+          const distSq = dx * dx + dy * dy;
 
-          if (dist < 160) {
+          if (distSq < 25600) { // 160 * 160
+            const dist = Math.sqrt(distSq);
             const alpha = (1 - dist / 160) * 0.05;
             ctx.strokeStyle = pi.colorType === 'emerald'
               ? `rgba(63, 230, 168, ${alpha})`
@@ -141,8 +143,9 @@ export const DigitalTwinBackground: React.FC = () => {
         if (mouse.x !== -1000) {
           const dx = pi.x - mouse.x;
           const dy = pi.y - mouse.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 220) {
+          const distSq = dx * dx + dy * dy;
+          if (distSq < 48400) { // 220 * 220
+            const dist = Math.sqrt(distSq);
             const alpha = (1 - dist / 220) * 0.07;
             ctx.strokeStyle = pi.colorType === 'emerald'
               ? `rgba(63, 230, 168, ${alpha})`

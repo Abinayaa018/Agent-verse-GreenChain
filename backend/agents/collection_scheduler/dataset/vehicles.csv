@@ -1,0 +1,151 @@
+vehicle_id,type,capacity_kg,status,city
+TN-61-OK-6191,Flatbed Carrier,4000,Available,Chennai
+TN-96-KK-9322,Flatbed Carrier,4000,Available,Chennai
+TN-39-FB-6311,Compact Logistics Van,1200,Maintenance,Tiruppur
+TN-67-VL-9666,Compact Logistics Van,1200,Active,Chennai
+TN-69-PO-1189,Compact Logistics Van,1200,Available,Coimbatore
+TN-64-TY-4556,Compact Logistics Van,1200,Active,Bangalore
+TN-48-RD-9792,Heavy Duty Dump,5000,Maintenance,Chennai
+TN-18-ZU-8041,Electric Box Truck,3000,Active,Madurai
+TN-53-HO-9226,Flatbed Carrier,4000,Maintenance,Madurai
+TN-13-BF-4843,Electric Box Truck,3000,Available,Chennai
+TN-53-BJ-1995,Electric Box Truck,3000,Available,Madurai
+TN-71-HU-7863,Heavy Duty Dump,5000,Active,Bangalore
+TN-35-YM-8208,Compact Logistics Van,1200,Available,Bangalore
+TN-98-GI-6463,Heavy Duty Dump,5000,Available,Coimbatore
+TN-90-HC-6892,Flatbed Carrier,4000,Maintenance,Chennai
+TN-37-GI-4104,Heavy Duty Dump,5000,Available,Bangalore
+TN-53-HV-9154,Flatbed Carrier,4000,Available,Coimbatore
+TN-56-NC-4840,Heavy Duty Dump,5000,Active,Coimbatore
+TN-88-OZ-8721,Heavy Duty Dump,5000,Available,Coimbatore
+TN-61-DE-8574,Flatbed Carrier,4000,Active,Coimbatore
+TN-45-MG-4157,Heavy Duty Dump,5000,Active,Chennai
+TN-71-YU-3693,Heavy Duty Dump,5000,Available,Madurai
+TN-93-KZ-6592,Compact Logistics Van,1200,Available,Tiruppur
+TN-36-YT-6864,Heavy Duty Dump,5000,Available,Coimbatore
+TN-71-EA-1663,Heavy Duty Dump,5000,Maintenance,Tiruppur
+TN-71-QZ-2291,Compact Logistics Van,1200,Available,Chennai
+TN-65-QQ-5737,Flatbed Carrier,4000,Available,Bangalore
+TN-10-SB-6172,Compact Logistics Van,1200,Available,Madurai
+TN-84-XQ-9958,Flatbed Carrier,4000,Active,Bangalore
+TN-79-VK-7287,Compact Logistics Van,1200,Active,Madurai
+TN-79-PC-1659,Flatbed Carrier,4000,Available,Madurai
+TN-76-ST-3911,Flatbed Carrier,4000,Available,Tiruppur
+TN-49-GR-5736,Heavy Duty Dump,5000,Active,Tiruppur
+TN-59-WJ-1262,Heavy Duty Dump,5000,Active,Chennai
+TN-69-QB-6423,Compact Logistics Van,1200,Maintenance,Bangalore
+TN-41-WI-8400,Heavy Duty Dump,5000,Available,Coimbatore
+TN-33-VX-2648,Compact Logistics Van,1200,Available,Madurai
+TN-98-CY-3961,Electric Box Truck,3000,Available,Chennai
+TN-63-CP-1956,Electric Box Truck,3000,Available,Tiruppur
+TN-42-NU-5911,Compact Logistics Van,1200,Active,Coimbatore
+TN-42-PL-9050,Heavy Duty Dump,5000,Active,Bangalore
+TN-63-HB-5893,Flatbed Carrier,4000,Active,Tiruppur
+TN-70-PS-8683,Heavy Duty Dump,5000,Available,Tiruppur
+TN-26-LN-4444,Compact Logistics Van,1200,Active,Madurai
+TN-46-XQ-1301,Heavy Duty Dump,5000,Maintenance,Coimbatore
+TN-72-UW-2184,Compact Logistics Van,1200,Available,Chennai
+TN-63-ZC-2895,Heavy Duty Dump,5000,Available,Chennai
+TN-56-VW-4009,Compact Logistics Van,1200,Available,Chennai
+TN-26-HA-8560,Electric Box Truck,3000,Active,Bangalore
+TN-35-CR-9716,Electric Box Truck,3000,Available,Tiruppur
+TN-54-TA-7655,Compact Logistics Van,1200,Available,Madurai
+TN-96-OB-6919,Flatbed Carrier,4000,Available,Coimbatore
+TN-67-VZ-8509,Heavy Duty Dump,5000,Available,Chennai
+TN-24-VK-3491,Electric Box Truck,3000,Available,Bangalore
+TN-14-GD-5869,Compact Logistics Van,1200,Available,Madurai
+TN-56-CW-8079,Electric Box Truck,3000,Active,Bangalore
+TN-39-SQ-9311,Electric Box Truck,3000,Available,Madurai
+TN-64-ZE-9308,Electric Box Truck,3000,Available,Tiruppur
+TN-10-ZZ-1512,Compact Logistics Van,1200,Available,Tiruppur
+TN-10-PG-1580,Compact Logistics Van,1200,Active,Coimbatore
+TN-35-PS-8253,Compact Logistics Van,1200,Available,Madurai
+TN-56-QN-7617,Heavy Duty Dump,5000,Available,Madurai
+TN-32-ZJ-3849,Heavy Duty Dump,5000,Available,Chennai
+TN-28-ZA-5611,Electric Box Truck,3000,Active,Chennai
+TN-41-TX-7833,Heavy Duty Dump,5000,Available,Tiruppur
+TN-70-SK-6732,Heavy Duty Dump,5000,Active,Tiruppur
+TN-49-JK-8723,Heavy Duty Dump,5000,Available,Madurai
+TN-55-BS-9945,Flatbed Carrier,4000,Active,Tiruppur
+TN-17-ZJ-1417,Electric Box Truck,3000,Available,Madurai
+TN-84-XD-1728,Electric Box Truck,3000,Active,Tiruppur
+TN-19-EI-3967,Compact Logistics Van,1200,Active,Tiruppur
+TN-45-RQ-3143,Flatbed Carrier,4000,Available,Bangalore
+TN-64-MW-3914,Compact Logistics Van,1200,Available,Tiruppur
+TN-71-TP-1728,Heavy Duty Dump,5000,Available,Coimbatore
+TN-58-DL-8400,Flatbed Carrier,4000,Active,Tiruppur
+TN-37-NT-5946,Flatbed Carrier,4000,Available,Bangalore
+TN-21-YT-6588,Heavy Duty Dump,5000,Active,Tiruppur
+TN-62-JZ-7541,Flatbed Carrier,4000,Available,Bangalore
+TN-96-KK-7801,Flatbed Carrier,4000,Maintenance,Tiruppur
+TN-67-LQ-2542,Electric Box Truck,3000,Available,Chennai
+TN-59-ZB-2540,Heavy Duty Dump,5000,Available,Coimbatore
+TN-74-VT-9702,Compact Logistics Van,1200,Maintenance,Bangalore
+TN-45-FS-7588,Compact Logistics Van,1200,Available,Coimbatore
+TN-28-GC-5268,Electric Box Truck,3000,Available,Madurai
+TN-67-TH-4072,Electric Box Truck,3000,Active,Madurai
+TN-72-QY-1823,Electric Box Truck,3000,Available,Bangalore
+TN-67-LM-7316,Electric Box Truck,3000,Available,Bangalore
+TN-94-KE-7190,Compact Logistics Van,1200,Active,Tiruppur
+TN-63-VC-3703,Heavy Duty Dump,5000,Active,Coimbatore
+TN-83-PH-9549,Compact Logistics Van,1200,Available,Madurai
+TN-17-ZD-4719,Heavy Duty Dump,5000,Available,Chennai
+TN-50-DV-8102,Compact Logistics Van,1200,Available,Tiruppur
+TN-93-MP-1924,Heavy Duty Dump,5000,Available,Coimbatore
+TN-15-RS-1255,Heavy Duty Dump,5000,Available,Tiruppur
+TN-19-XR-8418,Electric Box Truck,3000,Available,Tiruppur
+TN-74-RO-8449,Electric Box Truck,3000,Available,Coimbatore
+TN-58-MA-2633,Flatbed Carrier,4000,Available,Tiruppur
+TN-64-FQ-6989,Heavy Duty Dump,5000,Maintenance,Bangalore
+TN-46-JJ-5178,Heavy Duty Dump,5000,Available,Tiruppur
+TN-10-SM-1716,Electric Box Truck,3000,Available,Tiruppur
+TN-41-BH-1249,Heavy Duty Dump,5000,Available,Coimbatore
+TN-59-LA-2077,Flatbed Carrier,4000,Maintenance,Coimbatore
+TN-26-PO-2252,Heavy Duty Dump,5000,Active,Chennai
+TN-60-GF-7881,Flatbed Carrier,4000,Available,Chennai
+TN-39-OS-2331,Electric Box Truck,3000,Available,Tiruppur
+TN-88-WJ-8730,Compact Logistics Van,1200,Active,Bangalore
+TN-19-XQ-6449,Compact Logistics Van,1200,Active,Madurai
+TN-78-BF-6569,Compact Logistics Van,1200,Available,Coimbatore
+TN-84-SO-1760,Flatbed Carrier,4000,Available,Coimbatore
+TN-25-HD-9472,Electric Box Truck,3000,Active,Coimbatore
+TN-41-RZ-8570,Flatbed Carrier,4000,Active,Chennai
+TN-51-VU-7981,Compact Logistics Van,1200,Available,Tiruppur
+TN-55-BQ-8240,Compact Logistics Van,1200,Available,Tiruppur
+TN-65-KP-4644,Electric Box Truck,3000,Available,Madurai
+TN-17-QC-2276,Heavy Duty Dump,5000,Maintenance,Chennai
+TN-96-NX-1364,Compact Logistics Van,1200,Available,Coimbatore
+TN-16-CO-1918,Compact Logistics Van,1200,Available,Madurai
+TN-27-ZF-7882,Heavy Duty Dump,5000,Available,Tiruppur
+TN-37-JG-2976,Flatbed Carrier,4000,Active,Chennai
+TN-53-YQ-4596,Electric Box Truck,3000,Available,Madurai
+TN-76-IM-7371,Electric Box Truck,3000,Available,Chennai
+TN-17-HQ-7891,Flatbed Carrier,4000,Available,Tiruppur
+TN-15-TZ-2761,Heavy Duty Dump,5000,Available,Coimbatore
+TN-79-EY-2460,Heavy Duty Dump,5000,Available,Madurai
+TN-84-XW-9434,Electric Box Truck,3000,Available,Bangalore
+TN-33-FB-9659,Compact Logistics Van,1200,Maintenance,Madurai
+TN-15-VQ-3551,Flatbed Carrier,4000,Active,Tiruppur
+TN-88-KH-7316,Electric Box Truck,3000,Active,Chennai
+TN-77-ST-1224,Electric Box Truck,3000,Active,Madurai
+TN-10-ZN-2828,Flatbed Carrier,4000,Available,Madurai
+TN-12-AF-1009,Heavy Duty Dump,5000,Available,Chennai
+TN-11-MH-2619,Compact Logistics Van,1200,Available,Bangalore
+TN-26-IK-4490,Heavy Duty Dump,5000,Available,Tiruppur
+TN-71-LR-2908,Heavy Duty Dump,5000,Active,Tiruppur
+TN-85-CC-3560,Electric Box Truck,3000,Active,Madurai
+TN-81-KI-7413,Compact Logistics Van,1200,Active,Coimbatore
+TN-46-ES-8546,Heavy Duty Dump,5000,Active,Madurai
+TN-51-YR-7943,Heavy Duty Dump,5000,Available,Tiruppur
+TN-72-OA-3712,Flatbed Carrier,4000,Available,Chennai
+TN-62-HH-5018,Electric Box Truck,3000,Available,Coimbatore
+TN-60-HJ-6567,Flatbed Carrier,4000,Available,Bangalore
+TN-36-DF-2120,Heavy Duty Dump,5000,Active,Coimbatore
+TN-42-DV-5612,Flatbed Carrier,4000,Active,Tiruppur
+TN-47-MO-7371,Electric Box Truck,3000,Available,Madurai
+TN-24-HE-3371,Compact Logistics Van,1200,Active,Chennai
+TN-45-DZ-3116,Flatbed Carrier,4000,Active,Chennai
+TN-47-FH-7166,Compact Logistics Van,1200,Available,Coimbatore
+TN-22-HR-1984,Compact Logistics Van,1200,Available,Madurai
+TN-85-LD-4876,Flatbed Carrier,4000,Active,Chennai
+TN-40-ZI-6109,Heavy Duty Dump,5000,Available,Tiruppur

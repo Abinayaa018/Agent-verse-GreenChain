@@ -22,6 +22,30 @@ import MarketPricingDashboard from './pages/MarketPricingDashboard';
 import CarbonCredits from './pages/CarbonCredits';
 import LanguageSettings from './pages/LanguageSettings';
 
+// New Agent Pages 10-13
+import DemandForecast from './pages/DemandForecast';
+import WastePrediction from './pages/WastePrediction';
+import CollectionScheduler from './pages/CollectionScheduler';
+import RecyclerCapacity from './pages/RecyclerCapacity';
+
+// New Agent Pages 14-17
+import MaterialQuality from './pages/MaterialQuality';
+import FraudDetection from './pages/FraudDetection';
+import ESGBenchmark from './pages/ESGBenchmark';
+import SustainabilityAdvisor from './pages/SustainabilityAdvisor';
+
+// Ten completely new enterprise agent pages (Agents 18-27)
+import NegotiationPage from './pages/NegotiationPage';
+import SmartContractPage from './pages/SmartContractPage';
+import InsuranceRiskPage from './pages/InsuranceRiskPage';
+import CircularROIPage from './pages/CircularROIPage';
+import WasteAuctionPage from './pages/WasteAuctionPage';
+import IndustrialCollaborationPage from './pages/IndustrialCollaborationPage';
+import ReputationProfilePage from './pages/ReputationProfilePage';
+import SupplyRiskPage from './pages/SupplyRiskPage';
+import WasteTraceabilityPage from './pages/WasteTraceabilityPage';
+import CircularInvestmentPage from './pages/CircularInvestmentPage';
+
 import { AnalysisResponse } from './types';
 
 export const App: React.FC = () => {
@@ -118,6 +142,30 @@ export const App: React.FC = () => {
           <Route path="/pricing" element={<MarketPricingDashboard />} />
           <Route path="/carbon-credits" element={<CarbonCredits />} />
           <Route path="/language-settings" element={<LanguageSettings />} />
+
+          {/* New Agents 10-13 Routes */}
+          <Route path="/demand-forecast" element={<DemandForecast />} />
+          <Route path="/waste-prediction" element={<WastePrediction />} />
+          <Route path="/collection-scheduler" element={<CollectionScheduler />} />
+          <Route path="/recycling-capacity" element={<RecyclerCapacity />} />
+
+          {/* New Agents 14-17 Routes */}
+          <Route path="/material-quality" element={<MaterialQuality />} />
+          <Route path="/fraud-detection" element={<FraudDetection />} />
+          <Route path="/esg-benchmark" element={<ESGBenchmark company={currentCompany} />} />
+          <Route path="/sustainability-advisor" element={<SustainabilityAdvisor company={currentCompany} />} />
+
+          {/* Ten completely new enterprise agent routes (Agents 18-27) */}
+          <Route path="/negotiation" element={<NegotiationPage />} />
+          <Route path="/smart-contract" element={<SmartContractPage />} />
+          <Route path="/insurance-risk" element={<InsuranceRiskPage />} />
+          <Route path="/circular-roi" element={<CircularROIPage />} />
+          <Route path="/waste-auction" element={<WasteAuctionPage />} />
+          <Route path="/industrial-collaboration" element={<IndustrialCollaborationPage />} />
+          <Route path="/reputation-profile" element={<ReputationProfilePage company={currentCompany} />} />
+          <Route path="/supply-risk" element={<SupplyRiskPage />} />
+          <Route path="/waste-traceability" element={<WasteTraceabilityPage />} />
+          <Route path="/circular-investment" element={<CircularInvestmentPage />} />
 
           <Route path="/settings" element={<SettingsPage />} />
         </Route>

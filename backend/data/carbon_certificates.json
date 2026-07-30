@@ -9,5 +9,16 @@
     "serial_number": "SN-2026-2AFA13E9CA39",
     "timestamp": "2026-07-30T05:42:45.156623+00:00",
     "status": "Active"
+  },
+  {
+    "certificate_id": "GC-CC-146B70C2",
+    "contract_id": "GC-DEMO001",
+    "company_name": "Tiruppur Textiles",
+    "co2_saved_kg": 525.0,
+    "carbon_credits": 0.53,
+    "market_value_inr": 954.0,
+    "serial_number": "SN-2026-2A762E896ED0",
+    "timestamp": "2026-07-30T06:30:33.126420+00:00",
+    "status": "Active"
   }
 ]

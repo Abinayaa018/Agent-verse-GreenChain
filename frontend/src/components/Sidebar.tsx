@@ -19,7 +19,17 @@ import {
   MessageSquare,
   TrendingUp,
   Award,
-  Languages
+  Languages,
+  Calendar,
+  Layers,
+  Thermometer,
+  ShieldAlert,
+  Compass,
+  Sparkles,
+  Gavel,
+  AlertTriangle,
+  QrCode,
+  Building2
 } from 'lucide-react';
 
 const navItems = [
@@ -42,6 +52,30 @@ const navItems = [
   { path: '/carbon-credits', label: 'Carbon Credits', icon: Award },
   { path: '/language-settings', label: 'Language Settings', icon: Languages },
 
+  // New Agents 10-13
+  { path: '/demand-forecast', label: 'Demand Forecast', icon: TrendingUp },
+  { path: '/waste-prediction', label: 'Waste Prediction', icon: Binary },
+  { path: '/collection-scheduler', label: 'Collection Scheduler', icon: Calendar },
+  { path: '/recycling-capacity', label: 'Recycling Capacity', icon: Layers },
+
+  // New Agents 14-17
+  { path: '/material-quality', label: 'Material Quality', icon: Thermometer },
+  { path: '/fraud-detection', label: 'Fraud Detection', icon: ShieldAlert },
+  { path: '/esg-benchmark', label: 'ESG Benchmark', icon: Compass },
+  { path: '/sustainability-advisor', label: 'Sustainability Advisor', icon: Sparkles },
+
+  // Ten completely new enterprise agents (Agents 18-27)
+  { path: '/negotiation', label: 'Commercial Negotiation', icon: MessageSquare },
+  { path: '/smart-contract', label: 'Smart Contract Generator', icon: FileText },
+  { path: '/insurance-risk', label: 'Transit Risk Assessor', icon: ShieldAlert },
+  { path: '/circular-roi', label: 'Circular Economy ROI', icon: TrendingUp },
+  { path: '/waste-auction', label: 'Live Waste Auction', icon: Gavel },
+  { path: '/industrial-collaboration', label: 'Industrial Collaboration', icon: Compass },
+  { path: '/reputation-profile', label: 'Reputation Profile', icon: Award },
+  { path: '/supply-risk', label: 'Supply Shortage Predictor', icon: AlertTriangle },
+  { path: '/waste-traceability', label: 'Custody Traceability', icon: QrCode },
+  { path: '/circular-investment', label: 'Circular Investment Capex', icon: Building2 },
+
   { path: '/settings', label: 'Settings', icon: Settings },
 ];
 
@@ -54,9 +88,9 @@ export const Sidebar: React.FC = () => {
         isCollapsed ? 'w-20' : 'w-64'
       }`}
     >
-      <div>
+      <div className="flex flex-col flex-1 min-h-0">
         {/* Logo Branding */}
-        <div className="p-5 flex items-center justify-between border-b border-[#1B3A38]">
+        <div className="p-5 flex items-center justify-between border-b border-[#1B3A38] flex-shrink-0">
           <div className="flex items-center gap-3 overflow-hidden">
             {/* SVG Logo */}
             <svg
@@ -92,7 +126,7 @@ export const Sidebar: React.FC = () => {
         </div>
 
         {/* Navigation Links */}
-        <nav className="mt-6 px-3 space-y-1">
+        <nav className={`mt-6 px-3 space-y-1 flex-1 ${isCollapsed ? 'overflow-y-visible' : 'overflow-y-auto scrollbar-thin'}`}>
           {navItems.map((item) => {
             const Icon = item.icon;
             return (
@@ -123,7 +157,7 @@ export const Sidebar: React.FC = () => {
       </div>
 
       {/* ESG Score / Footer Card */}
-      <div className="p-4 border-t border-[#1B3A38] overflow-hidden">
+      <div className="p-4 border-t border-[#1B3A38] overflow-hidden flex-shrink-0">
         {!isCollapsed ? (
           <div className="bg-[#09171C] border border-[#1B3A38] hover:border-[#3FE6A8]/30 rounded-[16px] p-3 flex items-center gap-3 transition-colors">
             {/* SVG Circular Progress Dial */}

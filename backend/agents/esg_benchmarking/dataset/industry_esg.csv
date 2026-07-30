@@ -1,0 +1,31 @@
+industry,state,national_average_co2,national_average_recycling,state_average_recycling,industry_average_recycling,industry_average_circularity,average_landfill_diversion
+textiles,Tamil Nadu,2079.47,72.32,74.31,68.88,58.9,71.28
+textiles,Karnataka,1977.88,73.66,75.67,75.74,55.51,91.34
+textiles,Maharashtra,1924.88,66.82,64.65,64.86,68.12,79.5
+textiles,Delhi,2086.81,67.91,70.03,64.3,62.3,78.06
+textiles,Telangana,2234.5,67.0,68.14,67.92,56.16,83.37
+packaging,Tamil Nadu,1472.91,66.71,63.36,71.2,79.14,87.78
+packaging,Karnataka,1427.92,71.84,72.24,68.06,67.38,70.76
+packaging,Maharashtra,1465.0,74.09,72.68,75.72,62.79,81.44
+packaging,Delhi,1340.62,74.7,78.45,79.09,77.37,83.15
+packaging,Telangana,1523.62,74.22,71.1,71.18,56.13,77.16
+electronics,Tamil Nadu,1322.58,73.29,72.86,71.1,68.57,73.1
+electronics,Karnataka,1413.62,73.02,69.77,77.89,74.31,74.37
+electronics,Maharashtra,1623.72,72.71,69.45,71.29,57.9,88.99
+electronics,Delhi,1611.75,71.23,70.54,66.87,62.77,77.15
+electronics,Telangana,1597.5,73.87,74.59,70.07,72.83,86.74
+agriculture,Tamil Nadu,1662.75,70.61,74.32,70.55,68.07,79.41
+agriculture,Karnataka,1510.45,68.14,69.23,72.22,61.23,79.03
+agriculture,Maharashtra,1464.12,72.56,70.85,68.33,62.24,73.55
+agriculture,Delhi,1609.85,73.04,70.91,76.97,68.48,87.76
+agriculture,Telangana,1539.45,73.96,73.14,70.06,60.7,79.4
+construction,Tamil Nadu,1535.53,65.07,66.18,64.24,60.55,72.64
+construction,Karnataka,1531.33,68.38,73.81,66.61,67.97,85.47
+construction,Maharashtra,1530.91,74.62,73.14,74.59,62.52,76.27
+construction,Delhi,1491.07,65.37,67.47,65.4,56.29,76.13
+construction,Telangana,1476.92,66.45,67.34,71.31,61.05,84.79
+manufacturing,Tamil Nadu,5120.62,72.62,71.0,74.9,64.19,83.91
+manufacturing,Karnataka,5234.74,65.9,70.25,64.11,59.66,70.9
+manufacturing,Maharashtra,5876.18,70.91,73.69,66.08,67.8,74.98
+manufacturing,Delhi,4575.08,71.91,71.78,76.28,58.44,77.5
+manufacturing,Telangana,5189.44,66.13,71.38,69.9,61.45,84.52

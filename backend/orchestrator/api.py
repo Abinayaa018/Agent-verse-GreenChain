@@ -78,6 +78,42 @@ from agents.carbon_credit.models import TokenizeRequest
 from agents.multilingual.rules import TranslationEngine
 from agents.multilingual.models import TranslateRequest
 
+# Import Agent 10-13 rules and models
+from agents.demand_forecasting.rules import DemandForecastingEngine
+from agents.waste_prediction.rules import WastePredictionEngine
+from agents.waste_prediction.models import WastePredictionRequest
+from agents.collection_scheduler.rules import CollectionSchedulingEngine
+from agents.collection_scheduler.models import SchedulePickupRequest
+from agents.recycling_capacity.rules import RecyclingCapacityEngine
+
+# Import Agent 14-17 rules and models
+from agents.material_quality_prediction.rules import MaterialQualityEngine
+from agents.material_quality_prediction.models import MaterialQualityRequest
+from agents.fraud_detection.rules import FraudDetectionEngine
+from agents.fraud_detection.models import FraudDetectionRequest
+from agents.esg_benchmarking.rules import ESGBenchmarkingEngine
+from agents.sustainability_recommendation.rules import SustainabilityRecommendationEngine
+from agents.sustainability_recommendation.models import SustainabilityAdvisorRequest
+
+# Import Agent 18-27 rules and models
+from agents.negotiation.rules import NegotiationEngine
+from agents.negotiation.models import NegotiateRequest
+from agents.smart_contract.rules import SmartContractEngine
+from agents.smart_contract.models import ContractRequest
+from agents.insurance_risk.rules import InsuranceRiskEngine
+from agents.insurance_risk.models import RiskAssessmentRequest
+from agents.circular_roi.rules import CircularROIEngine
+from agents.circular_roi.models import ROIRequest
+from agents.waste_auction.rules import WasteAuctionEngine
+from agents.waste_auction.models import BidRequest
+from agents.industrial_collaboration.rules import IndustrialCollaborationEngine
+from agents.sustainability_reputation.rules import SustainabilityReputationEngine
+from agents.circular_supply_risk.rules import CircularSupplyRiskEngine
+from agents.waste_origin_traceability.rules import TraceabilityEngine
+from agents.waste_origin_traceability.models import CheckpointRequest
+from agents.circular_investment.rules import CircularInvestmentEngine
+from agents.circular_investment.models import InvestmentRequest
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("GreenChainAPI")
 
@@ -87,6 +123,27 @@ kyc_engine = KYCVerificationEngine()
 pricing_engine = DynamicPricingEngine()
 carbon_engine = CarbonTokenizationEngine()
 translation_engine = TranslationEngine()
+
+demand_forecasting_engine = DemandForecastingEngine()
+waste_prediction_engine = WastePredictionEngine()
+collection_scheduler_engine = CollectionSchedulingEngine()
+recycling_capacity_engine = RecyclingCapacityEngine()
+
+material_quality_engine = MaterialQualityEngine()
+fraud_detection_engine = FraudDetectionEngine()
+esg_benchmarking_engine = ESGBenchmarkingEngine()
+sustainability_recommendation_engine = SustainabilityRecommendationEngine()
+
+negotiation_engine = NegotiationEngine()
+smart_contract_engine = SmartContractEngine()
+insurance_risk_engine = InsuranceRiskEngine()
+circular_roi_engine = CircularROIEngine()
+waste_auction_engine = WasteAuctionEngine()
+industrial_collaboration_engine = IndustrialCollaborationEngine()
+sustainability_reputation_engine = SustainabilityReputationEngine()
+circular_supply_risk_engine = CircularSupplyRiskEngine()
+traceability_engine = TraceabilityEngine()
+circular_investment_engine = CircularInvestmentEngine()
 
 
 
@@ -816,4 +873,225 @@ def translate_endpoint(req: TranslateRequest):
     except Exception as e:
         logger.exception("Translation endpoint failed")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ==============================================================================
+# NEW ENDPOINTS FOR INTELLECTUAL AGENTS 10-13
+# ==============================================================================
+
+@app.get("/api/demand-forecast")
+def get_demand_forecast(material: str = "plastic", industry: str = "packaging"):
+    try:
+        res = demand_forecasting_engine.get_forecast(material, industry)
+        return res
+    except Exception as e:
+        logger.exception("Demand forecasting endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/predict-waste")
+def predict_corporate_waste(req: WastePredictionRequest):
+    try:
+        res = waste_prediction_engine.predict_future_waste(req.company, req.industry, req.production_volume)
+        return res
+    except Exception as e:
+        logger.exception("Waste prediction endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/schedule-pickup")
+def schedule_logistics_pickup(req: SchedulePickupRequest):
+    try:
+        res = collection_scheduler_engine.schedule_pickup(req)
+        return res
+    except Exception as e:
+        logger.exception("Collection scheduling endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/recycling-capacity")
+def get_recycling_capacity(material: str = "plastic", quantity: float = 1000.0, city: str = "Tiruppur"):
+    try:
+        res = recycling_capacity_engine.find_available_facility(material, quantity, city)
+        return res
+    except Exception as e:
+        logger.exception("Recycling capacity check endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ==============================================================================
+# NEW ENDPOINTS FOR INTELLECTUAL AGENTS 14-17
+# ==============================================================================
+
+@app.post("/api/material-quality")
+def check_material_quality(req: MaterialQualityRequest):
+    try:
+        res = material_quality_engine.predict_material_quality(
+            req.material_type,
+            req.industry,
+            req.storage_days,
+            req.humidity,
+            req.transport_distance
+        )
+        return res
+    except Exception as e:
+        logger.exception("Material quality prediction endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/fraud-detection")
+def check_transaction_fraud(req: FraudDetectionRequest):
+    try:
+        res = fraud_detection_engine.detect_fraud(req)
+        return res
+    except Exception as e:
+        logger.exception("Fraud detection endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/esg-benchmark")
+def get_esg_benchmarks(company_name: str = "Tiruppur Textiles"):
+    try:
+        res = esg_benchmarking_engine.benchmark_company(company_name)
+        return res
+    except Exception as e:
+        logger.exception("ESG benchmarking endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/sustainability-advisor")
+def get_sustainability_advice(req: SustainabilityAdvisorRequest):
+    try:
+        res = sustainability_recommendation_engine.generate_sustainability_recommendations(req.company_name)
+        return res
+    except Exception as e:
+        logger.exception("Sustainability advisor endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ==============================================================================
+# TEN COMPLETELY NEW ENTERPRISE AGENT ENDPOINTS (AGENTS 18-27)
+# ==============================================================================
+
+@app.post("/api/negotiate")
+def run_negotiations(req: NegotiateRequest):
+    try:
+        res = negotiation_engine.run_negotiation(req)
+        return res
+    except Exception as e:
+        logger.exception("Negotiation endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/smart-contract/generate")
+def generate_smart_contract(req: ContractRequest):
+    try:
+        res = smart_contract_engine.generate_contract_agreement(req)
+        return res
+    except Exception as e:
+        logger.exception("Contract generation endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/smart-contract/download/{contract_id}")
+def download_smart_contract(contract_id: str):
+    from fastapi.responses import FileResponse
+    filename = f"Contract_{contract_id}.pdf"
+    filepath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "reports", filename)
+    if not os.path.exists(filepath):
+        raise HTTPException(status_code=404, detail="Contract agreement file not found")
+    return FileResponse(filepath, media_type="application/pdf", filename=filename)
+
+
+@app.post("/api/insurance-risk")
+def calculate_insurance_threat(req: RiskAssessmentRequest):
+    try:
+        res = insurance_risk_engine.assess_shipment_risk(req)
+        return res
+    except Exception as e:
+        logger.exception("Insurance risk endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/circular-roi")
+def calculate_projected_roi(req: ROIRequest):
+    try:
+        res = circular_roi_engine.calculate_project_roi(req)
+        return res
+    except Exception as e:
+        logger.exception("Circular ROI endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/waste-auction/bid")
+def bid_waste_auction(req: BidRequest):
+    try:
+        res = waste_auction_engine.run_simulated_auction(req)
+        return res
+    except Exception as e:
+        logger.exception("Waste auction endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/industrial-collaboration")
+def get_industrial_collaboration_network():
+    try:
+        res = industrial_collaboration_engine.get_synergy_networks()
+        return res
+    except Exception as e:
+        logger.exception("Industrial collaboration endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/sustainability-reputation")
+def get_reputation_index(company_name: str = "Tiruppur Textiles"):
+    try:
+        res = sustainability_reputation_engine.get_reputation_profile(company_name)
+        return res
+    except Exception as e:
+        logger.exception("Reputation index endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/supply-risk")
+def get_supply_risk_index(material: str = "plastic"):
+    try:
+        res = circular_supply_risk_engine.predict_supply_risk(material)
+        return res
+    except Exception as e:
+        logger.exception("Supply risk endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/traceability/{passport_id}")
+def get_traceability_ledger(passport_id: str):
+    try:
+        res = traceability_engine.get_passport_timeline(passport_id)
+        return res
+    except Exception as e:
+        logger.exception("Traceability passport endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/traceability/checkpoint")
+def add_traceability_checkpoint(req: CheckpointRequest):
+    try:
+        res = traceability_engine.add_custody_checkpoint(req)
+        return res
+    except Exception as e:
+        logger.exception("Checkpoint registry endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/circular-investment")
+def prioritize_capital_investments(req: InvestmentRequest):
+    try:
+        res = circular_investment_engine.get_investment_recommendation(req)
+        return res
+    except Exception as e:
+        logger.exception("Investment priority endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+
 

@@ -1,0 +1,123 @@
+request_id,company,material,quantity_kg,urgency,status,timestamp,city
+GC-PK-01574F,Electro-Recycle,paper,1360.0,high,Completed,2026-07-22T07:58:35.655438+00:00,Bangalore
+GC-PK-3CFA3A,Tiruppur Textiles,metal,966.0,high,Completed,2026-07-19T07:58:35.655561+00:00,Bangalore
+GC-PK-D11FB3,Kovai Paper Mills,battery,2185.0,high,Completed,2026-07-06T07:58:35.655706+00:00,Madurai
+GC-PK-CC3AC9,EcoFibre Ltd,metal,1684.0,medium,Completed,2026-07-08T07:58:35.655835+00:00,Bangalore
+GC-PK-CA45BB,Kovai Paper Mills,plastic,974.0,medium,Completed,2026-07-20T07:58:35.655926+00:00,Madurai
+GC-PK-4887E0,Kovai Paper Mills,battery,2399.0,medium,Completed,2026-07-05T07:58:35.656032+00:00,Coimbatore
+GC-PK-44EA57,Tiruppur Textiles,battery,1146.0,high,Completed,2026-07-23T07:58:35.656104+00:00,Chennai
+GC-PK-47031A,Kovai Paper Mills,plastic,2863.0,medium,Completed,2026-07-04T07:58:35.656218+00:00,Tiruppur
+GC-PK-6D8659,EcoFibre Ltd,textile,1863.0,medium,Completed,2026-07-02T07:58:35.656468+00:00,Madurai
+GC-PK-4BB068,Tiruppur Textiles,battery,3652.0,medium,Completed,2026-07-22T07:58:35.656553+00:00,Madurai
+GC-PK-606514,EcoFibre Ltd,metal,4343.0,high,Completed,2026-07-12T07:58:35.656656+00:00,Chennai
+GC-PK-5164C7,Kovai Paper Mills,metal,4797.0,low,Completed,2026-07-16T07:58:35.656740+00:00,Madurai
+GC-PK-225FB0,Tiruppur Textiles,textile,837.0,medium,Completed,2026-07-06T07:58:35.656831+00:00,Chennai
+GC-PK-25DA66,Tiruppur Textiles,paper,879.0,medium,Completed,2026-07-01T07:58:35.656936+00:00,Bangalore
+GC-PK-D98771,Tiruppur Textiles,plastic,3068.0,low,Completed,2026-07-18T07:58:35.656991+00:00,Coimbatore
+GC-PK-7A5BFE,Electro-Recycle,plastic,891.0,low,Completed,2026-07-29T07:58:35.657029+00:00,Coimbatore
+GC-PK-416344,Tiruppur Textiles,metal,2778.0,medium,Completed,2026-07-02T07:58:35.657067+00:00,Tiruppur
+GC-PK-F9F798,Kovai Paper Mills,paper,3604.0,high,Completed,2026-07-07T07:58:35.657105+00:00,Bangalore
+GC-PK-BCA811,Electro-Recycle,paper,3273.0,low,Completed,2026-07-29T07:58:35.657145+00:00,Coimbatore
+GC-PK-E77EA9,Tiruppur Textiles,battery,4340.0,low,Completed,2026-07-07T07:58:35.657181+00:00,Coimbatore
+GC-PK-B1B641,Tiruppur Textiles,metal,1984.0,medium,Completed,2026-07-23T07:58:35.657216+00:00,Tiruppur
+GC-PK-C9F39A,Kovai Paper Mills,textile,4691.0,medium,Completed,2026-07-25T07:58:35.657251+00:00,Bangalore
+GC-PK-949F08,Electro-Recycle,battery,1559.0,low,Completed,2026-07-23T07:58:35.657287+00:00,Coimbatore
+GC-PK-BBF1F1,Electro-Recycle,paper,3125.0,medium,Completed,2026-07-05T07:58:35.657322+00:00,Bangalore
+GC-PK-1E5A10,EcoFibre Ltd,paper,4127.0,medium,Completed,2026-07-19T07:58:35.657358+00:00,Chennai
+GC-PK-A8EF80,Electro-Recycle,paper,3802.0,low,Completed,2026-07-29T07:58:35.657398+00:00,Tiruppur
+GC-PK-B08C9A,Electro-Recycle,plastic,3175.0,medium,Completed,2026-07-27T07:58:35.657588+00:00,Coimbatore
+GC-PK-FA0817,Tiruppur Textiles,textile,1163.0,low,Completed,2026-07-08T07:58:35.657657+00:00,Tiruppur
+GC-PK-889E59,Kovai Paper Mills,plastic,2353.0,low,Completed,2026-07-10T07:58:35.657709+00:00,Madurai
+GC-PK-953C5B,EcoFibre Ltd,metal,2136.0,medium,Completed,2026-07-13T07:58:35.657754+00:00,Coimbatore
+GC-PK-D6122C,Tiruppur Textiles,metal,1354.0,medium,Completed,2026-07-29T07:58:35.657802+00:00,Tiruppur
+GC-PK-AFB5A8,Electro-Recycle,metal,2207.0,medium,Completed,2026-07-24T07:58:35.657852+00:00,Madurai
+GC-PK-95E604,Electro-Recycle,battery,3755.0,medium,Completed,2026-07-24T07:58:35.657900+00:00,Bangalore
+GC-PK-EC792C,Kovai Paper Mills,metal,697.0,medium,Completed,2026-07-14T07:58:35.657950+00:00,Tiruppur
+GC-PK-BC3432,Tiruppur Textiles,paper,4782.0,high,Completed,2026-07-01T07:58:35.657997+00:00,Coimbatore
+GC-PK-53B253,Kovai Paper Mills,paper,1869.0,medium,Completed,2026-07-11T07:58:35.658039+00:00,Madurai
+GC-PK-09A167,Kovai Paper Mills,paper,988.0,medium,Completed,2026-07-23T07:58:35.658076+00:00,Chennai
+GC-PK-13EA8D,Kovai Paper Mills,plastic,2302.0,medium,Completed,2026-07-05T07:58:35.658114+00:00,Chennai
+GC-PK-F4C4F6,Electro-Recycle,metal,762.0,medium,Completed,2026-07-04T07:58:35.658152+00:00,Tiruppur
+GC-PK-76EBF5,Kovai Paper Mills,paper,2549.0,low,Completed,2026-07-18T07:58:35.658190+00:00,Bangalore
+GC-PK-4F03C7,Tiruppur Textiles,battery,2556.0,medium,Completed,2026-07-11T07:58:35.658228+00:00,Coimbatore
+GC-PK-10A557,Kovai Paper Mills,plastic,4491.0,low,Completed,2026-07-13T07:58:35.658264+00:00,Madurai
+GC-PK-BB7B94,EcoFibre Ltd,paper,753.0,high,Completed,2026-07-05T07:58:35.658301+00:00,Coimbatore
+GC-PK-495D2A,Tiruppur Textiles,textile,3461.0,high,Completed,2026-07-12T07:58:35.658338+00:00,Chennai
+GC-PK-36807F,EcoFibre Ltd,battery,4291.0,low,Completed,2026-07-26T07:58:35.658387+00:00,Tiruppur
+GC-PK-D5494A,Kovai Paper Mills,plastic,1800.0,high,Completed,2026-07-06T07:58:35.658435+00:00,Coimbatore
+GC-PK-560F88,Tiruppur Textiles,plastic,3235.0,high,Completed,2026-07-11T07:58:35.658483+00:00,Bangalore
+GC-PK-470E66,Electro-Recycle,battery,725.0,medium,Completed,2026-07-29T07:58:35.658530+00:00,Madurai
+GC-PK-57A1FA,Electro-Recycle,plastic,3567.0,low,Completed,2026-07-11T07:58:35.658577+00:00,Madurai
+GC-PK-4F1287,Electro-Recycle,plastic,516.0,low,Completed,2026-07-01T07:58:35.658623+00:00,Bangalore
+GC-PK-E38E07,EcoFibre Ltd,battery,1560.0,low,Completed,2026-07-13T07:58:35.658664+00:00,Bangalore
+GC-PK-6B23A0,Electro-Recycle,battery,1199.0,low,Completed,2026-07-01T07:58:35.658740+00:00,Bangalore
+GC-PK-3714B1,Kovai Paper Mills,plastic,3827.0,medium,Completed,2026-07-12T07:58:35.658814+00:00,Tiruppur
+GC-PK-44E46C,EcoFibre Ltd,metal,2395.0,high,Completed,2026-07-12T07:58:35.658900+00:00,Chennai
+GC-PK-D4E5DC,Electro-Recycle,battery,3037.0,low,Completed,2026-07-13T07:58:35.658976+00:00,Tiruppur
+GC-PK-EA9FC1,Tiruppur Textiles,battery,3306.0,medium,Completed,2026-07-12T07:58:35.659046+00:00,Tiruppur
+GC-PK-7D9C4A,Kovai Paper Mills,textile,3450.0,medium,Completed,2026-07-17T07:58:35.659114+00:00,Madurai
+GC-PK-1D8748,Tiruppur Textiles,paper,1666.0,medium,Completed,2026-07-28T07:58:35.659191+00:00,Coimbatore
+GC-PK-76E579,Tiruppur Textiles,metal,1074.0,low,Completed,2026-07-08T07:58:35.659285+00:00,Chennai
+GC-PK-71483D,EcoFibre Ltd,plastic,2215.0,high,Completed,2026-07-15T07:58:35.659364+00:00,Coimbatore
+GC-PK-030D81,Kovai Paper Mills,textile,3624.0,medium,Completed,2026-07-18T07:58:35.659427+00:00,Bangalore
+GC-PK-2DC440,Electro-Recycle,paper,1376.0,high,Completed,2026-07-15T07:58:35.659499+00:00,Coimbatore
+GC-PK-B3D508,Electro-Recycle,paper,1135.0,low,Completed,2026-07-11T07:58:35.659581+00:00,Tiruppur
+GC-PK-373F83,Kovai Paper Mills,battery,4175.0,low,Completed,2026-07-04T07:58:35.659671+00:00,Bangalore
+GC-PK-CC0237,EcoFibre Ltd,textile,3338.0,medium,Completed,2026-07-18T07:58:35.659802+00:00,Bangalore
+GC-PK-BEC32B,Tiruppur Textiles,metal,1012.0,medium,Completed,2026-07-08T07:58:35.659899+00:00,Tiruppur
+GC-PK-D596CF,Kovai Paper Mills,textile,3843.0,medium,Completed,2026-07-25T07:58:35.659962+00:00,Bangalore
+GC-PK-D2D04B,Electro-Recycle,battery,3647.0,medium,Completed,2026-07-11T07:58:35.660007+00:00,Bangalore
+GC-PK-AEDF53,EcoFibre Ltd,plastic,3856.0,high,Completed,2026-07-25T07:58:35.660048+00:00,Tiruppur
+GC-PK-E41219,EcoFibre Ltd,paper,3459.0,high,Completed,2026-07-14T07:58:35.660089+00:00,Bangalore
+GC-PK-2710FA,Electro-Recycle,paper,2257.0,medium,Completed,2026-07-04T07:58:35.660130+00:00,Chennai
+GC-PK-A91D90,EcoFibre Ltd,textile,3349.0,medium,Completed,2026-07-20T07:58:35.660171+00:00,Chennai
+GC-PK-717EDB,Electro-Recycle,metal,2131.0,low,Completed,2026-07-25T07:58:35.660213+00:00,Bangalore
+GC-PK-5350B5,Kovai Paper Mills,metal,1395.0,medium,Completed,2026-07-10T07:58:35.660254+00:00,Madurai
+GC-PK-2D52F1,EcoFibre Ltd,battery,2927.0,high,Completed,2026-07-01T07:58:35.660296+00:00,Coimbatore
+GC-PK-D3517E,Electro-Recycle,textile,4413.0,medium,Completed,2026-07-01T07:58:35.660351+00:00,Bangalore
+GC-PK-A94F7A,Kovai Paper Mills,metal,3046.0,medium,Completed,2026-07-07T07:58:35.660393+00:00,Tiruppur
+GC-PK-AF8145,EcoFibre Ltd,textile,2125.0,medium,Completed,2026-07-11T07:58:35.660439+00:00,Tiruppur
+GC-PK-41D00C,Electro-Recycle,paper,1325.0,medium,Completed,2026-07-17T07:58:35.660503+00:00,Coimbatore
+GC-PK-C68249,Tiruppur Textiles,paper,1228.0,low,Completed,2026-07-05T07:58:35.660567+00:00,Madurai
+GC-PK-2A14FA,EcoFibre Ltd,textile,3004.0,medium,Completed,2026-07-27T07:58:35.660617+00:00,Tiruppur
+GC-PK-7764B8,Electro-Recycle,paper,2643.0,medium,Completed,2026-07-25T07:58:35.660784+00:00,Madurai
+GC-PK-96BF3D,Tiruppur Textiles,textile,2826.0,low,Completed,2026-07-21T07:58:35.660853+00:00,Tiruppur
+GC-PK-39F3A2,Tiruppur Textiles,paper,1228.0,medium,Completed,2026-07-03T07:58:35.660922+00:00,Coimbatore
+GC-PK-C8E26F,Tiruppur Textiles,paper,895.0,low,Completed,2026-07-11T07:58:35.660983+00:00,Madurai
+GC-PK-6AC9BD,Tiruppur Textiles,paper,1217.0,medium,Completed,2026-07-10T07:58:35.661046+00:00,Coimbatore
+GC-PK-FA0DF5,EcoFibre Ltd,textile,3640.0,medium,Completed,2026-07-05T07:58:35.661098+00:00,Madurai
+GC-PK-43F9F8,Electro-Recycle,textile,4136.0,low,Completed,2026-07-05T07:58:35.661145+00:00,Bangalore
+GC-PK-27ED25,Tiruppur Textiles,metal,3482.0,low,Completed,2026-07-04T07:58:35.661208+00:00,Bangalore
+GC-PK-C481D1,Electro-Recycle,textile,1453.0,medium,Completed,2026-07-01T07:58:35.661300+00:00,Bangalore
+GC-PK-AC431B,Kovai Paper Mills,metal,3493.0,low,Completed,2026-07-28T07:58:35.661388+00:00,Bangalore
+GC-PK-17BC47,Tiruppur Textiles,textile,2886.0,medium,Completed,2026-07-17T07:58:35.661482+00:00,Tiruppur
+GC-PK-21E15A,EcoFibre Ltd,paper,2180.0,low,Completed,2026-07-05T07:58:35.661558+00:00,Bangalore
+GC-PK-C2A1CB,Kovai Paper Mills,paper,3641.0,low,Completed,2026-07-11T07:58:35.661672+00:00,Bangalore
+GC-PK-0EB81A,Kovai Paper Mills,battery,1213.0,low,Completed,2026-07-23T07:58:35.661772+00:00,Coimbatore
+GC-PK-56CE21,Tiruppur Textiles,textile,1743.0,medium,Completed,2026-07-10T07:58:35.661861+00:00,Madurai
+GC-PK-017C14,Kovai Paper Mills,textile,1394.0,medium,Completed,2026-07-29T07:58:35.661961+00:00,Coimbatore
+GC-PK-9F1E60,Tiruppur Textiles,paper,4785.0,medium,Completed,2026-07-02T07:58:35.662052+00:00,Tiruppur
+GC-PK-926ED2,Tiruppur Textiles,plastic,633.0,low,Completed,2026-07-17T07:58:35.662141+00:00,Bangalore
+GC-PK-82E785,Tiruppur Textiles,textile,4675.0,medium,Completed,2026-07-19T07:58:35.662248+00:00,Madurai
+GC-PK-51BDB8,Tiruppur Textiles,paper,1750.0,medium,Completed,2026-07-05T07:58:35.662353+00:00,Chennai
+GC-PK-9ADE17,Electro-Recycle,plastic,3876.0,medium,Completed,2026-07-29T07:58:35.662516+00:00,Bangalore
+GC-PK-860187,EcoFibre Ltd,battery,3203.0,low,Completed,2026-07-19T07:58:35.662620+00:00,Madurai
+GC-PK-B7500F,EcoFibre Ltd,paper,1167.0,medium,Completed,2026-07-04T07:58:35.662719+00:00,Madurai
+GC-PK-5D6D00,Kovai Paper Mills,metal,4219.0,medium,Completed,2026-07-12T07:58:35.662821+00:00,Madurai
+GC-PK-DE12E4,Kovai Paper Mills,textile,4636.0,medium,Completed,2026-07-03T07:58:35.662902+00:00,Tiruppur
+GC-PK-5669BC,Tiruppur Textiles,plastic,3008.0,medium,Completed,2026-07-01T07:58:35.662993+00:00,Bangalore
+GC-PK-C69215,EcoFibre Ltd,battery,3824.0,low,Completed,2026-07-11T07:58:35.663088+00:00,Bangalore
+GC-PK-A63E9E,Electro-Recycle,plastic,509.0,low,Completed,2026-07-12T07:58:35.663168+00:00,Coimbatore
+GC-PK-4E7800,Tiruppur Textiles,textile,1515.0,medium,Completed,2026-07-29T07:58:35.663244+00:00,Chennai
+GC-PK-B52507,Kovai Paper Mills,plastic,4658.0,medium,Completed,2026-07-03T07:58:35.663328+00:00,Coimbatore
+GC-PK-AB778E,Tiruppur Textiles,textile,4500.0,medium,Completed,2026-07-27T07:58:35.663403+00:00,Tiruppur
+GC-PK-54B897,Tiruppur Textiles,paper,2500.0,medium,Completed,2026-07-25T07:58:35.663462+00:00,Coimbatore
+GC-PK-F67CE5,Tiruppur Textiles,textile,4136.0,low,Completed,2026-07-20T07:58:35.663523+00:00,Coimbatore
+GC-PK-7A1628,Tiruppur Textiles,textile,2548.0,low,Completed,2026-07-17T07:58:35.663585+00:00,Madurai
+GC-PK-46579F,EcoFibre Ltd,plastic,2323.0,high,Completed,2026-07-22T07:58:35.663654+00:00,Chennai
+GC-PK-95C8FC,EcoFibre Ltd,metal,2665.0,low,Completed,2026-07-12T07:58:35.663717+00:00,Madurai
+GC-PK-1A8052,Tiruppur Textiles,paper,888.0,high,Completed,2026-07-03T07:58:35.663774+00:00,Tiruppur
+GC-PK-3D565B,Tiruppur Textiles,textile,4481.0,low,Completed,2026-07-11T07:58:35.663822+00:00,Madurai
+GC-PK-C34984,EcoFibre Ltd,metal,1858.0,medium,Completed,2026-07-28T07:58:35.663866+00:00,Madurai
+GC-PK-8C8690,Tiruppur Textiles,textile,1000.0,medium,Scheduled,2026-07-30T08:03:06.334868+00:00,Chennai
+GC-PK-873742,Tiruppur Textiles,plastic,1000.0,medium,Scheduled,2026-07-30T08:27:20.809859+00:00,Tiruppur

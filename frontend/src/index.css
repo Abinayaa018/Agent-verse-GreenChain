@@ -239,3 +239,20 @@
   background: rgba(63, 230, 168, 0.05);
   box-shadow: 0 0 15px rgba(63, 230, 168, 0.15);
 }
+
+/* Slim custom scrollbar for scrollable elements */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(27, 58, 56, 0.6);
+  border-radius: 2px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(63, 230, 168, 0.4);
+}
+

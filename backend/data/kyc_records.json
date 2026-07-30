@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "GC-KYC-191D4C",
+    "company_name": "Tiruppur Textiles",
+    "gst_number": "33AAAAA1111A1Z1",
+    "pan": "AAAAA1111A",
+    "reg_number": "U12345TZ2026PLC123456",
+    "email": "compliance@tiruppurtextiles.com",
+    "phone": "9876543210",
+    "factory_address": "12, Industrial Area, Avinashi Road, Tiruppur - 641603",
+    "document_url": null,
+    "status": "Pending",
+    "timestamp": "2026-07-30T06:28:05.798501+00:00",
+    "remarks": "Standard details verified. Pending verification of GST Registration certificate upload."
+  }
+]
