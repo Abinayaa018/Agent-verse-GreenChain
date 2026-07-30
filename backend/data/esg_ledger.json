@@ -1,0 +1,134 @@
+{
+  "Tiruppur Textiles": [
+    {
+      "contract_id": "GC-AUDIT0001",
+      "material_type": "plastic",
+      "quantity_kg": 500,
+      "co2_saved_kg": 525.0,
+      "landfill_diverted_kg": 450.0,
+      "timestamp": "2026-07-29T09:55:18"
+    },
+    {
+      "contract_id": "GC-AUDIT0001",
+      "material_type": "plastic",
+      "quantity_kg": 500,
+      "co2_saved_kg": 525.0,
+      "landfill_diverted_kg": 450.0,
+      "timestamp": "2026-07-29T09:57:27"
+    },
+    {
+      "contract_id": "GC-DEMO001",
+      "material_type": "plastic",
+      "quantity_kg": 500,
+      "co2_saved_kg": 525.0,
+      "landfill_diverted_kg": 450.0,
+      "timestamp": "2026-07-29T14:47:18"
+    },
+    {
+      "contract_id": "GC-178B93BB",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:26:43"
+    },
+    {
+      "contract_id": "GC-96B456A1",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:27:06"
+    },
+    {
+      "contract_id": "GC-7B2C6756",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:28:24"
+    },
+    {
+      "contract_id": "GC-ED410694",
+      "material_type": "food waste",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 2500.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:32:55"
+    },
+    {
+      "contract_id": "GC-92175A2D",
+      "material_type": "metal",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 50350.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:40:23"
+    },
+    {
+      "contract_id": "GC-7978EE6D",
+      "material_type": "metal",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 50350.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:40:33"
+    },
+    {
+      "contract_id": "GC-50A9D4CE",
+      "material_type": "cotton scrap",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 2500.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-30T01:41:07"
+    },
+    {
+      "contract_id": "GC-A2FCC139",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-30T02:03:53"
+    },
+    {
+      "contract_id": "GC-7B3E7EF3",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-30T08:46:07"
+    },
+    {
+      "contract_id": "GC-1C13B3FC",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-30T09:28:19"
+    },
+    {
+      "contract_id": "GC-52050926",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-30T10:39:59"
+    },
+    {
+      "contract_id": "GC-62BD8E62",
+      "material_type": "clothes",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 19000.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-30T10:43:40"
+    }
+  ],
+  "Electro-Recycle": [
+    {
+      "contract_id": "GC-80501458",
+      "material_type": "metal",
+      "quantity_kg": 5000.0,
+      "co2_saved_kg": 50350.0,
+      "landfill_diverted_kg": 4500.0,
+      "timestamp": "2026-07-29T23:52:26"
+    }
+  ]
+}

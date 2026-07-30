@@ -1,0 +1,12 @@
+{
+  "rice_husk": [
+    {
+      "pathway": "Silica Extraction",
+      "notes": "Extract high-purity amorphous silica for use in green concrete and electronics."
+    },
+    {
+      "pathway": "Biochar Production",
+      "notes": "Pyrolyze husks to generate porous carbon biochar for agricultural soil conditioning."
+    }
+  ]
+}
