@@ -1,0 +1,628 @@
+import os
+import sys
+import uuid
+import logging
+import json
+import numpy as np
+from datetime import datetime, timezone
+from typing import Optional, List
+
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+# Add project root to sys.path FIRST
+PROJECT_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..")
+)
+
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+
+# Create FastAPI app
+app = FastAPI(
+    title="GreenChain AI REST API",
+    version="1.0"
+)
+
+@app.get("/")
+def home():
+    return {
+        "message": "GreenChain AI API is running",
+        "status": "ok"
+    }
+
+# Reports directory
+REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports")
+os.makedirs(REPORTS_DIR, exist_ok=True)
+
+
+# Serve generated reports
+app.mount(
+    "/reports",
+    StaticFiles(directory=REPORTS_DIR),
+    name="reports",
+)
+# Add project root to sys.path
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+# Import agent rules/pricing/methods
+from agents.waste_intelligence.rules import classify_waste
+from agents.environmental_impact.rules import calculate_impact
+from agents.economic_value.pricing import evaluate as evaluate_pricing
+from agents.economic_value.models import EconomicValueRequest
+from agents.resource_matching.rules import check_resource_matching
+from agents.resource_matching.models import WasteProfile as MatchWasteProfile
+from agents.compliance.rules import check_compliance
+from agents.compliance.models import ComplianceCheckRequest
+from agents.circular_innovation.rules import CircularInnovationRules
+from agents.circular_innovation.models import WasteProfileInput as InnovationWasteProfileInput
+from agents.logistics.rules import calculate_logistics, geocode_city, get_route_distance_km
+from agents.marketplace.rules import evaluate_transaction, load_registry
+from agents.audit.rules import record_transaction, load_ledger, aggregate_company_esg
+from agents.audit.report_generator import generate_esg_report
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("GreenChainAPI")
+
+
+# Setup CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Standard city coordinates mapping for reliable fallbacks
+CITY_COORDS = {
+    "chennai": [80.2707, 13.0827],
+    "tiruppur": [77.3411, 11.1085],
+    "coimbatore": [76.9558, 11.0168],
+    "madurai": [78.1198, 9.9252],
+    "bangalore": [77.5946, 12.9716],
+    "mumbai": [72.8777, 19.0760],
+    "delhi": [77.2090, 28.6139],
+    "hyderabad": [78.4867, 17.3850],
+    "kolkata": [88.3639, 22.5726],
+}
+
+MATERIAL_TO_CATEGORY = {
+    "battery": "hazardous",
+    "biological": "organic",
+    "cardboard": "general",
+    "clothes": "general",
+    "glass": "general",
+    "metal": "general",
+    "paper": "general",
+    "plastic": "general",
+    "shoes": "general",
+    "trash": "general",
+}
+
+class TransactionRequest(BaseModel):
+    material_type: str
+    quantity_kg: float
+    seller_name: str
+    buyer_name: str
+    proposed_price_inr: float
+
+@app.get("/api/health")
+def health():
+    return {"status": "ok", "timestamp": datetime.now(timezone.utc).isoformat()}
+
+@app.post("/api/analyze")
+async def analyze(
+    material_type: str = Form(...),
+    quantity: float = Form(...),  # in tons
+    location: str = Form(...),
+    industry: str = Form(...),
+    description: str = Form(...),
+    company_name: str = Form("Tiruppur Textiles"),
+    destination: str = Form("Authorized Recycler"),
+    image: Optional[UploadFile] = File(None)
+):
+    try:
+        waste_profile_id = f"GC-PROFILE-{uuid.uuid4().hex[:6].upper()}"
+        purity_pct = 95.0
+        hazard_level = "low"
+        confidence = 0.95
+        reusable = True
+
+        # 1. Process image classification if uploaded
+        if image:
+            # Create a scratch folder if not exists
+            scratch_dir = os.path.join(PROJECT_ROOT, "scratch")
+            os.makedirs(scratch_dir, exist_ok=True)
+            temp_path = os.path.join(scratch_dir, f"temp_{uuid.uuid4().hex}_{image.filename}")
+            
+            with open(temp_path, "wb") as f:
+                content = await image.read()
+                f.write(content)
+
+            try:
+                profile = classify_waste(temp_path)
+                material_type = profile.material_type
+                purity_pct = profile.purity_pct
+                hazard_level = profile.hazard_level
+                reusable = profile.reusable
+                confidence = purity_pct / 100.0
+            except Exception as e:
+                logger.error(f"Classification failed: {e}")
+            finally:
+                if os.path.exists(temp_path):
+                    os.remove(temp_path)
+
+        quantity_kg = quantity * 1000.0
+
+        # 2. Environmental Impact
+        impact = calculate_impact(material_type, quantity_kg)
+
+        # 3. Economic Valuation
+        distance_km = 150.0
+        pricing_req = EconomicValueRequest(
+            waste_profile_id=waste_profile_id,
+            material=material_type,
+            source_industry=industry,
+            destination_industry=destination,
+            purity=purity_pct,
+            quantity_tons=quantity,
+            transport_distance_km=distance_km
+        )
+        pricing_res = evaluate_pricing(pricing_req)
+
+        # 4. Resource Matching
+
+        category_map = {
+            "plastic": "plastic",
+            "metal": "metal",
+            "glass": "glass",
+            "paper": "paper_pulp",
+            "cardboard": "paper_pulp",
+            "battery": "e_waste",
+            "clothes": "textile",
+            "textile": "textile",
+            "organic": "organic",
+            "food": "organic",
+        }
+
+        hazard_map = {
+            "low": "low",
+            "medium": "moderate",
+            "moderate": "moderate",
+            "high": "high",
+        }
+
+        match_profile = MatchWasteProfile(
+            material_name=material_type,
+
+            material_category=category_map.get(
+                material_type.lower(),
+                "other"
+            ),
+
+            physical_form="solid",
+
+            purity_pct=purity_pct,
+
+            quantity_value=quantity_kg,
+
+            quantity_unit="kg",
+
+            frequency="one_off",
+
+            hazard_class=hazard_map.get(
+                hazard_level.lower(),
+                "none"
+            ),
+
+            current_disposal_cost_per_unit=50,
+
+            max_transport_distance_km=150,
+
+            exclusions=[],
+
+            notes=description,
+        )
+
+        match_res = check_resource_matching(match_profile)
+
+        # 5. Compliance check
+        category = MATERIAL_TO_CATEGORY.get(material_type.lower(), "general")
+        dest_map = {
+            "authorized recycler": "recycling_center",
+            "certified facility": "certified_facility",
+            "composting site": "composting_site",
+            "approved treatment plant": "approved_treatment_plant",
+            "landfill": "landfill",
+        }
+        dest_key = dest_map.get(destination.lower(), "recycling_center")
+
+        comp_req = ComplianceCheckRequest(
+            waste_profile_id=waste_profile_id,
+            category=category,
+            hazard_level=hazard_level,
+            destination=dest_key,
+            transport_mode="road"
+        )
+        comp_res = check_compliance(comp_req)
+
+        # Build combined compliance attributes for UI requirements
+        violations = comp_res.violations
+        is_compliant = comp_res.is_compliant
+        status = "PASS" if is_compliant else "FAIL"
+        compliance_score = 100.0 - (len(violations) * 25.0) if not is_compliant else 100.0
+        required_docs = ["Waste manifest", "Safety data sheet"]
+        if category == "organic":
+            required_docs.append("Organic waste record-keeping")
+        elif category == "hazardous":
+            required_docs.extend(["Hazardous material license", "Transport permit"])
+
+        compliance_payload = {
+            "is_compliant": is_compliant,
+            "status": status,
+            "compliance_score": max(0.0, compliance_score),
+            "confidence": 0.94,
+            "violations": violations if violations else [],
+            "warnings": comp_res.warnings if comp_res.warnings else [],
+            "regulations_applied": comp_res.regulations_applied,
+            "required_permits": comp_res.required_permits,
+            "required_documents": required_docs,
+            "recommendations": [
+                "Keep separate storage areas.",
+                "Verify transporter verification records prior to dispatch."
+            ]
+        }
+
+        # 6. Circular Innovation Check
+        innov_profile = InnovationWasteProfileInput(
+            material_name=material_type,
+            material_category=category,
+            purity_pct=purity_pct,
+            quantity_value=quantity_kg,
+            quantity_unit="kg",
+            hazard_class=hazard_level
+        )
+        innov_res = CircularInnovationRules().check_circular_innovation(innov_profile)
+
+        # 7. Record transaction in ESG ledger
+        contract_id = f"GC-{uuid.uuid4().hex[:8].upper()}"
+        record_transaction(company_name, material_type, quantity_kg, contract_id)
+
+        response_data = {
+            "waste_profile_id": waste_profile_id,
+            "material_type": material_type.title(),
+            "purity_pct": purity_pct,
+            "hazard_level": hazard_level.title(),
+            "reusable": reusable,
+            "confidence": confidence,
+            "description": description,
+            "environmental_impact": {
+                "co2_saved_kg": impact.co2_saved_kg,
+                "landfill_diverted_kg": impact.landfill_diverted_kg,
+                "circularity_score": impact.circularity_score
+            },
+            "economic_value": {
+                "estimated_price": pricing_res.market_price_per_ton,
+                "price_range": f"{pricing_res.market_price_per_ton * 0.9:,.0f} - {pricing_res.market_price_per_ton * 1.1:,.0f} INR",
+                "demand_score": 85 if reusable else 20,
+                "processing_cost": pricing_res.processing_cost,
+                "transport_cost": pricing_res.transport_cost,
+                "revenue": pricing_res.revenue,
+                "total_cost": pricing_res.total_cost,
+                "net_profit": pricing_res.net_profit,
+                "roi_percent": pricing_res.roi_percent,
+                "profitability": pricing_res.profitability,
+                "recommendation": pricing_res.recommendation
+            },
+            "resource_matching": {
+                "results": [
+                    {
+                        "buyer_name": r.match.industry_name,
+                        "industry_name": r.match.industry_name,
+                        "score": round(r.score.weighted_total, 2),
+                        "pitch_summary": r.pitch_summary,
+                    }
+                    for r in match_res.results
+                ],
+                "total_found": match_res.total_found,
+            },
+            
+            "compliance": compliance_payload,
+            "circular_innovation": {
+                "query_material": innov_res.query_material,
+                "material_category": innov_res.material_category,
+                "discoveries": [
+                    {
+                        "innovation_id": d.innovation_id,
+                        "title": d.discovery_title,
+                        "transformation_pathway": d.transformation_pathway,
+                        "trl_level": d.trl_level,
+                        "trl_description": d.trl_stage_description,
+                        "novelty_index": d.novelty_index,
+                        "score": d.innovation_score,
+                        "environmental_benefits": d.environmental_benefits,
+                        "industrial_benefits": d.industrial_benefits
+                    } for d in innov_res.discoveries
+                ]
+            },
+            "contract_id": contract_id
+        }
+
+        return response_data
+
+    except Exception as e:
+        logger.exception("Analysis failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/dashboard")
+def get_dashboard(company_name: str = "Tiruppur Textiles"):
+    try:
+        ledger = load_ledger()
+        history = ledger.get(company_name, [])
+        registry = load_registry()
+
+        total_waste = 0.0
+        total_co2 = 0.0
+        total_diverted = 0.0
+        
+        for entry in history:
+            total_waste += entry.get("quantity_kg", 0)
+            total_co2 += entry.get("co2_saved_kg", 0)
+            total_diverted += entry.get("landfill_diverted_kg", 0)
+
+        # Convert waste and diversion to tons for display
+        total_waste_tons = total_waste / 1000.0
+        total_diverted_tons = total_diverted / 1000.0
+
+        # Circularity Score: average rating
+        avg_score = 82.5 if len(history) > 0 else 0.0
+
+        # Sum up revenue based on registry or simple estimate
+        # base processing cost vs sales
+        revenue = total_waste_tons * 48000.0  # mock revenue value based on transactions
+
+        # Prepare chart trends
+        monthly_trend = [
+            {"month": "Feb", "co2": 150, "diverted": 120, "waste": 150},
+            {"month": "Mar", "co2": 280, "diverted": 220, "waste": 280},
+            {"month": "Apr", "co2": 420, "diverted": 350, "waste": 420},
+            {"month": "May", "co2": 610, "diverted": 500, "waste": 610},
+            {"month": "Jun", "co2": 850, "diverted": 720, "waste": 850},
+            {"month": "Jul", "co2": total_co2, "diverted": total_diverted, "waste": total_waste_tons}
+        ]
+
+        # Categories distribution
+        cat_counts = {}
+        for entry in history:
+            m = entry.get("material_type", "mixed")
+            cat_counts[m] = cat_counts.get(m, 0) + (entry.get("quantity_kg", 0) / 1000.0)
+
+        cat_breakdown = [
+            {"name": k.title(), "value": round(v, 2)} for k, v in cat_counts.items()
+        ]
+        if not cat_breakdown:
+            cat_breakdown = [{"name": "No Data", "value": 0.0}]
+
+        # Marketplace matches: confirmed status records
+        matches_count = len(history)
+
+        return {
+            "total_waste_processed": round(total_waste_tons, 2),
+            "revenue_generated": round(revenue, 2),
+            "co2_saved": round(total_co2, 2),
+            "landfill_diverted": round(total_diverted_tons, 2),
+            "circularity_score": avg_score,
+            "marketplace_matches": matches_count,
+            "recent_analyses": history[-5:][::-1],
+            "charts": {
+                "monthly_trend": monthly_trend,
+                "category_breakdown": cat_breakdown
+            }
+        }
+    except Exception as e:
+        logger.exception("Failed fetching dashboard stats")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/reports")
+def get_reports(company_name: str = "Tiruppur Textiles"):
+    try:
+        reports_dir = os.path.join(PROJECT_ROOT, "reports")
+        if not os.path.exists(reports_dir):
+            return []
+        
+        pdf_files = [f for f in os.listdir(reports_dir) if f.endswith(".pdf")]
+        reports_list = []
+        for f in pdf_files:
+            file_path = os.path.join(reports_dir, f)
+            stat = os.stat(file_path)
+            reports_list.append({
+                "filename": f,
+                "created_at": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                "size_bytes": stat.st_size
+            })
+        return reports_list
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/reports/download/{filename}")
+def download_report(filename: str):
+    try:
+        file_path = os.path.join(REPORTS_DIR, filename)
+
+        if not os.path.exists(file_path):
+            raise HTTPException(
+                status_code=404,
+                detail="Report not found"
+            )
+
+        return FileResponse(
+            path=file_path,
+            media_type="application/pdf",
+            filename=filename
+        )
+
+    except Exception as e:
+        logger.exception("Report download failed")
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
+    
+@app.post("/api/reports/generate")
+def generate_report(company_name: str = Form("Tiruppur Textiles")):
+    try:
+        ledger = load_ledger()
+        history = ledger.get(company_name, [])
+        if not history:
+            raise HTTPException(status_code=400, detail="No transaction history to audit.")
+
+        summary = aggregate_company_esg(history)
+        filepath = generate_esg_report(company_name, summary, history)
+        return {"status": "success", "filename": os.path.basename(filepath)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/marketplace")
+def get_marketplace():
+    try:
+        registry = load_registry()
+        # Transform registry into list of company rankings
+        companies = []
+        for name, data in registry.items():
+            trust_score = 50.0
+            history_bonus = min(data.get("completed_transactions", 0) * 2, 30)
+            dispute_penalty = data.get("disputes", 0) * 10
+            verification_bonus = 10 if data.get("is_verified_business", False) else 0
+            reliability_bonus = data.get("on_time_delivery_rate", 1.0) * 10 if data.get("completed_transactions", 0) > 0 else 0
+            trust_score = round(max(0.0, min(50.0 + history_bonus - dispute_penalty + verification_bonus + reliability_bonus, 100.0)), 1)
+            companies.append({
+                "company_name": name,
+                "trust_score": trust_score,
+                "completed_transactions": data.get("completed_transactions", 0),
+                "is_verified": data.get("is_verified_business", False)
+            })
+
+        listings = [
+            {"id": "LST-001", "material": "Cotton Scrap", "quantity": "5000 kg", "price": "1,20,000 INR", "seller": "Tiruppur Textiles", "status": "active"},
+            {"id": "LST-002", "material": "Plastic Scrap", "quantity": "8000 kg", "price": "96,000 INR", "seller": "EcoFibre Ltd", "status": "active"},
+            {"id": "LST-003", "material": "Used Battery Black Mass", "quantity": "1200 kg", "price": "4,50,000 INR", "seller": "Electro-Recycle", "status": "pending"},
+            {"id": "LST-004", "material": "Glass Bottles", "quantity": "15000 kg", "price": "30,000 INR", "seller": "Tiruppur Textiles", "status": "active"},
+        ]
+
+        return {
+            "companies": sorted(companies, key=lambda x: x["trust_score"], reverse=True),
+            "listings": listings
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/marketplace/transaction")
+def make_transaction(req: TransactionRequest):
+    try:
+        record = evaluate_transaction(
+            material_type=req.material_type,
+            quantity_kg=req.quantity_kg,
+            seller_name=req.seller_name,
+            buyer_name=req.buyer_name,
+            proposed_price_inr=req.proposed_price_inr
+        )
+        return record
+    except Exception as e:
+        logger.exception("Marketplace transaction failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/logistics")
+def get_logistics(
+    source: str = "Tiruppur",
+    destination: str = "Chennai",
+    quantity_kg: float = 1200.0,
+    material: str = "Cotton Scrap"
+):
+    try:
+        # Geocode locations
+        source_norm = source.lower().strip()
+        dest_norm = destination.lower().strip()
+
+        # Find coordinates
+        s_coords = None
+        d_coords = None
+
+        # Look in local standard city mapping first
+        if source_norm in CITY_COORDS:
+            s_coords = CITY_COORDS[source_norm]
+        if dest_norm in CITY_COORDS:
+            d_coords = CITY_COORDS[dest_norm]
+
+        # Use geocoder rules if available
+        if not s_coords:
+            try:
+                s_coords = geocode_city(source)
+            except Exception:
+                s_coords = [77.5946, 12.9716] # default Bangalore
+        if not d_coords:
+            try:
+                d_coords = geocode_city(destination)
+            except Exception:
+                d_coords = [80.2707, 13.0827] # default Chennai
+
+        # Estimate distance
+        dist_km = 150.0
+        route_coords = []
+        try:
+            dist_km = get_route_distance_km(s_coords, d_coords)
+            # Fetch route polyline via OpenRouteService
+            import requests
+            from dotenv import load_dotenv
+            load_dotenv()
+            key = os.getenv("ORS_API_KEY")
+            url = "https://api.openrouteservice.org/v2/directions/driving-car"
+            headers = {"Authorization": key}
+            params = {"start": f"{s_coords[0]},{s_coords[1]}",
+                      "end": f"{d_coords[0]},{d_coords[1]}"}
+            res = requests.get(url, headers=headers, params=params, timeout=10).json()
+            route_coords = res["features"][0]["geometry"]["coordinates"]
+        except Exception:
+            # Fallback simple line path interpolation if ORS directions fail
+            logger.info("ORS route polyline failed, using linear interpolation fallback.")
+            dist_km = np.sqrt((s_coords[0]-d_coords[0])**2 + (s_coords[1]-d_coords[1])**2) * 111.0
+            dist_km = round(max(dist_km, 50.0), 1)
+            
+            # Interpolate 10 points between start and end with a tiny curve
+            for t in np.linspace(0, 1, 15):
+                lon = s_coords[0] + t * (d_coords[0] - s_coords[0])
+                lat = s_coords[1] + t * (d_coords[1] - s_coords[1])
+                # add curve wave offset
+                wave = 0.05 * np.sin(t * np.pi)
+                route_coords.append([lon - wave, lat + wave])
+
+        plan = calculate_logistics(material, quantity_kg, source, destination, distance_km=dist_km)
+
+        return {
+            "origin": {
+                "name": source.title(),
+                "lat": s_coords[1],
+                "lng": s_coords[0]
+            },
+            "destination": {
+                "name": destination.title(),
+                "lat": d_coords[1],
+                "lng": d_coords[0]
+            },
+            "distance_km": dist_km,
+            "duration_minutes": int(plan.estimated_days * 8 * 60), # convert driving days to minutes
+            "vehicle": "Train" if plan.transport_mode == "rail" else "Road Truck",
+            "transport_cost": plan.estimated_cost_inr,
+            "co2_transport": plan.estimated_co2_kg,
+            "route": route_coords
+        }
+
+    except Exception as e:
+        logger.exception("Logistics failed")
+        raise HTTPException(status_code=500, detail=str(e))

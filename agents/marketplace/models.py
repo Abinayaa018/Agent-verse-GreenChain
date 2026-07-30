@@ -1,13 +1,15 @@
-from uagents import Model
+from pydantic import BaseModel
 
-class MarketplaceInput(Model):
+
+class MarketplaceInput(BaseModel):
     material_type: str
     quantity_kg: float
     seller_name: str
     buyer_name: str
     proposed_price_inr: float
 
-class TransactionRecord(Model):
+
+class TransactionRecord(BaseModel):
     contract_id: str
     material_type: str
     quantity_kg: float

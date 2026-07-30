@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Premium Enterprise OS Colors matching design system specs */
+  --color-primary-green: #3FE6A8;
+  --color-primary-hover: #5CFFB5;
+
+  --color-deep-emerald: #3FE6A8; /* Vibrant accent green for texts and highlights */
+  --color-deep-forest: #050B0F;  /* Primary background hex code */
+
+  --color-deep-navy: #050B0F;
+
+  --color-accent-mint: #5CFFB5;
+
+  --color-slate-dark: #081318;
+  --color-slate-graphite: #1B3A38;
+
+  --color-gray-soft: #081318;
+  --color-gray-border: #1B3A38;
+
+  --color-bg-main: #050B0F;
+
+  --color-text-primary: #F5F7FA;
+  --color-text-secondary: #B9C4CC;
+  --color-text-muted: #6F8088;
+
+  --color-success: #3FE6A8;
+  --color-info: #30D5FF;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+
+  --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+
+  --shadow-card:
+    0 10px 40px -10px rgba(0, 0, 0, 0.6),
+    0 0 20px 0 rgba(63, 230, 168, 0.02);
+
+  --shadow-cardHover:
+    0 20px 50px -12px rgba(0, 0, 0, 0.8),
+    0 0 30px 0 rgba(63, 230, 168, 0.08);
+
+  /* Overrides for Tailwind Default Colors to support exact dark theme */
+  --color-white: #09171C;       /* Cards primary background */
+  --color-gray-50: #081318;     /* Panels secondary background */
+  --color-gray-100: #1B3A38;    /* Thin card border #1B3A38 */
+  --color-gray-150: #1B3A38;
+  --color-gray-200: #1B3A38;
+  --color-gray-300: #1B3A38;
+  --color-gray-400: #6F8088;
+  --color-gray-500: #6F8088;
+  --color-gray-600: #B9C4CC;
+  --color-gray-700: #B9C4CC;
+  --color-gray-800: #F5F7FA;
+  --color-gray-900: #F5F7FA;
+
+  /* Global Border Radius Overrides matching specs */
+  --radius-lg: 16px;            /* Inputs: 16px */
+  --radius-xl: 18px;            /* Buttons: 18px */
+  --radius-2xl: 20px;           /* Cards: 20px */
+
+  /* Remap Emerald palette to custom emerald translucent scales */
+  --color-emerald-50: rgba(63, 230, 168, 0.08);
+  --color-emerald-100: rgba(63, 230, 168, 0.15);
+  --color-emerald-200: rgba(63, 230, 168, 0.25);
+  --color-emerald-300: #6F8088;
+  --color-emerald-400: #5CFFB5;
+  --color-emerald-500: #3FE6A8;
+  --color-emerald-600: #30D5FF;
+  --color-emerald-700: #3FE6A8;
+  --color-emerald-800: #1B3A38;
+  --color-emerald-900: #081318;
+  --color-emerald-950: #050B0F;
+
+  /* Remap Blue palette to support dark theme blocks in Cyan/Blue */
+  --color-blue-50: rgba(48, 213, 255, 0.08);
+  --color-blue-100: rgba(48, 213, 255, 0.15);
+  --color-blue-200: rgba(48, 213, 255, 0.25);
+  --color-blue-600: #30D5FF;
+  --color-blue-700: #30D5FF;
+  --color-blue-800: #30D5FF;
+}
+
+@layer base {
+  body {
+    min-height: 100vh;
+    background: #050B0F;
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .tech-grid {
+    background-image:
+      linear-gradient(
+        rgba(63, 230, 168, 0.02) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        90deg,
+        rgba(63, 230, 168, 0.02) 1px,
+        transparent 1px
+      );
+    background-size: 40px 40px;
+  }
+}
+
+.glassmorphism {
+  background: rgba(9, 23, 28, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #1B3A38;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Leaflet map dark styling */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: #050B0F !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-color: #09171C !important;
+  color: #F5F7FA !important;
+  border: 1px solid #1B3A38;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  font-family: var(--font-sans);
+}
+
+.leaflet-bar {
+  border: 1px solid #1B3A38 !important;
+  box-shadow: none !important;
+}
+
+.leaflet-bar a {
+  background-color: #09171C !important;
+  color: #F5F7FA !important;
+  border-bottom: 1px solid #1B3A38 !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #081318 !important;
+}
+
+.futuristic-glow {
+  box-shadow: 0 0 24px rgba(63, 230, 168, 0.15);
+}
+
+.tech-background {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #050B0F;
+}
+
+.tech-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(
+      rgba(63, 230, 168, 0.02) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(63, 230, 168, 0.02) 1px,
+      transparent 1px
+    );
+  background-size: 45px 45px;
+  pointer-events: none;
+}
+
+.dashboard-wrapper {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background: var(--color-bg-main);
+}
+
+.dashboard-wrapper > *:not(.animated-bg) {
+  position: relative;
+  z-index: 2;
+}
+
+/* AI Recommendation Flowing Streak gradient animation */
+.recommendation-streak {
+  background-image: linear-gradient(
+    115deg,
+    rgba(9, 23, 28, 0.85) 0%,
+    rgba(63, 230, 168, 0.04) 25%,
+    rgba(48, 213, 255, 0.05) 50%,
+    rgba(63, 230, 168, 0.04) 75%,
+    rgba(9, 23, 28, 0.85) 100%
+  );
+  background-size: 200% 200%;
+  animation: streakMove 15s ease infinite alternate;
+}
+
+@keyframes streakMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Premium Glass and Glow CTA Buttons */
+.btn-primary-glow {
+  background: linear-gradient(135deg, #3FE6A8 0%, #5CFFB5 100%);
+  color: #050B0F;
+  border: none;
+  box-shadow: 0 4px 15px rgba(63, 230, 168, 0.25);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-primary-glow:hover:not(:disabled) {
+  transform: translateY(-1.5px);
+  box-shadow: 0 8px 25px rgba(63, 230, 168, 0.4);
+}
+
+.btn-secondary-glow {
+  background: rgba(9, 23, 28, 0.6);
+  color: #F5F7FA;
+  border: 1px solid #1B3A38;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-secondary-glow:hover:not(:disabled) {
+  border-color: #3FE6A8;
+  background: rgba(63, 230, 168, 0.05);
+  box-shadow: 0 0 15px rgba(63, 230, 168, 0.15);
+}

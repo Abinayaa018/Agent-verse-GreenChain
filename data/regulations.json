@@ -1,0 +1,36 @@
+{
+  "regulations": [
+    {
+      "id": "REG-EPA-001",
+      "jurisdiction": "Federal",
+      "description": "Hazardous materials must not be stored near food or agricultural products.",
+      "applies_to": ["hazardous", "chemical", "electronic"],
+      "restricted_hazard_levels": ["high"],
+      "requirements": ["Obtain hazardous material license", "Separate storage areas"]
+    },
+    {
+      "id": "REG-EPA-002",
+      "jurisdiction": "State",
+      "description": "Organic waste composting and landfill diversion requirements.",
+      "applies_to": ["organic"],
+      "restricted_hazard_levels": [],
+      "requirements": ["Organic waste record-keeping"]
+    },
+    {
+      "id": "REG-EPA-003",
+      "jurisdiction": "Federal",
+      "description": "Electronic and battery waste disposal restrictions.",
+      "applies_to": ["electronic", "hazardous"],
+      "restricted_hazard_levels": ["high", "medium"],
+      "requirements": ["E-waste manifest", "Transport permit"]
+    },
+    {
+      "id": "REG-EPA-004",
+      "jurisdiction": "Federal",
+      "description": "Industrial waste must be handled by authorized facilities.",
+      "applies_to": ["general", "industrial", "plastic"],
+      "restricted_hazard_levels": ["medium"],
+      "requirements": ["Transfer record"]
+    }
+  ]
+}
