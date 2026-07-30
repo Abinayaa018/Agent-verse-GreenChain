@@ -26,6 +26,28 @@ export const Navbar: React.FC<NavbarProps> = ({ currentCompany, onCompanyChange 
 
       {/* Right controls */}
       <div className="flex items-center gap-6">
+        {/* Language Switcher */}
+        <div className="flex items-center gap-2">
+          <Globe size={16} className="text-[#30D5FF]" />
+          <select
+            value={localStorage.getItem('greenchain_lang') || 'English'}
+            onChange={(e) => {
+              localStorage.setItem('greenchain_lang', e.target.value);
+              window.dispatchEvent(new Event('greenchain_lang_changed'));
+              // Force state reload by standard React reload or triggering custom state
+              window.location.reload();
+            }}
+            className="text-sm font-semibold bg-[#081318] border border-[#1B3A38] rounded-[16px] py-1.5 px-3 text-text-primary outline-none focus:border-[#30D5FF] cursor-pointer"
+          >
+            <option value="English">English</option>
+            <option value="Tamil">தமிழ் (Tamil)</option>
+            <option value="Hindi">हिन्दी (Hindi)</option>
+            <option value="Kannada">ಕನ್ನಡ (Kannada)</option>
+            <option value="Malayalam">മലയാളം (Malayalam)</option>
+            <option value="Telugu">తెలుగు (Telugu)</option>
+          </select>
+        </div>
+
         {/* Company Switcher */}
         <div className="flex items-center gap-2">
           <Globe size={16} className="text-[#3FE6A8]" />

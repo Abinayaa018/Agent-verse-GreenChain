@@ -14,6 +14,14 @@ import AuditReports from './pages/AuditReports';
 import HistoryPage from './pages/History';
 import SettingsPage from './pages/Settings';
 import Logistics from './pages/Logistics';
+
+// New Integrated Intelligent Agents
+import ChatbotPage from './pages/ChatbotPage';
+import KYCVerification from './pages/KYCVerification';
+import MarketPricingDashboard from './pages/MarketPricingDashboard';
+import CarbonCredits from './pages/CarbonCredits';
+import LanguageSettings from './pages/LanguageSettings';
+
 import { AnalysisResponse } from './types';
 
 export const App: React.FC = () => {
@@ -103,6 +111,14 @@ export const App: React.FC = () => {
           />
           <Route path="/audit-reports" element={<AuditReports company={currentCompany} />} />
           <Route path="/history" element={<HistoryPage company={currentCompany} />} />
+          
+          {/* New Intelligent Agent Routes */}
+          <Route path="/chatbot" element={<ChatbotPage />} />
+          <Route path="/kyc" element={<KYCVerification />} />
+          <Route path="/pricing" element={<MarketPricingDashboard />} />
+          <Route path="/carbon-credits" element={<CarbonCredits />} />
+          <Route path="/language-settings" element={<LanguageSettings />} />
+
           <Route path="/settings" element={<SettingsPage />} />
         </Route>
       </Routes>

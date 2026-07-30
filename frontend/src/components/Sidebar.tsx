@@ -15,7 +15,11 @@ import {
   Settings,
   ChevronLeft,
   ChevronRight,
-  Settings2
+  Settings2,
+  MessageSquare,
+  TrendingUp,
+  Award,
+  Languages
 } from 'lucide-react';
 
 const navItems = [
@@ -30,6 +34,14 @@ const navItems = [
   { path: '/circular-innovation', label: 'Circular Innovation', icon: Lightbulb },
   { path: '/audit-reports', label: 'Audit Reports', icon: FileText },
   { path: '/history', label: 'Transaction History', icon: History },
+  
+  // New Integrated Intelligent Agents
+  { path: '/chatbot', label: 'Chatbot', icon: MessageSquare },
+  { path: '/kyc', label: 'KYC Verification', icon: ShieldCheck },
+  { path: '/pricing', label: 'Dynamic Pricing', icon: TrendingUp },
+  { path: '/carbon-credits', label: 'Carbon Credits', icon: Award },
+  { path: '/language-settings', label: 'Language Settings', icon: Languages },
+
   { path: '/settings', label: 'Settings', icon: Settings },
 ];
 

@@ -60,15 +60,34 @@ from agents.resource_matching.rules import check_resource_matching
 from agents.resource_matching.models import WasteProfile as MatchWasteProfile
 from agents.compliance.rules import check_compliance
 from agents.compliance.models import ComplianceCheckRequest
-from agents.circular_innovation.rules import CircularInnovationRules
+from agents.circular_innovation.rules import CircularInnovationRules, find_innovation_pathways
 from agents.circular_innovation.models import WasteProfileInput as InnovationWasteProfileInput
 from agents.logistics.rules import calculate_logistics, geocode_city, get_route_distance_km
 from agents.marketplace.rules import evaluate_transaction, load_registry
 from agents.audit.rules import record_transaction, load_ledger, aggregate_company_esg
 from agents.audit.report_generator import generate_esg_report
 
+# Import new agents rules and model schemas
+from agents.chatbot.rules import ChatbotOrchestrator
+from agents.chatbot.models import ChatRequest, ChatResponse
+from agents.onboarding_kyc.rules import KYCVerificationEngine
+from agents.onboarding_kyc.models import KYCVerifyRequest
+from agents.dynamic_pricing.rules import DynamicPricingEngine
+from agents.carbon_credit.rules import CarbonTokenizationEngine
+from agents.carbon_credit.models import TokenizeRequest
+from agents.multilingual.rules import TranslationEngine
+from agents.multilingual.models import TranslateRequest
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("GreenChainAPI")
+
+# Instantiate rule engines globally
+chatbot_engine = ChatbotOrchestrator()
+kyc_engine = KYCVerificationEngine()
+pricing_engine = DynamicPricingEngine()
+carbon_engine = CarbonTokenizationEngine()
+translation_engine = TranslationEngine()
+
 
 
 # Setup CORS
@@ -626,3 +645,175 @@ def get_logistics(
     except Exception as e:
         logger.exception("Logistics failed")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ==============================================================================
+# NEW ENDPOINTS FOR FIVE INTEGRATED AGENTS
+# ==============================================================================
+
+class ChatMessageRequest(BaseModel):
+    message: str
+    lang: Optional[str] = "English"
+
+@app.post("/api/chat")
+async def chat_endpoint(req: ChatMessageRequest):
+    try:
+        # 1. Parse intent & entities
+        parsed = chatbot_engine.parse_message(req.message)
+        intent = parsed.get("intent", "general")
+        entities = parsed.get("entities", {})
+
+        # Standardize fallback parameters
+        material = entities.get("material") or "plastic"
+        quantity = entities.get("quantity") or 500.0
+        unit = entities.get("unit") or "kg"
+        qty_kg = quantity * 1000.0 if unit == "tons" else quantity
+
+        raw_result = {}
+
+        # 2. Run existing agent rules based on intent
+        if intent == "analyze" or intent == "impact":
+            raw_result = calculate_impact(material, qty_kg)
+        elif intent == "pricing":
+            pricing_req = EconomicValueRequest(
+                waste_profile_id=f"GC-CHAT-{uuid.uuid4().hex[:6].upper()}",
+                material=material,
+                source_industry="Manufacturing",
+                destination_industry="Authorized Recycler",
+                purity=95.0,
+                quantity_tons=quantity if unit == "tons" else quantity / 1000.0,
+                transport_distance_km=150.0
+            )
+            pricing_res = evaluate_pricing(pricing_req)
+            raw_result = pricing_res.model_dump()
+        elif intent == "matching":
+            match_req = MatchWasteProfile(
+                material_name=material,
+                material_category="plastic",
+                physical_form="solid",
+                quantity_value=qty_kg,
+                quantity_unit="kg",
+                frequency="one_off",
+                hazard_class="low"
+            )
+            match_res = check_resource_matching(match_req)
+            raw_result = match_res.model_dump()
+        elif intent == "logistics":
+            loc = entities.get("location") or "Tiruppur"
+            dest = entities.get("destination") or "Chennai"
+            plan = calculate_logistics(material, qty_kg, loc, dest)
+            raw_result = plan.model_dump()
+        elif intent == "compliance":
+            comp_req = ComplianceCheckRequest(
+                company_name="Tiruppur Textiles",
+                material_name=material,
+                quantity_kg=qty_kg,
+                hazard_class="low"
+            )
+            comp_res = check_compliance(comp_req)
+            raw_result = comp_res.model_dump()
+        elif intent == "innovation":
+            innov_res = find_innovation_pathways(material, qty_kg)
+            raw_result = innov_res.model_dump()
+        elif intent == "audit" or intent == "dashboard":
+            raw_result = aggregate_company_esg("Tiruppur Textiles")
+        else:
+            raw_result = {"status": "general query processed by AI"}
+
+        # 3. Generate explanation
+        bot_response = chatbot_engine.generate_chat_response(intent, entities, raw_result)
+
+        # 4. Multilingual Translation if target language is not English
+        target_lang = req.lang or "English"
+        if target_lang.lower() != "english":
+            trans_req = TranslateRequest(text=bot_response, target_lang=target_lang)
+            trans_res = translation_engine.translate(trans_req)
+            bot_response = trans_res.translated_text
+
+        return ChatResponse(
+            intent=intent,
+            entities=entities,
+            response=bot_response
+        )
+    except Exception as e:
+        logger.exception("Chatbot failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/kyc/verify")
+def kyc_verify_endpoint(req: KYCVerifyRequest):
+    try:
+        record = kyc_engine.verify_company(req)
+        return record
+    except Exception as e:
+        logger.exception("KYC verification failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/kyc/history")
+def kyc_history_endpoint():
+    try:
+        return kyc_engine.load_records()
+    except Exception as e:
+        logger.exception("KYC history fetch failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/pricing/recommendation")
+def pricing_recommendation_endpoint(material_type: str = "plastic"):
+    try:
+        recommendation = pricing_engine.recommend_price(material_type)
+        return recommendation
+    except Exception as e:
+        logger.exception("Pricing recommendation failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/carbon/tokenize")
+def carbon_tokenize_endpoint(req: TokenizeRequest):
+    try:
+        cert = carbon_engine.tokenize_credits(req)
+        return cert
+    except Exception as e:
+        logger.exception("Carbon credit tokenization failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/carbon/history")
+def carbon_history_endpoint():
+    try:
+        return carbon_engine.load_certificates()
+    except Exception as e:
+        logger.exception("Carbon certificates list failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/carbon/certificate/{certificate_id}")
+def carbon_certificate_pdf_endpoint(certificate_id: str):
+    try:
+        filename = carbon_engine.generate_pdf_certificate(certificate_id)
+        if not filename:
+            raise HTTPException(status_code=404, detail="Certificate not found")
+        
+        pdf_path = os.path.join(REPORTS_DIR, filename)
+        return FileResponse(
+            pdf_path,
+            media_type="application/pdf",
+            filename=filename
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.exception("Certificate download failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/translate")
+def translate_endpoint(req: TranslateRequest):
+    try:
+        res = translation_engine.translate(req)
+        return res
+    except Exception as e:
+        logger.exception("Translation endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
