@@ -46,6 +46,18 @@ import SupplyRiskPage from './pages/SupplyRiskPage';
 import WasteTraceabilityPage from './pages/WasteTraceabilityPage';
 import CircularInvestmentPage from './pages/CircularInvestmentPage';
 
+// Ten additional enterprise agent pages (Agents 28-37)
+import SupplierReliability from './pages/SupplierReliability';
+import CircularDesign from './pages/CircularDesign';
+import EnergyOptimization from './pages/EnergyOptimization';
+import EmissionMonitoring from './pages/EmissionMonitoring';
+import HazardClassification from './pages/HazardClassification';
+import ResourceAvailability from './pages/ResourceAvailability';
+import CircularProcurement from './pages/CircularProcurement';
+import FacilityExpansion from './pages/FacilityExpansion';
+import WorkforceOptimization from './pages/WorkforceOptimization';
+import CircularPolicyAdvisor from './pages/CircularPolicyAdvisor';
+
 import { AnalysisResponse } from './types';
 
 export const App: React.FC = () => {
@@ -166,6 +178,18 @@ export const App: React.FC = () => {
           <Route path="/supply-risk" element={<SupplyRiskPage />} />
           <Route path="/waste-traceability" element={<WasteTraceabilityPage />} />
           <Route path="/circular-investment" element={<CircularInvestmentPage />} />
+
+          {/* Ten additional enterprise agent routes (Agents 28-37) */}
+          <Route path="/supplier-reliability" element={<SupplierReliability />} />
+          <Route path="/circular-design" element={<CircularDesign />} />
+          <Route path="/energy-optimization" element={<EnergyOptimization />} />
+          <Route path="/emissions" element={<EmissionMonitoring />} />
+          <Route path="/hazard-classification" element={<HazardClassification />} />
+          <Route path="/resource-availability" element={<ResourceAvailability />} />
+          <Route path="/circular-procurement" element={<CircularProcurement />} />
+          <Route path="/facility-expansion" element={<FacilityExpansion />} />
+          <Route path="/workforce-optimization" element={<WorkforceOptimization />} />
+          <Route path="/circular-policy" element={<CircularPolicyAdvisor />} />
 
           <Route path="/settings" element={<SettingsPage />} />
         </Route>

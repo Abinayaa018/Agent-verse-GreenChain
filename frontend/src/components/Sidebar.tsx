@@ -29,7 +29,10 @@ import {
   Gavel,
   AlertTriangle,
   QrCode,
-  Building2
+  Building2,
+  Zap,
+  MapPin,
+  Users
 } from 'lucide-react';
 
 const navItems = [
@@ -75,6 +78,18 @@ const navItems = [
   { path: '/supply-risk', label: 'Supply Shortage Predictor', icon: AlertTriangle },
   { path: '/waste-traceability', label: 'Custody Traceability', icon: QrCode },
   { path: '/circular-investment', label: 'Circular Investment Capex', icon: Building2 },
+
+  // Ten completely new enterprise agents (Agents 28-37)
+  { path: '/supplier-reliability', label: 'Supplier Reliability', icon: ShieldCheck },
+  { path: '/circular-design', label: 'Circular Design Advisor', icon: Leaf },
+  { path: '/energy-optimization', label: 'Energy Load Optimizer', icon: Zap },
+  { path: '/emissions', label: 'Emissions Monitoring', icon: ShieldAlert },
+  { path: '/hazard-classification', label: 'MSDS Hazard Classifier', icon: AlertTriangle },
+  { path: '/resource-availability', label: 'Resource Availability', icon: Shuffle },
+  { path: '/circular-procurement', label: 'Circular Procurement Sourcing', icon: ShoppingBag },
+  { path: '/facility-expansion', label: 'Recycling Site Selection', icon: MapPin },
+  { path: '/workforce-optimization', label: 'Workforce Shift Planner', icon: Users },
+  { path: '/circular-policy', label: 'Circular Policy Advisor', icon: FileText },
 
   { path: '/settings', label: 'Settings', icon: Settings },
 ];

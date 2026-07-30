@@ -145,6 +145,34 @@ circular_supply_risk_engine = CircularSupplyRiskEngine()
 traceability_engine = TraceabilityEngine()
 circular_investment_engine = CircularInvestmentEngine()
 
+# Import Agents 28-37
+from agents.supplier_reliability.rules import SupplierReliabilityEngine
+from agents.circular_design.rules import CircularDesignEngine
+from agents.circular_design.models import CircularDesignRequest
+from agents.energy_optimization.rules import EnergyOptimizationEngine
+from agents.emission_monitoring.rules import EmissionMonitoringEngine
+from agents.hazard_classification.rules import HazardClassificationEngine
+from agents.hazard_classification.models import HazardClassificationRequest
+from agents.resource_availability.rules import ResourceAvailabilityEngine
+from agents.circular_procurement.rules import CircularProcurementEngine
+from agents.circular_procurement.models import ProcurementRequest
+from agents.facility_expansion.rules import FacilityExpansionEngine
+from agents.workforce_optimization.rules import WorkforceOptimizationEngine
+from agents.circular_policy.rules import CircularPolicyEngine
+from agents.circular_policy.models import PolicyRequest
+
+# Instantiate Agents 28-37
+supplier_reliability_engine = SupplierReliabilityEngine()
+circular_design_engine = CircularDesignEngine()
+energy_optimization_engine = EnergyOptimizationEngine()
+emission_monitoring_engine = EmissionMonitoringEngine()
+hazard_classification_engine = HazardClassificationEngine()
+resource_availability_engine = ResourceAvailabilityEngine()
+circular_procurement_engine = CircularProcurementEngine()
+facility_expansion_engine = FacilityExpansionEngine()
+workforce_optimization_engine = WorkforceOptimizationEngine()
+circular_policy_engine = CircularPolicyEngine()
+
 
 
 # Setup CORS
@@ -1090,6 +1118,106 @@ def prioritize_capital_investments(req: InvestmentRequest):
         return res
     except Exception as e:
         logger.exception("Investment priority endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/supplier-reliability")
+def get_supplier_reliability_audit(supplier_id: str):
+    try:
+        res = supplier_reliability_engine.get_supplier_reliability(supplier_id)
+        return res
+    except Exception as e:
+        logger.exception("Supplier reliability endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/circular-design")
+def advise_circular_design(req: CircularDesignRequest):
+    try:
+        res = circular_design_engine.recommend_circular_design(req)
+        return res
+    except Exception as e:
+        logger.exception("Circular design endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/energy-optimization")
+def get_energy_shift_advisory(plant: str, equipment: str):
+    try:
+        res = energy_optimization_engine.get_energy_forecast(plant, equipment)
+        return res
+    except Exception as e:
+        logger.exception("Energy optimization endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/emissions")
+def get_emissions_violations_audit(facility: str):
+    try:
+        res = emission_monitoring_engine.get_emissions_audit(facility)
+        return res
+    except Exception as e:
+        logger.exception("Emissions monitoring endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/hazard-classification")
+def classify_waste_hazardous_msds(req: HazardClassificationRequest):
+    try:
+        res = hazard_classification_engine.classify_waste_hazard(req)
+        return res
+    except Exception as e:
+        logger.exception("Hazard classification endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/resource-availability")
+def get_resource_shortage_levels(city: str, material: str):
+    try:
+        res = resource_availability_engine.get_regional_resource_availability(city, material)
+        return res
+    except Exception as e:
+        logger.exception("Resource availability endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/circular-procurement")
+def advise_circular_procurements(req: ProcurementRequest):
+    try:
+        res = circular_procurement_engine.recommend_circular_procurement(req)
+        return res
+    except Exception as e:
+        logger.exception("Circular procurement endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/facility-expansion")
+def advise_facility_expansion_site():
+    try:
+        res = facility_expansion_engine.get_expansion_advisory()
+        return res
+    except Exception as e:
+        logger.exception("Facility expansion endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/workforce-optimization")
+def get_workforce_shift_advisory(plant: str):
+    try:
+        res = workforce_optimization_engine.get_workforce_schedule(plant)
+        return res
+    except Exception as e:
+        logger.exception("Workforce optimization endpoint failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/circular-policy")
+def advise_compliance_roadmap(req: PolicyRequest):
+    try:
+        res = circular_policy_engine.get_policy_advisory(req)
+        return res
+    except Exception as e:
+        logger.exception("Circular policy advisor endpoint failed")
         raise HTTPException(status_code=500, detail=str(e))
 
 
